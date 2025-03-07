@@ -3,6 +3,16 @@
   "signals": [
     {"id": "TAYCAN_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5,
+  "signals": [
+    {"id": "TAYCAN_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 0)"},
+    {"id": "TAYCAN_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 1)"},
+    {"id": "TAYCAN_AVG_CSMP_CAT2", "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 2)"},
+    {"id": "TAYCAN_AVG_CSMP_CAT3", "path": "Trips", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 3)"},
+    {"id": "TAYCAN_AVG_CSMP_CAT4", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 4)"},
+    {"id": "TAYCAN_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 5)"},
+    {"id": "TAYCAN_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 6)"}
+  ]},
 { "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.25,
   "signals": [
     {"id": "TAYCAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
