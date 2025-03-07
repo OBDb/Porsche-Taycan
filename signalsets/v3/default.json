@@ -23,22 +23,13 @@
   "signals": [
     {"id": "TAYCAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 360, "min": -360, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "714", "rax": "71C", "fcm1": true, "cmd": {"22": "0530"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 5,
   "signals": [
-    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 232, "len": 24, "max": 10485, "div": 1600, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
-  ]},
-{ "hdr": "714", "rax": "71C", "fcm1": true, "cmd": {"22": "19D2"}, "freq": 5,
-  "signals": [
-    {"id": "TAYCAN_RANGE_NORMAL_MODE", "path": "Trips", "fmt": {"bix": 8,   "len": 24, "max": 10000, "unit": "kilometers" }, "name": "Range remaining (normal mode)", "suggestedMetric": "electricRange"},
-    {"id": "TAYCAN_RANGE_RANGE_MODE",  "path": "Trips", "fmt": {"bix": 232, "len": 24, "max": 10000, "unit": "kilometers" }, "name": "Range remaining (range mode)",  "suggestedMetric": "electricRange"}
+    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 10485, "div": 1600, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
   ]},
 { "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0005"}, "freq": 0.25,
-  "signals": [
-    {"id": "TAYCAN_BRAKE_BST_P", "path": "Brakes", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
@@ -51,6 +42,10 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1156"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 0.25,
+  "signals": [
+    {"id": "TAYCAN_BRAKE_BST_P", "path": "Brakes", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25,
   "signals": [
