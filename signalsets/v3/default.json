@@ -38,7 +38,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0005"}, "freq": 0.25,
   "signals": [
-    {"id": "TAYCAN_BRAKE_BST_P", "path": "Brakes", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bar" }, "name": "Brake booster pressure"}
+    {"id": "TAYCAN_BRAKE_BST_P", "path": "Brakes", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
