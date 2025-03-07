@@ -23,13 +23,26 @@
   "signals": [
     {"id": "TAYCAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 360, "min": -360, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
+{ "hdr": "714", "rax": "71C", "fcm1": true, "cmd": {"22": "0530"}, "freq": 5,
+  "signals": [
+    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 232, "len": 24, "max": 10485, "div": 1600, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
+  ]},
+{ "hdr": "714", "rax": "71C", "fcm1": true, "cmd": {"22": "19D2"}, "freq": 5,
+  "signals": [
+    {"id": "TAYCAN_RANGE_NORMAL_MODE", "path": "Trips", "fmt": {"bix": 8,   "len": 24, "max": 10000, "unit": "kilometers" }, "name": "Range remaining (normal mode)", "suggestedMetric": "electricRange"},
+    {"id": "TAYCAN_RANGE_RANGE_MODE",  "path": "Trips", "fmt": {"bix": 232, "len": 24, "max": 10000, "unit": "kilometers" }, "name": "Range remaining (range mode)",  "suggestedMetric": "electricRange"}
+  ]},
 { "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0005"}, "freq": 0.25,
+  "signals": [
+    {"id": "TAYCAN_BRAKE_BST_P", "path": "Brakes", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bar" }, "name": "Brake booster pressure"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
-    {"id": "TAYCAN_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "add": -40, "unit": "celsius" }, "name": "ECU temperature"}
+    {"id": "TAYCAN_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "08D2"}, "freq": 1,
   "signals": [
