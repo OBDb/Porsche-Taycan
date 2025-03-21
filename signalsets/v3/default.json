@@ -35,7 +35,7 @@
   ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 5,
   "signals": [
-    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 10485, "div": 1600, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
+    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 10485, "div": 1600, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
   ]},
 { "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1,
   "signals": [
