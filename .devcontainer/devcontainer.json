@@ -14,7 +14,7 @@
             }
         }
     },
-    "postCreateCommand": "pip install pytest",
+    "postCreateCommand": "pip install pytest pyyaml",
     "postAttachCommand": "pushd tests/schemas && git pull && popd || git clone --depth=1 https://github.com/OBDb/.schemas.git tests/schemas",
     "remoteUser": "vscode"
 }

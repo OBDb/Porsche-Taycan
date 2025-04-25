@@ -5,87 +5,23 @@ from pathlib import Path
 from typing import Dict, Any
 
 # These will be imported from the schemas repository
-from schemas.python.can_frame import CANIDFormat
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_testrunner
+from schemas.python.signals_testing import obd_yaml_testrunner, find_yaml_test_cases
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
-
-TEST_CASES = [
-    {
-        "model_year": "2022",
-        "signalset": "default.json",
-        "tests": [
-            # Brake booster pressure
-            ("7E8056220050000", {"TAYCAN_BRAKE_BST_P": 0}),
-
-            # ECU temperature
-            ("7E80562028D0154", {"TAYCAN_ECU_TEMP": 34}),
-
-            # Dashboard trip data
-            ("""
-77E103F6205300022E8
-77E219A0E6661800001
-77E22F9F40180000000
-77E230920A049320000
-77E2418000000389808
-77E2524A26DC93087C3
-77E260C02D7FF6DB5D7
-77E2700000000000000
-77E2800000000000000
-77E2900AAAAAAAAAAAA
-""", {"TAYCAN_TRIP_USE_SHORT": 1.3025}),
-
-            # Average energy consumption
-            ("""
-77A101F622AB700E600
-77A21A0009600A000BE
-77A2200B40000006400
-77A2364006400640064
-77A2400640000AAAAAA
-""", {
-    "TAYCAN_AVG_CSMP_CAT0": 23,
-    "TAYCAN_AVG_CSMP_CAT1": 16,
-    "TAYCAN_AVG_CSMP_CAT2": 15,
-    "TAYCAN_AVG_CSMP_CAT3": 16,
-    "TAYCAN_AVG_CSMP_CAT4": 19,
-    "TAYCAN_AVG_CSMP_CAT5": 18,
-    "TAYCAN_AVG_CSMP_CAT6": 0,
-    }),
-        ]
-    },
-]
-
-def load_signalset(filename: str) -> str:
-    """Load a signalset JSON file from the standard location."""
-    signalset_path = REPO_ROOT / "signalsets" / "v3" / filename
-    with open(signalset_path) as f:
-        return f.read()
+TEST_CASES_DIR = os.path.join(Path(__file__).parent, 'test_cases')
 
 @pytest.mark.parametrize(
-    "test_group",
-    TEST_CASES,
-    ids=lambda test_case: f"MY{test_case['model_year']}"
+    "yaml_path",
+    [v for v in find_yaml_test_cases(TEST_CASES_DIR).values()],
+    ids=lambda p: f"MY{os.path.splitext(os.path.basename(p))[0]}"
 )
-def test_signals(test_group: Dict[str, Any]):
+def test_signals(yaml_path: str):
     """Test signal decoding against known responses."""
-    signalset_json = load_signalset(test_group["signalset"])
-
-    # Run each test case in the group
-    for response_hex, expected_values in test_group["tests"]:
-        try:
-            obd_testrunner(
-                signalset_json,
-                response_hex,
-                expected_values,
-                can_id_format=CANIDFormat.ELEVEN_BIT
-            )
-        except Exception as e:
-            pytest.fail(
-                f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {test_group['signalset']}): {e}"
-            )
+    try:
+        obd_yaml_testrunner(yaml_path)
+    except Exception as e:
+        pytest.fail(f"Failed to run tests from {yaml_path}: {e}")
 
 def get_json_files():
     """Get all JSON files from the signalsets/v3 directory."""
