@@ -2,13 +2,13 @@ model_year: 2022
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- request: '7E8056220050000'
+- response: '7E8056220050000'
   expected_values:
     TAYCAN_BRAKE_BST_P: 0
-- request: 7E80562028D0154
+- response: 7E80562028D0154
   expected_values:
     TAYCAN_ECU_TEMP: 34
-- request: |
+- response: |
     77E103F6205300022E8
     77E219A0E6661800001
     77E22F9F40180000000
@@ -21,47 +21,64 @@ test_cases:
     77E2900AAAAAAAAAAAA
   expected_values:
     TAYCAN_TRIP_USE_SHORT: 1.3025
-- request: |
+- response: |
     77A101F622AB700E600
     77A21A0009600A000BE
     77A2200B40000006400
     77A2364006400640064
     77A2400640000AAAAAA
   expected_values:
-    TAYCAN_AVG_CSMP_CAT5: 18
-    TAYCAN_AVG_CSMP_CAT2: 15
-    TAYCAN_AVG_CSMP_CAT3: 16
-    TAYCAN_AVG_CSMP_CAT6: 0
     TAYCAN_AVG_CSMP_CAT1: 16
+    TAYCAN_AVG_CSMP_CAT5: 18
+    TAYCAN_AVG_CSMP_CAT6: 0
     TAYCAN_AVG_CSMP_CAT0: 23
+    TAYCAN_AVG_CSMP_CAT2: 15
     TAYCAN_AVG_CSMP_CAT4: 19
-- request: |-
+    TAYCAN_AVG_CSMP_CAT3: 16
+- response: |-
     77A100A622AB6005900
     77A215907FD01AAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_RANGE: 89
+- response: |-
     77A100A622AB6005A00
     77A215A07FD01AAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_RANGE: 90
+- response: |-
     77A100A622AB6005B00
     77A215B07FD01AAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_RANGE: 91
+- response: |-
     77A101F622AB700F000
     77A21A0009600A000BE
     77A2200AA0000006400
     77A2364006400640064
     77A2400640000AAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_AVG_CSMP_CAT5: 17
+    TAYCAN_AVG_CSMP_CAT0: 24
+    TAYCAN_AVG_CSMP_CAT1: 16
+    TAYCAN_AVG_CSMP_CAT2: 15
+    TAYCAN_AVG_CSMP_CAT3: 16
+    TAYCAN_AVG_CSMP_CAT4: 19
+    TAYCAN_AVG_CSMP_CAT6: 0
+- response: |-
     77A101F622AB700F000
     77A21AA009600A000BE
     77A2200AA0000006400
     77A2364006400640064
     77A2400640000AAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_AVG_CSMP_CAT2: 15
+    TAYCAN_AVG_CSMP_CAT5: 17
+    TAYCAN_AVG_CSMP_CAT0: 24
+    TAYCAN_AVG_CSMP_CAT3: 16
+    TAYCAN_AVG_CSMP_CAT1: 17
+    TAYCAN_AVG_CSMP_CAT4: 19
+    TAYCAN_AVG_CSMP_CAT6: 0
+- response: |-
     77E103F620530001624
     77E215B708661804012
     77E220E080180000000
@@ -72,8 +89,9 @@ test_cases:
     77E2700000000000000
     77E2800000000000000
     77E2900AAAAAAAAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_TRIP_USE_SHORT: 13.30375
+- response: |-
     77E103F62053000162C
     77E2163708661889212
     77E2212080180000000
@@ -84,8 +102,9 @@ test_cases:
     77E2700000000000000
     77E2800000000000000
     77E2900AAAAAAAAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_TRIP_USE_SHORT: 43.40375
+- response: |-
     77E103F6205300016A0
     77E215B70866186F1AE
     77E220E080180000000
@@ -96,8 +115,9 @@ test_cases:
     77E2700000000000000
     77E2800000000000000
     77E2900AAAAAAAAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_TRIP_USE_SHORT: 36.80375
+- response: |-
     77E103F6205300016B0
     77E2163708661800002
     77E220E080180000000
@@ -108,74 +128,106 @@ test_cases:
     77E2700000000000000
     77E2800000000000000
     77E2900AAAAAAAAAAAA
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_TRIP_USE_SHORT: 35.80375
+- response: |-
     7AE100D62496501F980
     7AE21010115E002D272
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.25
+- response: |-
     7AE100D62496501FA7F
     7AE21060115E002D472
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.3
+- response: |-
     7AE100D62496502017B
     7AE21170115E002DD72
-  expected_values: {}
-- request: |-
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.65
+- response: |-
     7AE100D624965020380
     7AE210D0115E002E572
-  expected_values: {}
-- request: 7E803410D1B
-  expected_values: {}
-- request: 7E804413126FC
-  expected_values: {}
-- request: 7E804413126FD
-  expected_values: {}
-- request: 7E804413126FE
-  expected_values: {}
-- request: 7E804414231AA
-  expected_values: {}
-- request: 7E8076208D20CC70CC7
-  expected_values: {}
-- request: 7E8076208D20CCD0CCD
-  expected_values: {}
-- request: 7E8076208D20CF30CF3
-  expected_values: {}
-- request: 7E8076208D20D2F0D2F
-  expected_values: {}
-- request: 7E8076208D20D4F0D4F
-  expected_values: {}
-- request: 7E8076208D20D8B0D8B
-  expected_values: {}
-- request: 7E8046211564A
-  expected_values: {}
-- request: 7E80462F40D02
-  expected_values: {}
-- request: 7E80462F40D07
-  expected_values: {}
-- request: 7E80462F40D0E
-  expected_values: {}
-- request: 7E80462F40D19
-  expected_values: {}
-- request: 7E80462F40D1B
-  expected_values: {}
-- request: 7E80462F40D21
-  expected_values: {}
-- request: 7E80462F40D25
-  expected_values: {}
-- request: 7E80562F43126FD
-  expected_values: {}
-- request: 7E80562F43126FE
-  expected_values: {}
-- request: 7ED056218011B59
-  expected_values: {}
-- request: 7ED056218011BBA
-  expected_values: {}
-- request: 7ED056218011BE0
-  expected_values: {}
-- request: 7ED056218011C03
-  expected_values: {}
-- request: 7ED056251E03A16
-  expected_values: {}
-- request: 7EF03415B56
-  expected_values: {}
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.75
+- response: 7E803410D1B
+  expected_values:
+    VSS: 27
+- response: 7E804413126FC
+  expected_values:
+    CLR_DIST: 9980
+- response: 7E804413126FD
+  expected_values:
+    CLR_DIST: 9981
+- response: 7E804413126FE
+  expected_values:
+    CLR_DIST: 9982
+- response: 7E804414231AA
+  expected_values:
+    VPWR: 12.714
+- response: 7E8076208D20CC70CC7
+  expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 32.71
+- response: 7E8076208D20CCD0CCD
+  expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 32.77
+- response: 7E8076208D20CF30CF3
+  expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 33.15
+- response: 7E8076208D20D2F0D2F
+  expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 33.75
+- response: 7E8076208D20D4F0D4F
+  expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 34.07
+- response: 7E8076208D20D8B0D8B
+  expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 34.67
+- response: 7E8046211564A
+  expected_values:
+    TAYCAN_HVBAT_SOC: 37
+- response: 7E80462F40D02
+  expected_values:
+    TAYCAN_VSS: 2
+- response: 7E80462F40D07
+  expected_values:
+    TAYCAN_VSS: 7
+- response: 7E80462F40D0E
+  expected_values:
+    TAYCAN_VSS: 14
+- response: 7E80462F40D19
+  expected_values:
+    TAYCAN_VSS: 25
+- response: 7E80462F40D1B
+  expected_values:
+    TAYCAN_VSS: 27
+- response: 7E80462F40D21
+  expected_values:
+    TAYCAN_VSS: 33
+- response: 7E80462F40D25
+  expected_values:
+    TAYCAN_VSS: 37
+- response: 7E80562F43126FD
+  expected_values:
+    TAYCAN_CLR_DIST: 9981
+- response: 7E80562F43126FE
+  expected_values:
+    TAYCAN_CLR_DIST: 9982
+- response: 7ED056218011B59
+  expected_values:
+    TAYCAN_HVBAT_VOLT: 700.1
+- response: 7ED056218011BBA
+  expected_values:
+    TAYCAN_HVBAT_VOLT: 709.8
+- response: 7ED056218011BE0
+  expected_values:
+    TAYCAN_HVBAT_VOLT: 713.6
+- response: 7ED056218011C03
+  expected_values:
+    TAYCAN_HVBAT_VOLT: 717.1
+- response: 7ED056251E03A16
+  expected_values:
+    TAYCAN_HVBAT_SOH: 89.916
+- response: 7EF03415B56
+  expected_values:
+    BAT_SOC: 33.72549
