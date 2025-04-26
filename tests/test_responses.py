@@ -2,26 +2,19 @@ import glob
 import os
 import pytest
 from pathlib import Path
-from typing import Dict, Any
 
 # These will be imported from the schemas repository
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_yaml_testrunner, find_yaml_test_cases
+from schemas.python.signals_testing import find_test_yaml_files, register_test_classes
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 TEST_CASES_DIR = os.path.join(Path(__file__).parent, 'test_cases')
 
-@pytest.mark.parametrize(
-    "yaml_path",
-    [v for v in find_yaml_test_cases(TEST_CASES_DIR).values()],
-    ids=lambda p: f"MY{os.path.splitext(os.path.basename(p))[0]}"
-)
-def test_signals(yaml_path: str):
-    """Test signal decoding against known responses."""
-    try:
-        obd_yaml_testrunner(yaml_path)
-    except Exception as e:
-        pytest.fail(f"Failed to run tests from {yaml_path}: {e}")
+# Find all test files grouped by model year
+test_files_by_year = find_test_yaml_files(TEST_CASES_DIR)
+
+# Register test classes dynamically
+register_test_classes(test_files_by_year)
 
 def get_json_files():
     """Get all JSON files from the signalsets/v3 directory."""

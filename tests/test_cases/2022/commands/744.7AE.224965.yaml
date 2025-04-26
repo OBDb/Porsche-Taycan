@@ -1,0 +1,24 @@
+command_id: 744.7AE.224965
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7AE100D62496501F980
+    7AE21010115E002D272
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.25
+- response: |-
+    7AE100D62496501FA7F
+    7AE21060115E002D472
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.3
+- response: |-
+    7AE100D62496502017B
+    7AE21170115E002DD72
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.65
+- response: |-
+    7AE100D624965020380
+    7AE210D0115E002E572
+  expected_values:
+    TAYCAN_HVBAT_KWH: 25.75

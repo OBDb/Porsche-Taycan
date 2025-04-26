@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.22F431
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562F43126FD
+  expected_values:
+    TAYCAN_CLR_DIST: 9981
+- response: 7E80562F43126FE
+  expected_values:
+    TAYCAN_CLR_DIST: 9982

@@ -1,0 +1,19 @@
+command_id: 710.77A.222AB6
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    77A100A622AB6005900
+    77A215907FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 89
+- response: |-
+    77A100A622AB6005A00
+    77A215A07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 90
+- response: |-
+    77A100A622AB6005B00
+    77A215B07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 91
