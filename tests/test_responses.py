@@ -37,4 +37,5 @@ def test_formatting(test_file):
         assert f.read() == formatted
 
 if __name__ == '__main__':
-    pytest.main([__file__])
+    # Use pytest's main function with xdist arguments
+    pytest.main([__file__, '-xvs', '-n', 'auto'])
