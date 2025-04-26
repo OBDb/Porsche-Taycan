@@ -22,7 +22,7 @@
             }
         }
     },
-    "postCreateCommand": "pip install pytest pyaml pytest-xdist",
+    "postCreateCommand": "pip install pytest pyyaml pytest-xdist",
     "postAttachCommand": "cd tests/schemas && git pull && cd ../.. || git clone --depth=1 https://github.com/OBDb/.schemas.git tests/schemas",
     "remoteUser": "vscode"
 }
