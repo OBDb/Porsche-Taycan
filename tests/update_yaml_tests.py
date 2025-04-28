@@ -64,8 +64,9 @@ def main():
         test_cases_dir = os.path.join(script_dir, 'test_cases')
 
     if not os.path.isdir(test_cases_dir):
-        print(f"Error: Test cases directory not found: {test_cases_dir}")
-        sys.exit(1)
+        print(f"Test cases directory not found: {test_cases_dir}")
+        print(f"Creating directory: {test_cases_dir}")
+        os.makedirs(test_cases_dir)
 
     print(f"Using test cases directory: {test_cases_dir}")
 
