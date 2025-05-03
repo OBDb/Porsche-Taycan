@@ -238,15 +238,40 @@ test_cases:
   expected_values:
     TAYCAN_RANGE: 101
 - response: |-
+    77A100A622AB6006900
+    77A216907FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 105
+- response: |-
     77A100A622AB6006A00
     77A216A07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 106
 - response: |-
+    77A100A622AB6006B00
+    77A216B07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 107
+- response: |-
+    77A100A622AB6006C00
+    77A216C07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 108
+- response: |-
+    77A100A622AB6006D00
+    77A216D07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 109
+- response: |-
     77A100A622AB6006E00
     77A216E07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 110
+- response: |-
+    77A100A622AB6006F00
+    77A216F07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 111
 - response: |-
     77A100A622AB6007100
     77A217107FD01AAAAAA
@@ -258,90 +283,275 @@ test_cases:
   expected_values:
     TAYCAN_RANGE: 117
 - response: |-
+    77A100A622AB6007600
+    77A217607FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 118
+- response: |-
+    77A100A622AB6007700
+    77A217707FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 119
+- response: |-
+    77A100A622AB6007800
+    77A217807FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 120
+- response: |-
     77A100A622AB6007900
     77A217907FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 121
+- response: |-
+    77A100A622AB6007A00
+    77A217A07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 122
+- response: |-
+    77A100A622AB6007B00
+    77A217B07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 123
+- response: |-
+    77A100A622AB6007C00
+    77A217C07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 124
 - response: |-
     77A100A622AB6007D00
     77A217D07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 125
 - response: |-
+    77A100A622AB6007E00
+    77A217E07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 126
+- response: |-
+    77A100A622AB6007F00
+    77A217F07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 127
+- response: |-
     77A100A622AB6008000
     77A218007FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 128
+- response: |-
+    77A100A622AB6008100
+    77A218107FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 129
+- response: |-
+    77A100A622AB6008200
+    77A218207FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 130
 - response: |-
     77A100A622AB6008300
     77A218307FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 131
 - response: |-
+    77A100A622AB6008400
+    77A218407FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 132
+- response: |-
+    77A100A622AB6008500
+    77A218507FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 133
+- response: |-
+    77A100A622AB6008600
+    77A218607FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 134
+- response: |-
     77A100A622AB6008700
     77A218707FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 135
+- response: |-
+    77A100A622AB6008800
+    77A218807FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 136
 - response: |-
     77A100A622AB6008900
     77A218907FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 137
 - response: |-
+    77A100A622AB6008A00
+    77A218A07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 138
+- response: |-
+    77A100A622AB6008B00
+    77A218B07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 139
+- response: |-
+    77A100A622AB6008C00
+    77A218C07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 140
+- response: |-
     77A100A622AB6008D00
     77A218D07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 141
+- response: |-
+    77A100A622AB6008E00
+    77A218E07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 142
+- response: |-
+    77A100A622AB6008F00
+    77A218F07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 143
 - response: |-
     77A100A622AB6009000
     77A219007FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 144
 - response: |-
+    77A100A622AB6009100
+    77A219107FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 145
+- response: |-
+    77A100A622AB6009200
+    77A219207FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 146
+- response: |-
     77A100A622AB6009300
     77A219307FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 147
+- response: |-
+    77A100A622AB6009400
+    77A219407FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 148
+- response: |-
+    77A100A622AB6009500
+    77A219507FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 149
 - response: |-
     77A100A622AB6009600
     77A219607FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 150
 - response: |-
+    77A100A622AB6009700
+    77A219707FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 151
+- response: |-
+    77A100A622AB6009800
+    77A219807FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 152
+- response: |-
     77A100A622AB6009900
     77A219907FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 153
+- response: |-
+    77A100A622AB6009A00
+    77A219A07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 154
+- response: |-
+    77A100A622AB6009B00
+    77A219B07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 155
 - response: |-
     77A100A622AB6009C00
     77A219C07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 156
 - response: |-
+    77A100A622AB6009D00
+    77A219D07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 157
+- response: |-
+    77A100A622AB6009E00
+    77A219E07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 158
+- response: |-
     77A100A622AB6009F00
     77A219F07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 159
+- response: |-
+    77A100A622AB600A000
+    77A21A007FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 160
+- response: |-
+    77A100A622AB600A100
+    77A21A107FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 161
 - response: |-
     77A100A622AB600A200
     77A21A207FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 162
 - response: |-
+    77A100A622AB600A300
+    77A21A307FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 163
+- response: |-
+    77A100A622AB600A400
+    77A21A407FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 164
+- response: |-
     77A100A622AB600A500
     77A21A507FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 165
+- response: |-
+    77A100A622AB600A600
+    77A21A607FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 166
 - response: |-
     77A100A622AB600A700
     77A21A707FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 167
 - response: |-
+    77A100A622AB600A800
+    77A21A807FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 168
+- response: |-
+    77A100A622AB600A900
+    77A21A907FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 169
+- response: |-
     77A100A622AB600AA00
     77A21AA07FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 170
+- response: |-
+    77A100A622AB600AB00
+    77A21AB07FD01AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 171
 - response: |-
     77A100A622AB600AC00
     77A21AC07FD01AAAAAA

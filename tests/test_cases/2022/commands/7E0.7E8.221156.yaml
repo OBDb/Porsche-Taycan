@@ -5,3 +5,186 @@ test_cases:
 - response: 7E8046211564A
   expected_values:
     TAYCAN_HVBAT_SOC: 37
+- response: '7E80462115664'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 50
+- response: '7E80462115665'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 50.5
+- response: '7E80462115666'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 51
+- response: '7E80462115667'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 51.5
+- response: '7E80462115668'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 52
+- response: '7E80462115669'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 52.5
+- response: 7E8046211566A
+  expected_values:
+    TAYCAN_HVBAT_SOC: 53
+- response: 7E8046211566B
+  expected_values:
+    TAYCAN_HVBAT_SOC: 53.5
+- response: 7E8046211566C
+  expected_values:
+    TAYCAN_HVBAT_SOC: 54
+- response: 7E8046211566D
+  expected_values:
+    TAYCAN_HVBAT_SOC: 54.5
+- response: 7E8046211566E
+  expected_values:
+    TAYCAN_HVBAT_SOC: 55
+- response: 7E8046211566F
+  expected_values:
+    TAYCAN_HVBAT_SOC: 55.5
+- response: '7E80462115670'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 56
+- response: '7E80462115671'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 56.5
+- response: '7E80462115672'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 57
+- response: '7E80462115673'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 57.5
+- response: '7E80462115674'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 58
+- response: '7E80462115675'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 58.5
+- response: '7E80462115676'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 59
+- response: '7E80462115677'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 59.5
+- response: '7E80462115678'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 60
+- response: '7E80462115679'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 60.5
+- response: 7E8046211567A
+  expected_values:
+    TAYCAN_HVBAT_SOC: 61
+- response: 7E8046211567B
+  expected_values:
+    TAYCAN_HVBAT_SOC: 61.5
+- response: 7E8046211567C
+  expected_values:
+    TAYCAN_HVBAT_SOC: 62
+- response: 7E8046211567D
+  expected_values:
+    TAYCAN_HVBAT_SOC: 62.5
+- response: 7E8046211567E
+  expected_values:
+    TAYCAN_HVBAT_SOC: 63
+- response: 7E8046211567F
+  expected_values:
+    TAYCAN_HVBAT_SOC: 63.5
+- response: '7E80462115680'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 64
+- response: '7E80462115681'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 64.5
+- response: '7E80462115682'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 65
+- response: '7E80462115683'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 65.5
+- response: '7E80462115684'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 66
+- response: '7E80462115685'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 66.5
+- response: '7E80462115686'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 67
+- response: '7E80462115687'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 67.5
+- response: '7E80462115688'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 68
+- response: '7E80462115689'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 68.5
+- response: 7E8046211568A
+  expected_values:
+    TAYCAN_HVBAT_SOC: 69
+- response: 7E8046211568B
+  expected_values:
+    TAYCAN_HVBAT_SOC: 69.5
+- response: 7E8046211568C
+  expected_values:
+    TAYCAN_HVBAT_SOC: 70
+- response: 7E8046211568D
+  expected_values:
+    TAYCAN_HVBAT_SOC: 70.5
+- response: 7E8046211568E
+  expected_values:
+    TAYCAN_HVBAT_SOC: 71
+- response: 7E8046211568F
+  expected_values:
+    TAYCAN_HVBAT_SOC: 71.5
+- response: '7E80462115690'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 72
+- response: '7E80462115691'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 72.5
+- response: '7E80462115692'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 73
+- response: '7E80462115693'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 73.5
+- response: '7E80462115694'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 74
+- response: '7E80462115695'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 74.5
+- response: '7E80462115696'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 75
+- response: '7E80462115697'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 75.5
+- response: '7E80462115698'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 76
+- response: '7E80462115699'
+  expected_values:
+    TAYCAN_HVBAT_SOC: 76.5
+- response: 7E8046211569A
+  expected_values:
+    TAYCAN_HVBAT_SOC: 77
+- response: 7E8046211569B
+  expected_values:
+    TAYCAN_HVBAT_SOC: 77.5
+- response: 7E8046211569C
+  expected_values:
+    TAYCAN_HVBAT_SOC: 78
+- response: 7E8046211569D
+  expected_values:
+    TAYCAN_HVBAT_SOC: 78.5
+- response: 7E8046211569E
+  expected_values:
+    TAYCAN_HVBAT_SOC: 79
+- response: 7E8046211569F
+  expected_values:
+    TAYCAN_HVBAT_SOC: 79.5
+- response: 7E804621156A0
+  expected_values:
+    TAYCAN_HVBAT_SOC: 80

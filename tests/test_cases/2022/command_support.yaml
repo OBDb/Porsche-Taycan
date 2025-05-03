@@ -43,3 +43,5 @@ unsupported_commands_by_ecu:
   - 70B.2218A1
   - 70B.2218A2
   - 70B.2218A3
+  7E0:
+  - 7E0.7E8.0131
