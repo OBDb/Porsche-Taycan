@@ -98,9 +98,6 @@ test_cases:
 - response: 7E80462F40D1F
   expected_values:
     TAYCAN_VSS: 31
-- response: 7E80462F40D20
-  expected_values:
-    TAYCAN_VSS: 32
 - response: 7E80462F40D21
   expected_values:
     TAYCAN_VSS: 33
@@ -134,6 +131,9 @@ test_cases:
 - response: 7E80462F40D2B
   expected_values:
     TAYCAN_VSS: 43
+- response: 7E80462F40D2C
+  expected_values:
+    TAYCAN_VSS: 44
 - response: 7E80462F40D2D
   expected_values:
     TAYCAN_VSS: 45
@@ -161,9 +161,6 @@ test_cases:
 - response: 7E80462F40D35
   expected_values:
     TAYCAN_VSS: 53
-- response: 7E80462F40D36
-  expected_values:
-    TAYCAN_VSS: 54
 - response: 7E80462F40D37
   expected_values:
     TAYCAN_VSS: 55
@@ -182,21 +179,9 @@ test_cases:
 - response: 7E80462F40D3C
   expected_values:
     TAYCAN_VSS: 60
-- response: 7E80462F40D3D
-  expected_values:
-    TAYCAN_VSS: 61
 - response: 7E80462F40D3E
   expected_values:
     TAYCAN_VSS: 62
-- response: 7E80462F40D3F
-  expected_values:
-    TAYCAN_VSS: 63
-- response: 7E80462F40D40
-  expected_values:
-    TAYCAN_VSS: 64
-- response: 7E80462F40D41
-  expected_values:
-    TAYCAN_VSS: 65
 - response: 7E80462F40D42
   expected_values:
     TAYCAN_VSS: 66
@@ -206,42 +191,18 @@ test_cases:
 - response: 7E80462F40D44
   expected_values:
     TAYCAN_VSS: 68
-- response: 7E80462F40D45
-  expected_values:
-    TAYCAN_VSS: 69
-- response: 7E80462F40D46
-  expected_values:
-    TAYCAN_VSS: 70
 - response: 7E80462F40D47
   expected_values:
     TAYCAN_VSS: 71
-- response: 7E80462F40D48
-  expected_values:
-    TAYCAN_VSS: 72
-- response: 7E80462F40D49
-  expected_values:
-    TAYCAN_VSS: 73
 - response: 7E80462F40D4A
   expected_values:
     TAYCAN_VSS: 74
-- response: 7E80462F40D4B
-  expected_values:
-    TAYCAN_VSS: 75
-- response: 7E80462F40D4C
-  expected_values:
-    TAYCAN_VSS: 76
 - response: 7E80462F40D4D
   expected_values:
     TAYCAN_VSS: 77
-- response: 7E80462F40D4E
-  expected_values:
-    TAYCAN_VSS: 78
 - response: 7E80462F40D4F
   expected_values:
     TAYCAN_VSS: 79
-- response: 7E80462F40D50
-  expected_values:
-    TAYCAN_VSS: 80
 - response: 7E80462F40D51
   expected_values:
     TAYCAN_VSS: 81
@@ -257,9 +218,6 @@ test_cases:
 - response: 7E80462F40D55
   expected_values:
     TAYCAN_VSS: 85
-- response: 7E80462F40D56
-  expected_values:
-    TAYCAN_VSS: 86
 - response: 7E80462F40D57
   expected_values:
     TAYCAN_VSS: 87
@@ -275,6 +233,9 @@ test_cases:
 - response: 7E80462F40D5B
   expected_values:
     TAYCAN_VSS: 91
+- response: 7E80462F40D5C
+  expected_values:
+    TAYCAN_VSS: 92
 - response: 7E80462F40D5D
   expected_values:
     TAYCAN_VSS: 93
@@ -347,6 +308,9 @@ test_cases:
 - response: 7E80462F40D74
   expected_values:
     TAYCAN_VSS: 116
+- response: 7E80462F40D75
+  expected_values:
+    TAYCAN_VSS: 117
 - response: 7E80462F40D76
   expected_values:
     TAYCAN_VSS: 118
@@ -362,9 +326,6 @@ test_cases:
 - response: 7E80462F40D7A
   expected_values:
     TAYCAN_VSS: 122
-- response: 7E80462F40D7B
-  expected_values:
-    TAYCAN_VSS: 123
 - response: 7E80462F40D7C
   expected_values:
     TAYCAN_VSS: 124
@@ -377,33 +338,21 @@ test_cases:
 - response: 7E80462F40D7F
   expected_values:
     TAYCAN_VSS: 127
-- response: 7E80462F40D80
-  expected_values:
-    TAYCAN_VSS: 128
 - response: 7E80462F40D81
   expected_values:
     TAYCAN_VSS: 129
-- response: 7E80462F40D83
-  expected_values:
-    TAYCAN_VSS: 131
 - response: 7E80462F40D84
   expected_values:
     TAYCAN_VSS: 132
-- response: 7E80462F40D86
-  expected_values:
-    TAYCAN_VSS: 134
 - response: 7E80462F40D88
   expected_values:
     TAYCAN_VSS: 136
-- response: 7E80462F40D94
+- response: 7E80462F40D8B
   expected_values:
-    TAYCAN_VSS: 148
-- response: 7E80462F40D99
+    TAYCAN_VSS: 139
+- response: 7E80462F40D8C
   expected_values:
-    TAYCAN_VSS: 153
-- response: 7E80462F40D9E
+    TAYCAN_VSS: 140
+- response: 7E80462F40D8F
   expected_values:
-    TAYCAN_VSS: 158
-- response: 7E80462F40DC0
-  expected_values:
-    TAYCAN_VSS: 192
+    TAYCAN_VSS: 143

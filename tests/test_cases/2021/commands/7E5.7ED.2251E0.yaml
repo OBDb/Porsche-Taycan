@@ -1,7 +1,7 @@
-command_id: 7E0.015B
+command_id: 7E5.7ED.2251E0
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7EF03415B56
+- response: 7ED056251E03A07
   expected_values:
-    BAT_SOC: 33.72549
+    TAYCAN_HVBAT_SOH: 88.011

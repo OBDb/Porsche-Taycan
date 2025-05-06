@@ -560,6 +560,96 @@ test_cases:
 - response: 7E804413107CF
   expected_values:
     CLR_DIST: 1999
+- response: 7E804413107D0
+  expected_values:
+    CLR_DIST: 2000
+- response: 7E804413107D1
+  expected_values:
+    CLR_DIST: 2001
+- response: 7E804413107D2
+  expected_values:
+    CLR_DIST: 2002
+- response: 7E804413107D3
+  expected_values:
+    CLR_DIST: 2003
+- response: 7E804413107D4
+  expected_values:
+    CLR_DIST: 2004
+- response: 7E804413107D5
+  expected_values:
+    CLR_DIST: 2005
+- response: 7E804413107D6
+  expected_values:
+    CLR_DIST: 2006
+- response: 7E804413107D7
+  expected_values:
+    CLR_DIST: 2007
+- response: 7E804413107D8
+  expected_values:
+    CLR_DIST: 2008
+- response: 7E804413107D9
+  expected_values:
+    CLR_DIST: 2009
+- response: 7E804413107DA
+  expected_values:
+    CLR_DIST: 2010
+- response: 7E804413107DB
+  expected_values:
+    CLR_DIST: 2011
+- response: 7E804413107DD
+  expected_values:
+    CLR_DIST: 2013
+- response: 7E804413107DE
+  expected_values:
+    CLR_DIST: 2014
+- response: 7E804413107DF
+  expected_values:
+    CLR_DIST: 2015
+- response: 7E804413107E1
+  expected_values:
+    CLR_DIST: 2017
+- response: 7E804413107E3
+  expected_values:
+    CLR_DIST: 2019
+- response: 7E804413107E4
+  expected_values:
+    CLR_DIST: 2020
+- response: 7E804413107E5
+  expected_values:
+    CLR_DIST: 2021
+- response: 7E804413107E6
+  expected_values:
+    CLR_DIST: 2022
+- response: 7E804413107E7
+  expected_values:
+    CLR_DIST: 2023
+- response: 7E804413107E8
+  expected_values:
+    CLR_DIST: 2024
+- response: 7E804413107E9
+  expected_values:
+    CLR_DIST: 2025
+- response: 7E804413107EA
+  expected_values:
+    CLR_DIST: 2026
+- response: 7E804413107EB
+  expected_values:
+    CLR_DIST: 2027
+- response: 7E804413107EC
+  expected_values:
+    CLR_DIST: 2028
+- response: 7E804413107ED
+  expected_values:
+    CLR_DIST: 2029
+- response: 7E804413107EE
+  expected_values:
+    CLR_DIST: 2030
+- response: 7E804413107EF
+  expected_values:
+    CLR_DIST: 2031
+- response: 7E804413107F0
+  expected_values:
+    CLR_DIST: 2032
 - response: 7E804413126FC
   expected_values:
     CLR_DIST: 9980
