@@ -46,3 +46,7 @@ unsupported_commands_by_ecu:
   7E0:
   - 7E0.7E8.0131
   - 7E0.7E8.0142
+  7E4:
+  - 7E4.7EC.0142
+  7E7:
+  - 7E7.7EF.0142

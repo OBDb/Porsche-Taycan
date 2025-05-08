@@ -3,15 +3,15 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    77A100A622AB6006100
-    77A216107FD01AAAAAA
+    77A100A622AB6005900
+    77A215907FD01AAAAAA
   expected_values:
-    TAYCAN_RANGE: 97
+    TAYCAN_RANGE: 89
 - response: |-
-    77A100A622AB6006F00
-    77A216F07FD01AAAAAA
+    77A100A622AB6005F00
+    77A215F07FD01AAAAAA
   expected_values:
-    TAYCAN_RANGE: 111
+    TAYCAN_RANGE: 95
 - response: |-
     77A100A622AB6007000
     77A217007FD01AAAAAA
