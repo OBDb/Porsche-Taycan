@@ -11,16 +11,16 @@ test_cases:
     7ED2528000000008E44
     7ED262800000000AAAA
   expected_values:
-    '[Battery] BatteryPack.Module5.Cell1.SoC': 40
-    '[Battery] BatteryPack.Module5.Cell1.Volts': 3.64
-    '[Battery] BatteryPack.Module5.Cell2.SoC': 41
-    '[Battery] BatteryPack.Module5.Cell2.Volts': 3.642
-    '[Battery] BatteryPack.Module5.Cell3.SoC': 40
-    '[Battery] BatteryPack.Module5.Cell3.Volts': 3.64
-    '[Battery] BatteryPack.Module5.Cell4.SoC': 40
-    '[Battery] BatteryPack.Module5.Cell4.Volts': 3.64
-    '[Battery] BatteryPack.Module5.Cell5.SoC': 40
-    '[Battery] BatteryPack.Module5.Cell5.Volts': 3.642
-    '[Battery] BatteryPack.Module5.Cell6.SoC': 40
-    '[Battery] BatteryPack.Module5.Cell6.Volts': 3.642
-    '[Battery] BatteryPack.Module5.ID': 49
+    TAYCAN_HVBAT_MOD5_C1_SOC: 40
+    TAYCAN_HVBAT_MOD5_C1_V: 3.64
+    TAYCAN_HVBAT_MOD5_C2_SOC: 41
+    TAYCAN_HVBAT_MOD5_C2_V: 3.642
+    TAYCAN_HVBAT_MOD5_C3_SOC: 40
+    TAYCAN_HVBAT_MOD5_C3_V: 3.64
+    TAYCAN_HVBAT_MOD5_C4_SOC: 40
+    TAYCAN_HVBAT_MOD5_C4_V: 3.64
+    TAYCAN_HVBAT_MOD5_C5_SOC: 40
+    TAYCAN_HVBAT_MOD5_C5_V: 3.642
+    TAYCAN_HVBAT_MOD5_C6_SOC: 40
+    TAYCAN_HVBAT_MOD5_C6_V: 3.642
+    TAYCAN_HVBAT_MOD5_ID: 49

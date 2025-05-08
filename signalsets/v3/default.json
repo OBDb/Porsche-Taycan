@@ -41,10 +41,6 @@
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_VSS_DIR", "path": "Movement", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed (directional)"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
@@ -53,9 +49,45 @@
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "HV battery charge displayed on the dashboard"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5,
+  "signals": [
+    {"id": "TAYCAN_AAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 0.25,
+  "signals": [
+    {"id": "TAYCAN_EM_RPM_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 1 rpm"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1152"}, "freq": 0.25,
+  "signals": [
+    {"id": "TAYCAN_EM_RPM_2", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 2 rpm"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1153"}, "freq": 10.25,
+  "signals": [
+    {"id": "TAYCAN_EM_TORQ_1", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 1 torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1154"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_EM_TORQ_2", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 2 torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1155"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_EM_TORQ_3", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 3 torque"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1156"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_MAX_CHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum charge current"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_VSS_DIR", "path": "Movement", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed (directional)"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 0.25,
   "signals": [

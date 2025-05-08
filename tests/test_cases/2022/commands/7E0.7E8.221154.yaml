@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.221154
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056211547FFF
+  expected_values:
+    TAYCAN_EM_TORQ_2: 1000
