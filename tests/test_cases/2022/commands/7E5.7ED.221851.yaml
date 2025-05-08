@@ -1,0 +1,26 @@
+command_id: 7E5.7ED.221851
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7ED102E621851218E12
+    7ED2128000000008E08
+    7ED2228000000008E12
+    7ED2328000000008E26
+    7ED2429000000008E12
+    7ED2529000000008E08
+    7ED262800000000AAAA
+  expected_values:
+    '[Battery] BatteryPack.Module2.Cell1.SoC': 40
+    '[Battery] BatteryPack.Module2.Cell1.Volts': 3.637
+    '[Battery] BatteryPack.Module2.Cell2.SoC': 40
+    '[Battery] BatteryPack.Module2.Cell2.Volts': 3.636
+    '[Battery] BatteryPack.Module2.Cell3.SoC': 40
+    '[Battery] BatteryPack.Module2.Cell3.Volts': 3.637
+    '[Battery] BatteryPack.Module2.Cell4.SoC': 41
+    '[Battery] BatteryPack.Module2.Cell4.Volts': 3.639
+    '[Battery] BatteryPack.Module2.Cell5.SoC': 41
+    '[Battery] BatteryPack.Module2.Cell5.Volts': 3.637
+    '[Battery] BatteryPack.Module2.Cell6.SoC': 40
+    '[Battery] BatteryPack.Module2.Cell6.Volts': 3.636
+    '[Battery] BatteryPack.Module2.ID': 33

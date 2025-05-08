@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.22F421
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562F4210000
+  expected_values:
+    TAYCAN_MIL_DIST: 0
