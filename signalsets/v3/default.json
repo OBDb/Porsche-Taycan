@@ -41,6 +41,10 @@
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_VSS_DIR", "path": "Movement", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed (directional)"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
