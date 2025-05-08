@@ -1,27 +1,4 @@
 { "commands": [
-{ "hdr": "710", "dbg": true, "cmd": {"22": "2A53"}, "freq": 0.25,
-  "signals": [
-    {"id": "TAYCAN_DC_CONV_V_LOW",    "path": "Battery", "fmt": {           "len": 8,  "max": 25.5,              "div": 10,              "unit": "volts" }, "name": "DC-DC converter low voltage"},
-    {"id": "TAYCAN_DC_CONV_CURR",     "path": "Battery", "fmt": {"bix": 8,  "len": 16, "max": 1000, "min": -511,            "add": -511, "unit": "amps"  }, "name": "DC-DC converter current"},
-    {"id": "TAYCAN_DC_CONV_CURR_RES", "path": "Battery", "fmt": {"bix": 24, "len": 16, "max": 1000, "min": -511,            "add": -511, "unit": "amps"  }, "name": "DC-DC converter reserved current"}
-  ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "2AB2"}, "freq": 86400,
-  "signals": [
-    {"id": "TAYCAN_HVBAT_ENERGY_MAX", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 50, "unit": "watts" }, "name": "Maximum energy of the high voltage battery"}
-  ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "2AB4"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_HVBAT_PWR_RSRV_EST", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated power reserve"},
-    {"id": "TAYCAN_HVBAT_CONS_AVG",     "path": "Battery", "fmt": {"bix": 72, "len": 8,  "max": 100,   "unit": "amps"       }, "name": "Average battery consumption"}
-  ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "2AB5"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_HVBAT_PWR_RSRV_EST_2", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated power reserve (alternate)"}
-  ]},
-{ "hdr": "710", "dbg": true, "cmd": {"22": "2AB6"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_HVBAT_PWR_RSRV_DISP", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated power reserve (displayed)"}
-  ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5,
   "signals": [
     {"id": "TAYCAN_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
@@ -56,70 +33,13 @@
   "signals": [
     {"id": "TAYCAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "1870"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_DRIVE_MODE", "path": "Trips", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Driving mode"}
-  ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "19D2"}, "freq": 5,
-  "signals": [
-    {"id": "TAYCAN_RANGE_NORMAL", "path": "Trips", "fmt": {"bix": 8,   "len": 24, "max": 10000, "unit": "kilometers" }, "name": "Range remaining (normal mode)"},
-    {"id": "TAYCAN_RANGE_RANGE",  "path": "Trips", "fmt": {"bix": 232, "len": 24, "max": 10000, "unit": "kilometers" }, "name": "Range remaining (range mode)"}
-  ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 5,
   "signals": [
-    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 237, "len": 19, "max": 163.8, "min": -163.8, "div": 1600, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
-  ]},
-{ "hdr": "71E", "dbg": true, "cmd": {"22": "F105"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_MOTOR_T",  "path": "Engine", "fmt": {           "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Motor temperature"},
-    {"id": "TAYCAN_EOT",      "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature"},
-    {"id": "TAYCAN_CLUTCH_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Clutch temperature"}
-  ]},
-{ "hdr": "744", "dbg": true, "cmd": {"22": "1507"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_CHRGR_ENERGY_TRANS_RAIL_1", "path": "Battery", "fmt": {           "len": 24, "max": 100, "div": 10, "unit": "kilowattHours" }, "name": "Rail 1 energy transformation"},
-    {"id": "TAYCAN_CHRGR_ENERGY_TRANS_RAIL_2", "path": "Battery", "fmt": {"bix": 24, "len": 24, "max": 100, "div": 10, "unit": "kilowattHours" }, "name": "Rail 2 energy transformation"},
-    {"id": "TAYCAN_CHRGR_ENERGY_TRANS_RAIL_3", "path": "Battery", "fmt": {"bix": 48, "len": 24, "max": 100, "div": 10, "unit": "kilowattHours" }, "name": "Rail 3 energy transformation"}
+    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 81.9, "min": -81.9, "div": 1600, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
   ]},
 { "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1,
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1004"}, "freq": 5,
-  "signals": [
-    {"id": "TAYCAN_AAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1151"}, "freq": 0.25,
-  "signals": [
-    {"id": "TAYCAN_EM_RPM_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 1 rpm"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1152"}, "freq": 0.25,
-  "signals": [
-    {"id": "TAYCAN_EM_RPM_2", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 2 rpm"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1153"}, "freq": 10.25,
-  "signals": [
-    {"id": "TAYCAN_EM_TORQ_1", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 1 torque"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1154"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_EM_TORQ_2", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 2 torque"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1155"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_EM_TORQ_3", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 3 torque"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1158"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1159"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_MAX_CHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum charge current"}
-  ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
-  "signals": [
-    {"id": "TAYCAN_VSS_DIR", "path": "Movement", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed (directional)"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
