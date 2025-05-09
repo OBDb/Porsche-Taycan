@@ -651,7 +651,7 @@
   ]}
 ],
 "signalGroups": [
-  {"id": "TAYCAN_HVBAT_SOC", "path": "Battery.BatteryPack", "matchingRegex": "TAYCAN_HVBAT_(MOD\\d+)_(C\\d+)_SOC", "name": "HV battery cell state of charge", "suggestedMetricGroup": "batteryModulesStateOfCharge"},
-  {"id": "TAYCAN_HVBAT_V",   "path": "Battery.BatteryPack", "matchingRegex": "TAYCAN_HVBAT_(MOD\\d+)_(C\\d+)_V",   "name": "HV battery cell voltage",         "suggestedMetricGroup": "batteryModulesVoltage"}
+  {"id": "TAYCAN_HVBAT_PACK_SOC", "path": "Battery.BatteryPack", "matchingRegex": "TAYCAN_HVBAT_(MOD\\d+)_(C\\d+)_SOC", "name": "HV battery cell state of charge", "suggestedMetricGroup": "batteryModulesStateOfCharge"},
+  {"id": "TAYCAN_HVBAT_PACK_V",   "path": "Battery.BatteryPack", "matchingRegex": "TAYCAN_HVBAT_(MOD\\d+)_(C\\d+)_V",   "name": "HV battery cell voltage",         "suggestedMetricGroup": "batteryModulesVoltage"}
 ]
 }
