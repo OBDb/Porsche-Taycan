@@ -27,3 +27,8 @@ test_cases:
     77A21D707FD01AAAAAA
   expected_values:
     TAYCAN_RANGE: 215
+- response: |-
+    77A100A622AB6011001
+    77A211007FD00AAAAAA
+  expected_values:
+    TAYCAN_RANGE: 272

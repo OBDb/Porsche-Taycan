@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221159
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056211590E10
+  expected_values:
+    TAYCAN_MAX_CHA_CUR_2: 360
+- response: 7E8056211590EE2
+  expected_values:
+    TAYCAN_MAX_CHA_CUR_2: 381

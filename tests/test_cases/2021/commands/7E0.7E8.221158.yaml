@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.221158
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E805621158E05C
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -810
+- response: 7E805621158E066
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -809
+- response: 7E805621158E070
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -808
+- response: 7E805621158E07A
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -807
+- response: 7E805621158E084
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -806
+- response: 7E805621158E08E
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -805
+- response: 7E805621158E098
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -804
+- response: 7E805621158E0A2
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -803

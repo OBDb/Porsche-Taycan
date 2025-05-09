@@ -3,6 +3,16 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
+    7AE100D62496501937F
+    7AE21F60115E0025575
+  expected_values:
+    TAYCAN_HVBAT_KWH: 20.15
+- response: |-
+    7AE100D62496501D180
+    7AE21160115E002B278
+  expected_values:
+    TAYCAN_HVBAT_KWH: 23.25
+- response: |-
     7AE100D62496501F17F
     7AE21DC0115CD02C86C
   expected_values:

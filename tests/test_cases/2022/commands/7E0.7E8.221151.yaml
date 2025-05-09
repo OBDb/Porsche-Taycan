@@ -2,6 +2,12 @@ command_id: 7E0.7E8.221151
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: '7E8056211510000'
+  expected_values:
+    TAYCAN_EM_RPM_1: 0
 - response: 7E8056211517FFF
   expected_values:
     TAYCAN_EM_RPM_1: 100
+- response: 7E805621151FF86
+  expected_values:
+    TAYCAN_EM_RPM_1: -61

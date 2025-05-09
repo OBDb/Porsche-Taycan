@@ -2,6 +2,12 @@ command_id: 713.77D.222B1B
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 77D05622B1B006A
+- response: 77D05622B1B001C
   expected_values:
-    TAYCAN_TIRE_FL_SPD: 5.9625
+    TAYCAN_TIRE_FL_SPD: 1.575
+- response: 77D05622B1B03D8
+  expected_values:
+    TAYCAN_TIRE_FL_SPD: 55.35
+- response: 77D05622B1B055B
+  expected_values:
+    TAYCAN_TIRE_FL_SPD: 77.11875
