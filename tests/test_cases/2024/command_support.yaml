@@ -37,3 +37,6 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 015B:BAT_SOC
   - 019A:EHEV_MODE,EHEV_MODE_SUP,HEV_BATT_A,HEV_BATT_A_SUP,HEV_BATT_V,HEV_BATT_V_SUP,HEV_MODE,HEV_MODE_SUP
+unsupported_commands_by_ecu:
+  7E0:
+  - 7E0.7E8.0131

@@ -1,0 +1,7 @@
+command_id: 7E5.7ED.2251E0
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7ED056251E03A28
+  expected_values:
+    TAYCAN_HVBAT_SOH: 92.202

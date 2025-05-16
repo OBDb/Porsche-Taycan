@@ -5,24 +5,12 @@ test_cases:
 - response: 7ED056218011B59
   expected_values:
     TAYCAN_HVBAT_VOLT: 700.1
-- response: 7ED056218011BA1
+- response: 7ED056218011BFA
   expected_values:
-    TAYCAN_HVBAT_VOLT: 707.3
-- response: 7ED056218011BBA
+    TAYCAN_HVBAT_VOLT: 716.2
+- response: 7ED056218011E02
   expected_values:
-    TAYCAN_HVBAT_VOLT: 709.8
-- response: 7ED056218011BDD
+    TAYCAN_HVBAT_VOLT: 768.2
+- response: 7ED056218011F08
   expected_values:
-    TAYCAN_HVBAT_VOLT: 713.3
-- response: 7ED056218011BE0
-  expected_values:
-    TAYCAN_HVBAT_VOLT: 713.6
-- response: 7ED056218011BE9
-  expected_values:
-    TAYCAN_HVBAT_VOLT: 714.5
-- response: 7ED056218011C03
-  expected_values:
-    TAYCAN_HVBAT_VOLT: 717.1
-- response: 7ED056218011C2E
-  expected_values:
-    TAYCAN_HVBAT_VOLT: 721.4
+    TAYCAN_HVBAT_VOLT: 794.4

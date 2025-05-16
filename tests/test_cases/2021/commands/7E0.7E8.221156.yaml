@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221156
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8046211567B
+  expected_values:
+    TAYCAN_HVBAT_SOC: 61.5
+- response: 7E8046211569C
+  expected_values:
+    TAYCAN_HVBAT_SOC: 78

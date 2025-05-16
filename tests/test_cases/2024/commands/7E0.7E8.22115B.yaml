@@ -5,9 +5,9 @@ test_cases:
 - response: 7E80562115B0000
   expected_values:
     TAYCAN_VSS_DIR: 0
-- response: 7E80562115B07FF
+- response: 7E80562115B03FE
   expected_values:
-    TAYCAN_VSS_DIR: 31.98438
-- response: 7E80562115BFF62
+    TAYCAN_VSS_DIR: 15.96875
+- response: 7E80562115B24AC
   expected_values:
-    TAYCAN_VSS_DIR: -2.46875
+    TAYCAN_VSS_DIR: 146.6875

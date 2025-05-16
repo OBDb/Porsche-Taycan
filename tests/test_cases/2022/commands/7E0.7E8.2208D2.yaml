@@ -2,15 +2,15 @@ command_id: 7E0.7E8.2208D2
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8076208D204C104C1
+- response: 7E8076208D201AD01AD
   expected_values:
-    TAYCAN_HVBAT_SOC_DISP: 12.17
+    TAYCAN_HVBAT_SOC_DISP: 4.29
 - response: 7E8076208D208000800
   expected_values:
     TAYCAN_HVBAT_SOC_DISP: 20.48
 - response: 7E8076208D209FF09FF
   expected_values:
     TAYCAN_HVBAT_SOC_DISP: 25.59
-- response: 7E8076208D222022202
+- response: 7E8076208D223072307
   expected_values:
-    TAYCAN_HVBAT_SOC_DISP: 87.06
+    TAYCAN_HVBAT_SOC_DISP: 89.67
