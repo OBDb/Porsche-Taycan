@@ -1,0 +1,10 @@
+command_id: 713.77D.222B29
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 77D05622B2900D4
+  expected_values:
+    TAYCAN_STEER_ANGLE: 0.212
+- response: 77D05622B290231
+  expected_values:
+    TAYCAN_STEER_ANGLE: 0.561

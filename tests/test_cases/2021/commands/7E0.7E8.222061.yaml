@@ -1,0 +1,7 @@
+command_id: 7E0.7E8.222061
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562206102EF
+  expected_values:
+    TAYCAN_APP_POS1: 0.751

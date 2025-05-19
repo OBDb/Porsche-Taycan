@@ -2,6 +2,9 @@ command_id: 7E0.7E8.221158
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E805621158DEB8
+  expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -852
 - response: 7E805621158E05C
   expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -810
