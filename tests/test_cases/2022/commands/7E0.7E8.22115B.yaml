@@ -1,6 +1,4 @@
 command_id: 7E0.7E8.22115B
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80562115B0000
   expected_values:
@@ -8,6 +6,6 @@ test_cases:
 - response: 7E80562115B07FF
   expected_values:
     TAYCAN_VSS_DIR: 31.98438
-- response: 7E80562115BFF62
+- response: 7E80562115BFF01
   expected_values:
-    TAYCAN_VSS_DIR: -2.46875
+    TAYCAN_VSS_DIR: -3.98438

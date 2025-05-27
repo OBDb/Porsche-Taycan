@@ -1,10 +1,8 @@
 command_id: 7E0.7E8.22F40D
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80462F40D00
   expected_values:
     TAYCAN_VSS: 0
-- response: 7E80462F40D9D
+- response: 7E80462F40DAE
   expected_values:
-    TAYCAN_VSS: 157
+    TAYCAN_VSS: 174

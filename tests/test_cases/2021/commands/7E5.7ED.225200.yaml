@@ -1,7 +1,8 @@
 command_id: 7E5.7ED.225200
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7ED076252000000000C
   expected_values:
     TAYCAN_LAUNCH: 12
+- response: 7ED076252000000000D
+  expected_values:
+    TAYCAN_LAUNCH: 13

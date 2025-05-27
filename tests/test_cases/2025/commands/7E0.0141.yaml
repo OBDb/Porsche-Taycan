@@ -1,0 +1,27 @@
+command_id: 7E0.0141
+test_cases:
+- response: '7E806414100040000'
+  expected_values:
+    ACRFCMPL: 0
+    ACRF_ENA: 0
+    AIR_CMPL: 0
+    AIR_ENA: 0
+    CAT_CMPL: 0
+    CAT_ENA: 0
+    CCM_CMPL: 0
+    CCM_ENA: 1
+    CIM_SUP_FLAG: SPARK
+    EGR_CMPL: 0
+    EGR_ENA: 0
+    EVAPCMPL: 0
+    EVAP_ENA: 0
+    FUEL_CMPL: 0
+    FUEL_ENA: 0
+    HCATCMPL: 0
+    HCAT_ENA: 0
+    HTR_CMPL: 0
+    HTR_ENA: 0
+    MIS_CMPL: 0
+    MIS_ENA: 0
+    O2S_CMPL: 0
+    O2S_ENA: 0

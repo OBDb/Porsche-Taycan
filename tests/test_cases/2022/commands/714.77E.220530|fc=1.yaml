@@ -1,6 +1,4 @@
-command_id: 714.77E.220530
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 714.77E.220530|fc=1
 test_cases:
 - response: |-
     77E103F620530001600

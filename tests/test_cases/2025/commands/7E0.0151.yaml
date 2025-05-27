@@ -1,0 +1,5 @@
+command_id: 7E0.0151
+test_cases:
+- response: '7E803415108'
+  expected_values:
+    FUEL_TYP: ELEC

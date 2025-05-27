@@ -1,6 +1,4 @@
 model_year: 2022
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 supported_commands_by_ecu:
   7E0:
   - 0101:ACRF_RDY,ACRF_SUP,AIR_RDY,AIR_SUP,CAT_RDY,CAT_SUP,CCM_RDY,CCM_SUP,CIM_SUP,DTC_CNT,EGR_RDY,EGR_SUP,EVAP_RDY,EVAP_SUP,FUEL_RDY,FUEL_SUP,HCAT_RDY,HCAT_SUP,HTR_RDY,HTR_SUP,MIL,MIS_RDY,MIS_SUP,O2S_RDY,O2S_SUP
@@ -48,7 +46,6 @@ unsupported_commands_by_ecu:
   - 710.222AB2
   - 710.222AB4
   - 710.222AB5
-  - 710.222AB6
   714:
   - '714.221870'
   - 714.2219D2
@@ -56,5 +53,3 @@ unsupported_commands_by_ecu:
   - 71E.22F105
   744:
   - '744.221507'
-  7E0:
-  - 7E0.7E8.0131

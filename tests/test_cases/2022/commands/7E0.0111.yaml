@@ -1,0 +1,47 @@
+command_id: 7E0.0111
+test_cases:
+- response: |-
+    > 713.77D.222B1C
+    NO DATA
+    > 7E5.7ED.22186F
+    NO DATA
+    > 7E0.7E8.22F41F
+    NO DATA
+    > 7E5.7ED.221852
+    NO DATA
+    > 7E5.7ED.221851
+    NO DATA
+    > 7E0.7E8.222061
+    NO DATA
+    > 7E0.7E8.221153
+    NO DATA
+    > 7E5.7ED.221858
+    NO DATA
+    > 7E0.7E8.221158
+    NO DATA
+    > 7E5.7ED.221853
+    NO DATA
+    > 7E5.7ED.221861
+    NO DATA
+    > 7E0.7E8.0115
+    NO DATA
+    > 7E5.7ED.22185E
+    NO DATA
+    > 7E0.7E8.22F40D
+    NO DATA
+    > 7E5.7ED.22186C
+    NO DATA
+    > 7E5.7ED.221860
+    NO DATA
+    > 7E0.7E8.22F442
+    NO DATA
+    > 7E0.7E8.010C
+    NO DATA
+    > 7E5.7ED.22185C
+    NO DATA
+    > 7E5.7ED.221857
+    NO DATA
+    > 7E0.7E8.0111
+    7E80341112A
+  expected_values:
+    TP: 16.47059

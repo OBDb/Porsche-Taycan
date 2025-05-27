@@ -1,6 +1,4 @@
-command_id: 744.7AE.224965
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 744.7AE.224965|fc=1
 test_cases:
 - response: |-
     7AE100D62496501937F

@@ -1,0 +1,47 @@
+command_id: 7E0.0113
+test_cases:
+- response: |-
+    NO DATA
+    > 7E5.7ED.221867
+    NO DATA
+    > 7E0.7E8.0106
+    NO DATA
+    > 7E5.7ED.221869
+    NO DATA
+    > 7E5.7ED.221850
+    NO DATA
+    > 7E5.7ED.221855
+    NO DATA
+    > 7E5.7ED.22185A
+    NO DATA
+    > 713.77D.222B1B
+    NO DATA
+    > 7E5.7ED.221854
+    NO DATA
+    > 7E0.7E8.221152
+    NO DATA
+    > 7E5.7ED.22186D
+    NO DATA
+    > 7E5.7ED.22186A
+    NO DATA
+    > 7E0.7E8.221151
+    NO DATA
+    > 7E5.7ED.221864
+    NO DATA
+    > 7E5.7ED.221863
+    NO DATA
+    > 7E0.7E8.22115B
+    NO DATA
+    > 7E5.7ED.221859
+    NO DATA
+    > 7E0.7E8.0113
+    7E803411303
+  expected_values:
+    O2S11_EXISTS: 1
+    O2S12_EXISTS: 1
+    O2S13_EXISTS: 0
+    O2S14_EXISTS: 0
+    O2S21_EXISTS: 0
+    O2S22_EXISTS: 0
+    O2S23_EXISTS: 0
+    O2S24_EXISTS: 0

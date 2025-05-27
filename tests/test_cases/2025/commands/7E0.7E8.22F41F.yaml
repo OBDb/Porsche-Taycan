@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- response: 7E80562F41F004B
+  expected_values:
+    TAYCAN_RUNTM: 75

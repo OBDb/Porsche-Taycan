@@ -1,10 +1,11 @@
 command_id: 7E0.7E8.22F442
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80562F442315C
   expected_values:
     TAYCAN_VPWR: 12.636
+- response: 7E80562F4423170
+  expected_values:
+    TAYCAN_VPWR: 12.656
 - response: 7E80562F44231BE
   expected_values:
     TAYCAN_VPWR: 12.734
