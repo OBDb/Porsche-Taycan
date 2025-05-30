@@ -33,9 +33,9 @@
   "signals": [
     {"id": "TAYCAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5,
   "signals": [
-    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 81.9, "min": -81.9, "div": 1600, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
+    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
   ]},
 { "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1,
   "signals": [
