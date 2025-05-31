@@ -9,3 +9,6 @@ test_cases:
 - response: 7E80562F41F0170
   expected_values:
     TAYCAN_RUNTM: 368
+- response: 7E80562F41F0689
+  expected_values:
+    TAYCAN_RUNTM: 1673

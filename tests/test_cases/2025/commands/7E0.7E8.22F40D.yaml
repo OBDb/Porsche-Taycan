@@ -3,6 +3,6 @@ test_cases:
 - response: 7E80462F40D00
   expected_values:
     TAYCAN_VSS: 0
-- response: 7E80462F40D79
+- response: 7E80462F40D88
   expected_values:
-    TAYCAN_VSS: 121
+    TAYCAN_VSS: 136

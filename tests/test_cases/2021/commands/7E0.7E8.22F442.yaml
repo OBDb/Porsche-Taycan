@@ -6,6 +6,9 @@ test_cases:
 - response: 7E80562F4423170
   expected_values:
     TAYCAN_VPWR: 12.656
+- response: 7E80562F4423183
+  expected_values:
+    TAYCAN_VPWR: 12.675
 - response: 7E80562F44231BE
   expected_values:
     TAYCAN_VPWR: 12.734
