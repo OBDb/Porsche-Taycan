@@ -1,5 +1,5 @@
 command_id: 713.77D.222B1C
 test_cases:
-- response: 77D05622B1C0000
-  expected_values:
+- expected_values:
     TAYCAN_TIRE_FR_SPD: 0
+  response: 77D05622B1C0000

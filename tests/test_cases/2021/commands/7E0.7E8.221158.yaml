@@ -1,32 +1,32 @@
 command_id: 7E0.7E8.221158
 test_cases:
-- response: 7E805621158DE68
-  expected_values:
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -860
-- response: 7E805621158DEB8
-  expected_values:
+  response: 7E805621158DE68
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -852
-- response: 7E805621158E05C
-  expected_values:
+  response: 7E805621158DEB8
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -810
-- response: 7E805621158E066
-  expected_values:
+  response: 7E805621158E05C
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -809
-- response: 7E805621158E070
-  expected_values:
+  response: 7E805621158E066
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -808
-- response: 7E805621158E07A
-  expected_values:
+  response: 7E805621158E070
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -807
-- response: 7E805621158E084
-  expected_values:
+  response: 7E805621158E07A
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -806
-- response: 7E805621158E08E
-  expected_values:
+  response: 7E805621158E084
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -805
-- response: 7E805621158E098
-  expected_values:
+  response: 7E805621158E08E
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -804
-- response: 7E805621158E0A2
-  expected_values:
+  response: 7E805621158E098
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -803
+  response: 7E805621158E0A2

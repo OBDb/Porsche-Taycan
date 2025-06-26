@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.221154
 test_cases:
-- response: '7E8056211540000'
-  expected_values:
+- expected_values:
     TAYCAN_EM_TORQ_2: 0
+  response: '7E8056211540000'

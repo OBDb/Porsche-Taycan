@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.222062
 test_cases:
-- response: '7E8056220620178'
-  expected_values:
+- expected_values:
     TAYCAN_APP_POS2: 0.376
+  response: '7E8056220620178'
+- expected_values:
+    TAYCAN_APP_POS2: 0.505
+  response: 7E80562206201F9

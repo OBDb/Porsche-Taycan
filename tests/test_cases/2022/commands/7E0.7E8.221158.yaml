@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221158
 test_cases:
-- response: 7E805621158DE68
-  expected_values:
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -860
-- response: 7E805621158E200
-  expected_values:
+  response: 7E805621158DE68
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -768
-- response: 7E805621158E3FE
-  expected_values:
+  response: 7E805621158E200
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -717
-- response: 7E805621158F2C2
-  expected_values:
+  response: 7E805621158E3FE
+- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -339
+  response: 7E805621158F2C2

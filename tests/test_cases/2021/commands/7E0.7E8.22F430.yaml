@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    TAYCAN_WARM_UPS: 64
+  response: 7E80462F43040
