@@ -10,6 +10,9 @@ test_cases:
     TAYCAN_HVBAT_SOC: 78
   response: 7E8046211569C
 - expected_values:
+    TAYCAN_HVBAT_SOC: 78.5
+  response: 7E8046211569D
+- expected_values:
     TAYCAN_HVBAT_SOC: 81.5
   response: 7E804621156A3
 - expected_values:

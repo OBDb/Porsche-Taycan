@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.22F442
 test_cases:
 - expected_values:
-    TAYCAN_VPWR: 12.636
-  response: 7E80562F442315C
-- expected_values:
-    TAYCAN_VPWR: 12.656
-  response: 7E80562F4423170
-- expected_values:
-    TAYCAN_VPWR: 12.695
-  response: 7E80562F4423197
-- expected_values:
-    TAYCAN_VPWR: 12.714
-  response: 7E80562F44231AA
-- expected_values:
-    TAYCAN_VPWR: 12.734
-  response: 7E80562F44231BE
+    TAYCAN_VPWR: 12.128
+  response: 7E80562F4422F60
 - expected_values:
     TAYCAN_VPWR: 12.792
   response: 7E80562F44231F8
-- expected_values:
-    TAYCAN_VPWR: 12.851
-  response: 7E80562F4423233
 - expected_values:
     TAYCAN_VPWR: 13.593
   response: 7E80562F4423519

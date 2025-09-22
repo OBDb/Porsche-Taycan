@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     TAYCAN_STEER_ANGLE: 0.605
   response: 77D05622B29025D
+- expected_values:
+    TAYCAN_STEER_ANGLE: 2.648
+  response: 77D05622B290A58
+- expected_values:
+    TAYCAN_STEER_ANGLE: 2.705
+  response: 77D05622B290A91
+- expected_values:
+    TAYCAN_STEER_ANGLE: -0.05
+  response: 77D05622B29FFCE
+- expected_values:
+    TAYCAN_STEER_ANGLE: -0.046
+  response: 77D05622B29FFD2
+- expected_values:
+    TAYCAN_STEER_ANGLE: -0.042
+  response: 77D05622B29FFD6
+- expected_values:
+    TAYCAN_STEER_ANGLE: -0.039
+  response: 77D05622B29FFD9
+- expected_values:
+    TAYCAN_STEER_ANGLE: -0.017
+  response: 77D05622B29FFEF

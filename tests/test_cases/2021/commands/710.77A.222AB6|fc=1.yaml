@@ -1,6 +1,11 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
+    TAYCAN_RANGE: 16
+  response: |-
+    77A100A622AB6001000
+    77A211007FD01AAAAAA
+- expected_values:
     TAYCAN_RANGE: 35
   response: |-
     77A100A622AB6002300
@@ -10,16 +15,6 @@ test_cases:
   response: |-
     77A100A622AB6002F00
     77A212F07FD00AAAAAA
-- expected_values:
-    TAYCAN_RANGE: 56
-  response: |-
-    77A100A622AB6003800
-    77A213807FD01AAAAAA
-- expected_values:
-    TAYCAN_RANGE: 80
-  response: |-
-    77A100A622AB6005000
-    77A215007FD00AAAAAA
 - expected_values:
     TAYCAN_RANGE: 240
   response: |-

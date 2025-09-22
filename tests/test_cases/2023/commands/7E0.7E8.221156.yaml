@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221156
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_SOC: 88
+  response: 7E804621156B0
+- expected_values:
+    TAYCAN_HVBAT_SOC: 88.5
+  response: 7E804621156B1

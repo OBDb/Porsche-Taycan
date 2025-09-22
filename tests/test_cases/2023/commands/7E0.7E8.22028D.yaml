@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22028D
+test_cases:
+- expected_values:
+    TAYCAN_ECU_TEMP: 54
+  response: 7E80562028D021C
+- expected_values:
+    TAYCAN_ECU_TEMP: 56
+  response: 7E80562028D0230
+- expected_values:
+    TAYCAN_ECU_TEMP: 59
+  response: 7E80562028D024E

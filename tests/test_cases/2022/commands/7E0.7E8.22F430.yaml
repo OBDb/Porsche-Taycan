@@ -1,8 +1,17 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
+    TAYCAN_WARM_UPS: 2
+  response: 7E80462F43002
+- expected_values:
     TAYCAN_WARM_UPS: 8
   response: 7E80462F43008
 - expected_values:
+    TAYCAN_WARM_UPS: 11
+  response: 7E80462F4300B
+- expected_values:
     TAYCAN_WARM_UPS: 12
   response: 7E80462F4300C
+- expected_values:
+    TAYCAN_WARM_UPS: 20
+  response: 7E80462F43014

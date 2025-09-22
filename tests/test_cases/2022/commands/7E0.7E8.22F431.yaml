@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
-    TAYCAN_CLR_DIST: 41
-  response: 7E80562F4310029
-- expected_values:
-    TAYCAN_CLR_DIST: 528
-  response: 7E80562F4310210
+    TAYCAN_CLR_DIST: 38
+  response: 7E80562F4310026
 - expected_values:
     TAYCAN_CLR_DIST: 1791
   response: 7E80562F43106FF
+- expected_values:
+    TAYCAN_CLR_DIST: 4353
+  response: 7E80562F4311101
 - expected_values:
     TAYCAN_CLR_DIST: 9981
   response: 7E80562F43126FD

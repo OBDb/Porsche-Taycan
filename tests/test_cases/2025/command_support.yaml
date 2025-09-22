@@ -123,3 +123,8 @@ supported_commands_by_ecu:
   - 019A:EHEV_MODE,EHEV_MODE_SUP,HEV_BATT_A,HEV_BATT_A_SUP,HEV_BATT_V,HEV_BATT_V_SUP,HEV_MODE,HEV_MODE_SUP
   - 7E7.7EF.015B
   - 7E7.7EF.019A
+unsupported_commands_by_ecu:
+  "7E4":
+  - 7E4.7EC.0142
+  "7E7":
+  - 7E7.7EF.0142
