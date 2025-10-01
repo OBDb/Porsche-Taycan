@@ -1,6 +1,9 @@
 command_id: 713.77D.222B29
 test_cases:
 - expected_values:
+    TAYCAN_STEER_ANGLE: 0.234
+  response: 77D05622B2900EA
+- expected_values:
     TAYCAN_STEER_ANGLE: -0.028
   response: 77D05622B29FFE4
 - expected_values:

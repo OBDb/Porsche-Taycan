@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_WARM_UPS: 11
   response: 7E80462F4300B
+- expected_values:
+    TAYCAN_WARM_UPS: 54
+  response: 7E80462F43036

@@ -16,6 +16,11 @@ test_cases:
     77A100A622AB6003000
     77A213007FD00AAAAAA
 - expected_values:
+    TAYCAN_RANGE: 124
+  response: |-
+    77A100A622AB6007C00
+    77A217C07FD01AAAAAA
+- expected_values:
     TAYCAN_RANGE: 240
   response: |-
     77A100A622AB600F000
