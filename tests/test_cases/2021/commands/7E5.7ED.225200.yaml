@@ -1,6 +1,9 @@
 command_id: 7E5.7ED.225200
 test_cases:
 - expected_values:
+    TAYCAN_LAUNCH: 1
+  response: 7ED0762520000000001
+- expected_values:
     TAYCAN_LAUNCH: 12
   response: 7ED076252000000000C
 - expected_values:

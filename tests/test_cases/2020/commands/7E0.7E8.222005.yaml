@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222005
+test_cases:
+- expected_values:
+    TAYCAN_BRAKE_BST_P: 0
+  response: '7E8056220050000'
