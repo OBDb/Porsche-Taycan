@@ -1,9 +1,9 @@
 { "commands": [
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 0)"},
     {"id": "TAYCAN_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 1)"},
@@ -13,123 +13,123 @@
     {"id": "TAYCAN_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 5)"},
     {"id": "TAYCAN_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 6)"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.1,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1C"}, "freq": 0.1,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1C"}, "freq": 0.1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1D"}, "freq": 0.1,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1D"}, "freq": 0.1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1E"}, "freq": 0.1,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1E"}, "freq": 0.1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B29"}, "freq": 0.1,
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B29"}, "freq": 0.1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1,
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "08D2"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "08D2"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "HV battery charge displayed on the dashboard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_AAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_EM_RPM_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 1 rpm"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1152"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1152"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_EM_RPM_2", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 2 rpm"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1153"}, "freq": 10.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1153"}, "freq": 10.25, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_EM_TORQ_1", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 1 torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1154"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1154"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_EM_TORQ_2", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 2 torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1155"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1155"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_EM_TORQ_3", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 3 torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1156"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1156"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_MAX_CHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum charge current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "115B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_VSS_DIR", "path": "Movement", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed (directional)"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_BRAKE_BST_P", "path": "Control", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_APP_POS1", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while MIL was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since DTCs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since DTCs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1801"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1850"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1850"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD1_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 1 id"},
     {"id": "TAYCAN_HVBAT_MOD1_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 1 cell 1 voltage"},
@@ -145,7 +145,7 @@
     {"id": "TAYCAN_HVBAT_MOD1_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 1 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD1_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 1 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1851"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1851"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD2_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 2 id"},
     {"id": "TAYCAN_HVBAT_MOD2_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 2 cell 1 voltage"},
@@ -161,7 +161,7 @@
     {"id": "TAYCAN_HVBAT_MOD2_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 2 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD2_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 2 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1852"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1852"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD3_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 3 id"},
     {"id": "TAYCAN_HVBAT_MOD3_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 3 cell 1 voltage"},
@@ -177,7 +177,7 @@
     {"id": "TAYCAN_HVBAT_MOD3_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 3 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD3_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 3 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1853"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1853"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD4_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 4 id"},
     {"id": "TAYCAN_HVBAT_MOD4_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 4 cell 1 voltage"},
@@ -193,7 +193,7 @@
     {"id": "TAYCAN_HVBAT_MOD4_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 4 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD4_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 4 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1854"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1854"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD5_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 5 id"},
     {"id": "TAYCAN_HVBAT_MOD5_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 5 cell 1 voltage"},
@@ -209,7 +209,7 @@
     {"id": "TAYCAN_HVBAT_MOD5_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 5 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD5_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 5 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1855"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1855"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD6_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 6 id"},
     {"id": "TAYCAN_HVBAT_MOD6_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 6 cell 1 voltage"},
@@ -225,7 +225,7 @@
     {"id": "TAYCAN_HVBAT_MOD6_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 6 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD6_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 6 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1856"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1856"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD7_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 7 id"},
     {"id": "TAYCAN_HVBAT_MOD7_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 7 cell 1 voltage"},
@@ -241,7 +241,7 @@
     {"id": "TAYCAN_HVBAT_MOD7_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 7 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD7_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 7 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1857"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1857"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD8_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 8 id"},
     {"id": "TAYCAN_HVBAT_MOD8_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 8 cell 1 voltage"},
@@ -257,7 +257,7 @@
     {"id": "TAYCAN_HVBAT_MOD8_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 8 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD8_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 8 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1858"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1858"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD9_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 9 id"},
     {"id": "TAYCAN_HVBAT_MOD9_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 9 cell 1 voltage"},
@@ -273,7 +273,7 @@
     {"id": "TAYCAN_HVBAT_MOD9_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 9 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD9_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 9 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1859"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1859"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD10_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 10 id"},
     {"id": "TAYCAN_HVBAT_MOD10_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 10 cell 1 voltage"},
@@ -289,7 +289,7 @@
     {"id": "TAYCAN_HVBAT_MOD10_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 10 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD10_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 10 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185A"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185A"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD11_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 11 id"},
     {"id": "TAYCAN_HVBAT_MOD11_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 11 cell 1 voltage"},
@@ -305,7 +305,7 @@
     {"id": "TAYCAN_HVBAT_MOD11_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 11 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD11_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 11 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185B"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185B"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD12_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 12 id"},
     {"id": "TAYCAN_HVBAT_MOD12_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 12 cell 1 voltage"},
@@ -321,7 +321,7 @@
     {"id": "TAYCAN_HVBAT_MOD12_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 12 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD12_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 12 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185C"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185C"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD13_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 13 id"},
     {"id": "TAYCAN_HVBAT_MOD13_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 13 cell 1 voltage"},
@@ -337,7 +337,7 @@
     {"id": "TAYCAN_HVBAT_MOD13_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 13 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD13_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 13 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185D"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185D"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD14_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 14 id"},
     {"id": "TAYCAN_HVBAT_MOD14_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 14 cell 1 voltage"},
@@ -353,7 +353,7 @@
     {"id": "TAYCAN_HVBAT_MOD14_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 14 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD14_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 14 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185E"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185E"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD15_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 15 id"},
     {"id": "TAYCAN_HVBAT_MOD15_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 15 cell 1 voltage"},
@@ -369,7 +369,7 @@
     {"id": "TAYCAN_HVBAT_MOD15_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 15 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD15_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 15 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185F"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "185F"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD16_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 16 id"},
     {"id": "TAYCAN_HVBAT_MOD16_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 16 cell 1 voltage"},
@@ -385,7 +385,7 @@
     {"id": "TAYCAN_HVBAT_MOD16_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 16 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD16_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 16 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1860"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1860"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD17_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 17 id"},
     {"id": "TAYCAN_HVBAT_MOD17_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 17 cell 1 voltage"},
@@ -401,7 +401,7 @@
     {"id": "TAYCAN_HVBAT_MOD17_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 17 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD17_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 17 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1861"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1861"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD18_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 18 id"},
     {"id": "TAYCAN_HVBAT_MOD18_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 18 cell 1 voltage"},
@@ -417,7 +417,7 @@
     {"id": "TAYCAN_HVBAT_MOD18_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 18 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD18_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 18 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1862"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1862"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD19_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 19 id"},
     {"id": "TAYCAN_HVBAT_MOD19_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 19 cell 1 voltage"},
@@ -433,7 +433,7 @@
     {"id": "TAYCAN_HVBAT_MOD19_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 19 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD19_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 19 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1863"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1863"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD20_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 20 id"},
     {"id": "TAYCAN_HVBAT_MOD20_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 20 cell 1 voltage"},
@@ -449,7 +449,7 @@
     {"id": "TAYCAN_HVBAT_MOD20_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 20 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD20_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 20 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1864"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1864"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD21_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 21 id"},
     {"id": "TAYCAN_HVBAT_MOD21_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 21 cell 1 voltage"},
@@ -465,7 +465,7 @@
     {"id": "TAYCAN_HVBAT_MOD21_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 21 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD21_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 21 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1865"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1865"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD22_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 22 id"},
     {"id": "TAYCAN_HVBAT_MOD22_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 22 cell 1 voltage"},
@@ -481,7 +481,7 @@
     {"id": "TAYCAN_HVBAT_MOD22_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 22 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD22_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 22 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1866"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1866"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD23_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 23 id"},
     {"id": "TAYCAN_HVBAT_MOD23_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 23 cell 1 voltage"},
@@ -497,7 +497,7 @@
     {"id": "TAYCAN_HVBAT_MOD23_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 23 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD23_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 23 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1867"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1867"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD24_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 24 id"},
     {"id": "TAYCAN_HVBAT_MOD24_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 24 cell 1 voltage"},
@@ -513,7 +513,7 @@
     {"id": "TAYCAN_HVBAT_MOD24_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 24 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD24_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 24 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1868"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1868"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD25_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 25 id"},
     {"id": "TAYCAN_HVBAT_MOD25_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 25 cell 1 voltage"},
@@ -529,7 +529,7 @@
     {"id": "TAYCAN_HVBAT_MOD25_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 25 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD25_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 25 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1869"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1869"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD26_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 26 id"},
     {"id": "TAYCAN_HVBAT_MOD26_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 26 cell 1 voltage"},
@@ -545,7 +545,7 @@
     {"id": "TAYCAN_HVBAT_MOD26_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 26 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD26_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 26 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186A"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186A"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD27_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 27 id"},
     {"id": "TAYCAN_HVBAT_MOD27_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 27 cell 1 voltage"},
@@ -561,7 +561,7 @@
     {"id": "TAYCAN_HVBAT_MOD27_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 27 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD27_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 27 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186B"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186B"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD28_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 28 id"},
     {"id": "TAYCAN_HVBAT_MOD28_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 28 cell 1 voltage"},
@@ -577,7 +577,7 @@
     {"id": "TAYCAN_HVBAT_MOD28_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 28 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD28_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 28 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186C"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186C"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD29_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 29 id"},
     {"id": "TAYCAN_HVBAT_MOD29_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 29 cell 1 voltage"},
@@ -593,7 +593,7 @@
     {"id": "TAYCAN_HVBAT_MOD29_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 29 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD29_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 29 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186D"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186D"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD30_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 30 id"},
     {"id": "TAYCAN_HVBAT_MOD30_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 30 cell 1 voltage"},
@@ -609,7 +609,7 @@
     {"id": "TAYCAN_HVBAT_MOD30_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 30 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD30_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 30 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186E"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186E"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD31_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 31 id"},
     {"id": "TAYCAN_HVBAT_MOD31_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 31 cell 1 voltage"},
@@ -625,7 +625,7 @@
     {"id": "TAYCAN_HVBAT_MOD31_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 31 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD31_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 31 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186F"}, "freq": 10,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "186F"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD32_ID",     "path": "Battery.Cells", "fmt": {            "len": 8,  "max": 255,               "unit": "scalar"  }, "name": "HV battery module 32 id"},
     {"id": "TAYCAN_HVBAT_MOD32_C1_V",   "path": "Battery.Cells", "fmt": {"bix": 8,   "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 32 cell 1 voltage"},
@@ -641,11 +641,11 @@
     {"id": "TAYCAN_HVBAT_MOD32_C6_V",   "path": "Battery.Cells", "fmt": {"bix": 288, "len": 16, "max": 6.5, "div": 10000, "unit": "volts"   }, "name": "HV battery module 32 cell 6 voltage"},
     {"id": "TAYCAN_HVBAT_MOD32_C6_SOC", "path": "Battery.Cells", "fmt": {"bix": 304, "len": 8,  "max": 100,               "unit": "percent" }, "name": "HV battery module 32 cell 6 state of charge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.127, "add": -1798.574, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "5200"}, "freq": 3600,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "5200"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_LAUNCH", "path": "Stats", "fmt": { "len": 32, "max": 1000000, "unit": "scalar" }, "name": "Launch control count", "description": "How many times you've initiated launch control on the car."}
   ]}
