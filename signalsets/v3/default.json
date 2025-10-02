@@ -125,7 +125,7 @@
   "signals": [
     {"id": "TAYCAN_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage"}
   ]},
