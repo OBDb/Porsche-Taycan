@@ -3,7 +3,7 @@
   "signals": [
     {"id": "TAYCAN_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 0)"},
     {"id": "TAYCAN_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 1)"},
@@ -33,11 +33,11 @@
   "signals": [
     {"id": "TAYCAN_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "description": "Energy stored in the high voltage battery"}
   ]},
@@ -49,7 +49,7 @@
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "HV battery charge displayed on the dashboard"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_AAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
@@ -77,7 +77,7 @@
   "signals": [
     {"id": "TAYCAN_HVBAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1158"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
   ]},
@@ -93,11 +93,11 @@
   "signals": [
     {"id": "TAYCAN_BRAKE_BST_P", "path": "Control", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_APP_POS1", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
   ]},
@@ -105,7 +105,7 @@
   "signals": [
     {"id": "TAYCAN_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
