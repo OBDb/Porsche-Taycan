@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22115B
+test_cases:
+- expected_values:
+    TAYCAN_VSS_DIR: 0
+  response: 7E80562115B0000
+- expected_values:
+    TAYCAN_VSS_DIR: 51.96875
+  response: 7E80562115B0CFE
+- expected_values:
+    TAYCAN_VSS_DIR: -3.98438
+  response: 7E80562115BFF01

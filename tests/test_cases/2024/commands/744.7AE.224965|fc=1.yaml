@@ -1,0 +1,12 @@
+command_id: 744.7AE.224965|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_KWH: 55.95
+  response: |-
+    7AE100D624965045F7F
+    7AE21DC010D5605D07C
+- expected_values:
+    TAYCAN_HVBAT_KWH: 55.95
+  response: |-
+    7AE100D624965045F7F
+    7AE21EF010D5205D07C

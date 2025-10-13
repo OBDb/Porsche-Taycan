@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2208D2
 test_cases:
-- response: 7E8076208D201AD01AD
-  expected_values:
-    TAYCAN_HVBAT_SOC_DISP: 4.29
-- response: 7E8076208D208000800
-  expected_values:
+- expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 3.42
+  response: 7E8076208D201560156
+- expected_values:
     TAYCAN_HVBAT_SOC_DISP: 20.48
-- response: 7E8076208D209FF09FF
-  expected_values:
+  response: 7E8076208D208000800
+- expected_values:
     TAYCAN_HVBAT_SOC_DISP: 25.59
-- response: 7E8076208D223012301
-  expected_values:
-    TAYCAN_HVBAT_SOC_DISP: 89.61
+  response: 7E8076208D209FF09FF
+- expected_values:
+    TAYCAN_HVBAT_SOC_DISP: 99.89
+  response: 7E8076208D227052705

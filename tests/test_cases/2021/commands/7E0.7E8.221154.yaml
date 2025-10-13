@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221154
 test_cases:
-- response: 7E8056211547FFF
-  expected_values:
+- expected_values:
     TAYCAN_EM_TORQ_2: 1000
+  response: 7E8056211547FFF
+- expected_values:
+    TAYCAN_EM_TORQ_2: -0.5
+  response: 7E805621154FFF0

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221151
 test_cases:
-- response: '7E8056211510000'
-  expected_values:
+- expected_values:
     TAYCAN_EM_RPM_1: 0
-- response: 7E8056211517FFF
-  expected_values:
+  response: '7E8056211510000'
+- expected_values:
     TAYCAN_EM_RPM_1: 100
-- response: 7E805621151FF86
-  expected_values:
+  response: 7E8056211517FFF
+- expected_values:
     TAYCAN_EM_RPM_1: -61
+  response: 7E805621151FF86

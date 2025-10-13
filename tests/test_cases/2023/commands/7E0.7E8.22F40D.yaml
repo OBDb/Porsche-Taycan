@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    TAYCAN_VSS: 0
+  response: 7E80462F40D00
+- expected_values:
+    TAYCAN_VSS: 168
+  response: 7E80462F40DA8

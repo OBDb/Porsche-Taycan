@@ -1,6 +1,8 @@
 command_id: 714.77E.220530|fc=1
 test_cases:
-- response: |-
+- expected_values:
+    TAYCAN_TRIP_USE_SHORT: 0.002
+  response: |-
     77E104762053000225D
     77E21752EA661400002
     77E2252500180000000
@@ -12,9 +14,9 @@ test_cases:
     77E2800607C02150000
     77E2900000000000000
     77E2A0000AAAAAAAAAA
-  expected_values:
+- expected_values:
     TAYCAN_TRIP_USE_SHORT: 0.002
-- response: |-
+  response: |-
     77E104762053000226D
     77E21652EA661400002
     77E2252500180000000
@@ -26,9 +28,9 @@ test_cases:
     77E2800607C02150000
     77E2900000000000000
     77E2A0000AAAAAAAAAA
-  expected_values:
-    TAYCAN_TRIP_USE_SHORT: 0.002
-- response: |-
+- expected_values:
+    TAYCAN_TRIP_USE_SHORT: 0.001
+  response: |-
     77E10476205300022C1
     77E212D2EA661400002
     77E2256580180000000
@@ -40,5 +42,3 @@ test_cases:
     77E2800607C02150000
     77E2900000000000000
     77E2A0000AAAAAAAAAA
-  expected_values:
-    TAYCAN_TRIP_USE_SHORT: 0.001
