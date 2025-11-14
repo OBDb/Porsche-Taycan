@@ -10,6 +10,9 @@ test_cases:
     TAYCAN_ECU_TEMP: 41
   response: 7E80562028D019A
 - expected_values:
+    TAYCAN_ECU_TEMP: 50
+  response: 7E80562028D01F4
+- expected_values:
     TAYCAN_ECU_TEMP: 59
   response: 7E80562028D024E
 - expected_values:
