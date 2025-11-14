@@ -1,0 +1,5 @@
+command_id: 7E5.225170|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_V_DCHG_MIN: 555
+  response: 7ED0562517015AE

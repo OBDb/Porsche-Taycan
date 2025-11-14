@@ -1,0 +1,38 @@
+command_id: 7E5.221E2D|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 46
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 27
+  response: 7ED05621E2D2E1B
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 47
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 27
+  response: 7ED05621E2D2F1B
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 48
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 4
+  response: 7ED05621E2D3004
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 48
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 27
+  response: 7ED05621E2D301B
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 49
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 4
+  response: 7ED05621E2D3104
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 50
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 4
+  response: 7ED05621E2D3204
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 51
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 4
+  response: 7ED05621E2D3304
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 52
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 4
+  response: 7ED05621E2D3404
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 53
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 4
+  response: 7ED05621E2D3504

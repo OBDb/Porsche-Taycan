@@ -1,0 +1,9 @@
+command_id: 744.7AE.221507|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_RAIL1_E: 10.9
+    TAYCAN_CHRGR_RAIL2_E: 3.2
+    TAYCAN_CHRGR_RAIL3_E: 3.2
+  response: |-
+    7AE100C62150700006D
+    7AE2100002000002055

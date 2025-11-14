@@ -1,0 +1,23 @@
+command_id: 7E5.22180D|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 8
+  response: 7ED0462180D3A
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 9
+  response: 7ED0462180D3B
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 10
+  response: 7ED0462180D3C
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 11
+  response: 7ED0462180D3D
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 12
+  response: 7ED0462180D3E
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 13
+  response: 7ED0462180D3F
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 14
+  response: 7ED0462180D40
