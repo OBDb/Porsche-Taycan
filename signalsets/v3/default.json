@@ -13,19 +13,19 @@
     {"id": "TAYCAN_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 5)"},
     {"id": "TAYCAN_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 6)"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1C"}, "freq": 0.1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1C"}, "freq": 0.1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1D"}, "freq": 0.1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1D"}, "freq": 0.1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1E"}, "freq": 0.1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "713", "rax": "77D", "cmd": {"22": "2B1E"}, "freq": 0.1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
@@ -81,7 +81,7 @@
   "signals": [
     {"id": "TAYCAN_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1159"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_MAX_CHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum charge current"}
   ]},
