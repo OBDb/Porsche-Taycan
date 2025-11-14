@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222062
+test_cases:
+- expected_values:
+    TAYCAN_APP_POS2: 0.376
+  response: '7E8056220620178'
+- expected_values:
+    TAYCAN_APP_POS2: 0.513
+  response: '7E8056220620201'
+- expected_values:
+    TAYCAN_APP_POS2: 0.767
+  response: 7E80562206202FF
+- expected_values:
+    TAYCAN_APP_POS2: 1.336
+  response: '7E8056220620538'
