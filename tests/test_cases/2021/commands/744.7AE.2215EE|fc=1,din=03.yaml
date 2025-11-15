@@ -1,0 +1,5 @@
+command_id: 744.7AE.2215EE|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_DUR_TOTAL: 104299
+  response: 7AE076215EE0001976B
