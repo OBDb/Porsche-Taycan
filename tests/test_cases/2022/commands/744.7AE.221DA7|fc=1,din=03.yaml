@@ -1,0 +1,17 @@
+command_id: 744.7AE.221DA7|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_V_OUT: 0
+  response: 7AE05621DA70020
+- expected_values:
+    TAYCAN_CHRGR_V_OUT: 0
+  response: 7AE05621DA70021
+- expected_values:
+    TAYCAN_CHRGR_V_OUT: 0
+  response: 7AE05621DA70022
+- expected_values:
+    TAYCAN_CHRGR_V_OUT: 0
+  response: 7AE05621DA70023
+- expected_values:
+    TAYCAN_CHRGR_V_OUT: 0
+  response: 7AE05621DA70024

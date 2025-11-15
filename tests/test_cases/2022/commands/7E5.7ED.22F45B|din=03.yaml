@@ -1,0 +1,29 @@
+command_id: 7E5.7ED.22F45B|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 45.88235
+  response: 7ED0462F45B75
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 46.66667
+  response: 7ED0462F45B77
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 47.84314
+  response: 7ED0462F45B7A
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 48.62745
+  response: 7ED0462F45B7C
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 49.80392
+  response: 7ED0462F45B7F
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 50.98039
+  response: 7ED0462F45B82
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 51.76471
+  response: 7ED0462F45B84
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 52.94118
+  response: 7ED0462F45B87
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 53.72549
+  response: 7ED0462F45B89
