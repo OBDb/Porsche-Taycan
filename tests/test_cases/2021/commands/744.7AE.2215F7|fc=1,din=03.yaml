@@ -1,0 +1,5 @@
+command_id: 744.7AE.2215F7|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_3V_SUPPLY: 3.31
+  response: 7AE046215F715

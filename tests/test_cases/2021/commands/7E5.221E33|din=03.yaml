@@ -1,0 +1,26 @@
+command_id: 7E5.221E33|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_CELL_V_MAX: 4.01
+    TAYCAN_BMS_CELL_V_MAX_IDX: 14
+  response: 7ED06621E339CA40E
+- expected_values:
+    TAYCAN_BMS_CELL_V_MAX: 4.028
+    TAYCAN_BMS_CELL_V_MAX_IDX: 3
+  response: 7ED06621E339D5803
+- expected_values:
+    TAYCAN_BMS_CELL_V_MAX: 4.044
+    TAYCAN_BMS_CELL_V_MAX_IDX: 14
+  response: 7ED06621E339DF80E
+- expected_values:
+    TAYCAN_BMS_CELL_V_MAX: 4.045
+    TAYCAN_BMS_CELL_V_MAX_IDX: 14
+  response: 7ED06621E339E020E
+- expected_values:
+    TAYCAN_BMS_CELL_V_MAX: 4.123
+    TAYCAN_BMS_CELL_V_MAX_IDX: 14
+  response: 7ED06621E33A10E0E
+- expected_values:
+    TAYCAN_BMS_CELL_V_MAX: 4.137
+    TAYCAN_BMS_CELL_V_MAX_IDX: 33
+  response: 7ED06621E33A19A21

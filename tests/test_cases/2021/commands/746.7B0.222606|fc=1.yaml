@@ -1,0 +1,6 @@
+command_id: 746.7B0.222606|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVAC_FAN1_ACT: 0
+    TAYCAN_HVAC_FAN2_ACT: 0
+  response: 7B00762260600000000

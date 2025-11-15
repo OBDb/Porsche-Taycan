@@ -1,0 +1,14 @@
+command_id: 742.7AC.2227D6|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_PTC_PUMP_PWR: 0
+    TAYCAN_PTC_PUMP_RPM: 0
+  response: 7AC066227D6000000
+- expected_values:
+    TAYCAN_PTC_PUMP_PWR: 80
+    TAYCAN_PTC_PUMP_RPM: 300
+  response: 7AC066227D601D602
+- expected_values:
+    TAYCAN_PTC_PUMP_PWR: 840
+    TAYCAN_PTC_PUMP_RPM: 2400
+  response: 7AC066227D608D515

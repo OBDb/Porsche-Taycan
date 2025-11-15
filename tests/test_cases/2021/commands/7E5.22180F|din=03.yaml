@@ -1,0 +1,11 @@
+command_id: 7E5.22180F|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_SHUNT_T: 14
+  response: 7ED0462180F40
+- expected_values:
+    TAYCAN_BMS_SHUNT_T: 15
+  response: 7ED0462180F41
+- expected_values:
+    TAYCAN_BMS_SHUNT_T: 16
+  response: 7ED0462180F42

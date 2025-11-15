@@ -1,0 +1,5 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVAC_FAN_CMD: 0
+  response: 7B0056226070000

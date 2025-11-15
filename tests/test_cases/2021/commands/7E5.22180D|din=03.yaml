@@ -1,0 +1,11 @@
+command_id: 7E5.22180D|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 14
+  response: 7ED0462180D40
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 15
+  response: 7ED0462180D41
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 16
+  response: 7ED0462180D42
