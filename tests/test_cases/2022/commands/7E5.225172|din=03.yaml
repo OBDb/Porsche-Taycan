@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_V_CHG_PRED_MIN: 788
   response: 7ED056251721EC8
+- expected_values:
+    TAYCAN_BMS_V_CHG_PRED_MIN: 795
+  response: 7ED056251721F0E

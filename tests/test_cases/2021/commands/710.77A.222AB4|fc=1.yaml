@@ -1,6 +1,18 @@
 command_id: 710.77A.222AB4|fc=1
 test_cases:
 - expected_values:
+    TAYCAN_HVBAT_CSMP_AVG_INT: 22
+    TAYCAN_RANGE_EST_INT: 269
+  response: |-
+    77A100D622AB4000001
+    77A210D000000000016
+- expected_values:
+    TAYCAN_HVBAT_CSMP_AVG_INT: 20
+    TAYCAN_RANGE_EST_INT: 286
+  response: |-
+    77A100D622AB4000001
+    77A211E000000000014
+- expected_values:
     TAYCAN_HVBAT_CSMP_AVG_INT: 20
     TAYCAN_RANGE_EST_INT: 287
   response: |-
