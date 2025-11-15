@@ -4,29 +4,5 @@ test_cases:
     TAYCAN_BMS_COOL_OUT_T: 7
   response: 7ED0462181D39
 - expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 8
-  response: 7ED0462181D3A
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 9
-  response: 7ED0462181D3B
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 10
-  response: 7ED0462181D3C
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 12
-  response: 7ED0462181D3E
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 13
-  response: 7ED0462181D3F
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 14
-  response: 7ED0462181D40
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 16
-  response: 7ED0462181D42
-- expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 17
-  response: 7ED0462181D43
-- expected_values:
     TAYCAN_BMS_COOL_OUT_T: 18
   response: 7ED0462181D44

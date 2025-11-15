@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_E_TOTAL: 35346
   response: 7AE076215EF00008A12
+- expected_values:
+    TAYCAN_CHRGR_E_TOTAL: 35544
+  response: 7AE076215EF00008AD8

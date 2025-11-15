@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_V_OUT: 0
   response: 7AE05621DA70024
+- expected_values:
+    TAYCAN_CHRGR_V_OUT: 0
+  response: 7AE05621DA70025
