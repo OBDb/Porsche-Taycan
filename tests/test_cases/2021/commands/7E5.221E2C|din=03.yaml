@@ -1,29 +1,9 @@
 command_id: 7E5.221E2C|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_CELL_SOC_MAX: 86
+    TAYCAN_BMS_CELL_SOC_MAX: 80
     TAYCAN_BMS_CELL_SOC_MAX_IDX: 13
-  response: 7ED05621E2C560D
-- expected_values:
-    TAYCAN_BMS_CELL_SOC_MAX: 87
-    TAYCAN_BMS_CELL_SOC_MAX_IDX: 13
-  response: 7ED05621E2C570D
-- expected_values:
-    TAYCAN_BMS_CELL_SOC_MAX: 88
-    TAYCAN_BMS_CELL_SOC_MAX_IDX: 13
-  response: 7ED05621E2C580D
-- expected_values:
-    TAYCAN_BMS_CELL_SOC_MAX: 89
-    TAYCAN_BMS_CELL_SOC_MAX_IDX: 13
-  response: 7ED05621E2C590D
-- expected_values:
-    TAYCAN_BMS_CELL_SOC_MAX: 90
-    TAYCAN_BMS_CELL_SOC_MAX_IDX: 13
-  response: 7ED05621E2C5A0D
-- expected_values:
-    TAYCAN_BMS_CELL_SOC_MAX: 91
-    TAYCAN_BMS_CELL_SOC_MAX_IDX: 13
-  response: 7ED05621E2C5B0D
+  response: 7ED05621E2C500D
 - expected_values:
     TAYCAN_BMS_CELL_SOC_MAX: 93
     TAYCAN_BMS_CELL_SOC_MAX_IDX: 13

@@ -7,5 +7,5 @@ test_cases:
     TAYCAN_ENG_MOTOR_RPM: 5503
   response: 7E805623DF82AFE
 - expected_values:
-    TAYCAN_ENG_MOTOR_RPM: 7901
-  response: 7E805623DF83DBA
+    TAYCAN_ENG_MOTOR_RPM: -85
+  response: 7E805623DF8FF56

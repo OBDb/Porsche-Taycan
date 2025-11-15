@@ -1,8 +1,11 @@
 command_id: 744.7AE.221557|fc=1,din=03
 test_cases:
 - expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -119.75
-  response: 7AE056215570621
+    TAYCAN_CHRGR_BOOST_LO_I: -140
+  response: 7AE0562155705D0
 - expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -109.75
-  response: 7AE056215570649
+    TAYCAN_CHRGR_BOOST_LO_I: -136.25
+  response: 7AE0562155705DF
+- expected_values:
+    TAYCAN_CHRGR_BOOST_LO_I: -124.75
+  response: 7AE05621557060D
