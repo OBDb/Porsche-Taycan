@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_BMS_COOL_OUT_T: 7
   response: 7ED0462181D39
 - expected_values:
-    TAYCAN_BMS_COOL_OUT_T: 17
-  response: 7ED0462181D43
+    TAYCAN_BMS_COOL_OUT_T: 20
+  response: 7ED0462181D46

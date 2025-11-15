@@ -4,26 +4,5 @@ test_cases:
     TAYCAN_BMS_COOL_PUMP_PWR_SP: 12
   response: 7ED0462192B18
 - expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 30
-  response: 7ED0462192B3C
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 31
-  response: 7ED0462192B3E
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 32
-  response: 7ED0462192B40
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 33
-  response: 7ED0462192B42
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 35
-  response: 7ED0462192B46
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 40
-  response: 7ED0462192B50
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 48
-  response: 7ED0462192B60
-- expected_values:
     TAYCAN_BMS_COOL_PUMP_PWR_SP: 62
   response: 7ED0462192B7C
