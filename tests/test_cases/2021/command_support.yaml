@@ -107,6 +107,8 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0146:AAT
   - 0149:APP_D
+  - 7E4.7EC.0104
+  - 7E4.7EC.0105
   - 7E4.7EC.0146
   "7E5":
   - 7E5.22028C|din=03:TAYCAN_BMS_SOC
