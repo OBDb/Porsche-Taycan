@@ -54,7 +54,7 @@
   ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
-    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption (short)"}
+    {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption (short)", "suggestedMetric": "tractionBatteryEfficiency"}
   ]},
 { "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "cmd": {"22": "F105"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
