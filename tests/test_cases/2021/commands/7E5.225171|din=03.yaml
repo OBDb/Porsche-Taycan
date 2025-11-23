@@ -1,5 +1,0 @@
-command_id: 7E5.225171|din=03
-test_cases:
-- expected_values:
-    TAYCAN_BMS_V_CHG_MAX: 834
-  response: 7ED056251712094

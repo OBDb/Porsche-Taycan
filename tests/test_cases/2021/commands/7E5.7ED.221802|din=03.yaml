@@ -1,0 +1,17 @@
+command_id: 7E5.7ED.221802|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_I: -99.68
+  response: 7ED066218020223C1
+- expected_values:
+    TAYCAN_BMS_I: -4.96
+  response: 7ED066218020248B3
+- expected_values:
+    TAYCAN_BMS_I: -2.4
+  response: 7ED066218020249FE
+- expected_values:
+    TAYCAN_BMS_I: 43.68
+  response: 7ED06621802025B00
+- expected_values:
+    TAYCAN_BMS_I: 140.96
+  response: 7ED066218020281AA
