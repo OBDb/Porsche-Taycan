@@ -151,7 +151,7 @@
   "signals": [
     {"id": "TAYCAN_CHRGR_CHG_PWR_MAX", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Maximum charge power"}
   ]},
-{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "744", "rax": "7AE", "fcm1": true, "cmd": {"22": "4965"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "kilowattHours" }, "name": "HV battery energy", "suggestedMetric": "tractionBatteryCapacity", "description": "Energy stored in the high voltage battery"}
   ]},
@@ -292,7 +292,7 @@
   "signals": [
     {"id": "TAYCAN_BMS_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery state of charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1801"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2026 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1801"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2026 },
   "signals": [
     {"id": "TAYCAN_HVBAT_VOLT", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
   ]},
