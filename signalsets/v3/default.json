@@ -65,7 +65,7 @@
     {"id": "TAYCAN_DASH_NORMAL_KM", "path": "Trips", "fmt": {"bix": 8,   "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Normal mode km"},
     {"id": "TAYCAN_DASH_RANGE_KM",  "path": "Trips", "fmt": {"bix": 232, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Range mode km"}
   ]},
-{ "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "F105"}, "freq": 1,
+{ "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "cmd": {"22": "F105"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "TAYCAN_DIFF_MOTOR_T",  "path": "Engine", "fmt": {           "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Motor temperature"},
     {"id": "TAYCAN_DIFF_OIL_T",    "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Oil temperature"},

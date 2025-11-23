@@ -1,6 +1,9 @@
 command_id: 7E5.221E10|din=03
 test_cases:
 - expected_values:
+    TAYCAN_BMS_T_AVG: 2
+  response: 7ED04621E1066
+- expected_values:
     TAYCAN_BMS_T_AVG: 7
   response: 7ED04621E106B
 - expected_values:

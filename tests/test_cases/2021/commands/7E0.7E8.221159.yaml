@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TAYCAN_MAX_CHA_CUR_2: 360
   response: 7E8056211590E10
+- expected_values:
+    TAYCAN_MAX_CHA_CUR_2: 482
+  response: 7E80562115912D4

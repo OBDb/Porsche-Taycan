@@ -1,6 +1,10 @@
 command_id: 7E5.221E2D|din=03
 test_cases:
 - expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 47
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 104
+  response: 7ED05621E2D2F68
+- expected_values:
     TAYCAN_BMS_CELL_SOC_MIN: 69
     TAYCAN_BMS_CELL_SOC_MIN_IDX: 8
   response: 7ED05621E2D4508

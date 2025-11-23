@@ -4,8 +4,8 @@ test_cases:
     TAYCAN_MAX_DCHA_CUR_2: -860
   response: 7E805621158DE68
 - expected_values:
-    TAYCAN_MAX_DCHA_CUR_2: -852
-  response: 7E805621158DEB8
-- expected_values:
     TAYCAN_MAX_DCHA_CUR_2: -792
   response: 7E805621158E110
+- expected_values:
+    TAYCAN_MAX_DCHA_CUR_2: -720
+  response: 7E805621158E3E0

@@ -1,0 +1,7 @@
+command_id: 71E.788.22F105|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_DIFF_CLUTCH_T: 10
+    TAYCAN_DIFF_MOTOR_T: 10
+    TAYCAN_DIFF_OIL_T: 10
+  response: 7880662F1051E1E1E
