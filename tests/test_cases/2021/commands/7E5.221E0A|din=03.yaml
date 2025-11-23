@@ -1,5 +1,0 @@
-command_id: 7E5.221E0A|din=03
-test_cases:
-- expected_values:
-    TAYCAN_BMS_PWR_REDUCE_ACT: 0
-  response: 7ED04621E0A00

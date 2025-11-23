@@ -1,8 +1,0 @@
-command_id: 7E5.22181C|din=03
-test_cases:
-- expected_values:
-    TAYCAN_BMS_COOL_IN_T: 6
-  response: 7ED0462181C38
-- expected_values:
-    TAYCAN_BMS_COOL_IN_T: 28
-  response: 7ED0462181C4E

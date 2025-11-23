@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.2280EC|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 12
+  response: 7ED066280EC0A000C
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 71
+  response: 7ED066280EC0A0047

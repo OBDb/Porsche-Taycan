@@ -1,0 +1,22 @@
+command_id: 7E5.7ED.221823|din=03
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_MOD3_T1: 8
+    TAYCAN_HVBAT_MOD3_T2: 8
+    TAYCAN_HVBAT_MOD3_T3: 12
+  response: 7ED066218233A3A3E
+- expected_values:
+    TAYCAN_HVBAT_MOD3_T1: 11
+    TAYCAN_HVBAT_MOD3_T2: 12
+    TAYCAN_HVBAT_MOD3_T3: 16
+  response: 7ED066218233D3E42
+- expected_values:
+    TAYCAN_HVBAT_MOD3_T1: 12
+    TAYCAN_HVBAT_MOD3_T2: 12
+    TAYCAN_HVBAT_MOD3_T3: 16
+  response: 7ED066218233E3E42
+- expected_values:
+    TAYCAN_HVBAT_MOD3_T1: 12
+    TAYCAN_HVBAT_MOD3_T2: 12
+    TAYCAN_HVBAT_MOD3_T3: 17
+  response: 7ED066218233E3E43
