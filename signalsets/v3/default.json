@@ -305,7 +305,7 @@
   "signals": [
     {"id": "TAYCAN_BMS_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery state of charge"}
   ]},
-{ "hdr": "7E5", "din": "03", "cmd": {"22": "1802"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E5", "din": "03", "cmd": {"22": "1802"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "TAYCAN_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "unit": "amps" }, "name": "HV battery current"}
   ]},
