@@ -254,4 +254,5 @@ unsupported_commands_by_ecu:
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
   "7E7":
+  - 7E7.7EF.0105
   - 7E7.7EF.010C
