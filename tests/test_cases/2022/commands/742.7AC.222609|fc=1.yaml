@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_PTC_OUTSIDE_T: 2
   response: 7AC0462260968
 - expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 16
-  response: 7AC0462260984
+    TAYCAN_PTC_OUTSIDE_T: 17
+  response: 7AC0462260986
