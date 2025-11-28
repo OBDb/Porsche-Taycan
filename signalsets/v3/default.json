@@ -472,7 +472,7 @@
     {"id": "TAYCAN_HVBAT_MOD24_T2", "path": "Battery.Modules", "fmt": {"bix": 8,  "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Module 24, temperature 2"},
     {"id": "TAYCAN_HVBAT_MOD24_T3", "path": "Battery.Modules", "fmt": {"bix": 16, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Module 24, temperature 3"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1839"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1839"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "TAYCAN_HVBAT_MOD25_T1", "path": "Battery.Modules", "fmt": {           "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Module 25, temperature 1"},
     {"id": "TAYCAN_HVBAT_MOD25_T2", "path": "Battery.Modules", "fmt": {"bix": 8,  "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Module 25, temperature 2"},
@@ -1088,7 +1088,7 @@
   "signals": [
     {"id": "TAYCAN_BMS_I_CHG_LIM_PRED", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "amps" }, "name": "Maximum predicted charge current limit"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E1E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E1E"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2023 },
   "signals": [
     {"id": "TAYCAN_BMS_I_DCHG_LIM_PRED", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "amps" }, "name": "Maximum predicted discharge current limit"}
   ]},
