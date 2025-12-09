@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_PWR_LOSS: 660
   response: 7AE046215E121
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 700
+  response: 7AE046215E123
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 740
+  response: 7AE046215E125

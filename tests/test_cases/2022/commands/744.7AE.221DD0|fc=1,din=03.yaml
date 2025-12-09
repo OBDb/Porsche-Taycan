@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_CHRGR_SOC_DISP: 44
   response: 7AE04621DD058
 - expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 83.5
-  response: 7AE04621DD0A7
+    TAYCAN_CHRGR_SOC_DISP: 85
+  response: 7AE04621DD0AA
