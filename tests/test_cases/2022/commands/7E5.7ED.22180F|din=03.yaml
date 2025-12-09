@@ -4,23 +4,5 @@ test_cases:
     TAYCAN_BMS_SHUNT_T: 9
   response: 7ED0462180F3B
 - expected_values:
-    TAYCAN_BMS_SHUNT_T: 10
-  response: 7ED0462180F3C
-- expected_values:
-    TAYCAN_BMS_SHUNT_T: 11
-  response: 7ED0462180F3D
-- expected_values:
-    TAYCAN_BMS_SHUNT_T: 12
-  response: 7ED0462180F3E
-- expected_values:
-    TAYCAN_BMS_SHUNT_T: 13
-  response: 7ED0462180F3F
-- expected_values:
-    TAYCAN_BMS_SHUNT_T: 14
-  response: 7ED0462180F40
-- expected_values:
-    TAYCAN_BMS_SHUNT_T: 16
-  response: 7ED0462180F42
-- expected_values:
-    TAYCAN_BMS_SHUNT_T: 20
-  response: 7ED0462180F46
+    TAYCAN_BMS_SHUNT_T: 36
+  response: 7ED0462180F56

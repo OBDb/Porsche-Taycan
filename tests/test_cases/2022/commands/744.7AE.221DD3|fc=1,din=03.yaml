@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_CHG_PWR_MAX: 0
   response: 7AE05621DD30000
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8850
+  response: 7AE05621DD32292
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8861
+  response: 7AE05621DD3229D
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8868
+  response: 7AE05621DD322A4
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8875
+  response: 7AE05621DD322AB
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8887
+  response: 7AE05621DD322B7
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8894
+  response: 7AE05621DD322BE
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 8913
+  response: 7AE05621DD322D1
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 9102
+  response: 7AE05621DD3238E

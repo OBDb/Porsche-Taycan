@@ -4,8 +4,8 @@ test_cases:
     TAYCAN_ENG_TRQ_REQ_1: 0
   response: 7E8056229D40000
 - expected_values:
-    TAYCAN_ENG_TRQ_REQ_1: 50.6
-  response: 7E8056229D401FA
+    TAYCAN_ENG_TRQ_REQ_1: 50.9
+  response: 7E8056229D401FD
 - expected_values:
-    TAYCAN_ENG_TRQ_REQ_1: 166.2
-  response: 7E8056229D4067E
+    TAYCAN_ENG_TRQ_REQ_1: 183.4
+  response: 7E8056229D4072A

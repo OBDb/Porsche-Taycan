@@ -1,6 +1,12 @@
 command_id: 744.7AE.221529|fc=1,din=03
 test_cases:
 - expected_values:
+    TAYCAN_CHRGR_PRX_V_CONN_B: 1463
+  response: 7AE0562152905B7
+- expected_values:
+    TAYCAN_CHRGR_PRX_V_CONN_B: 1486
+  response: 7AE0562152905CE
+- expected_values:
     TAYCAN_CHRGR_PRX_V_CONN_B: 4393
   response: 7AE056215291129
 - expected_values:

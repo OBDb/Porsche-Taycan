@@ -4,23 +4,5 @@ test_cases:
     TAYCAN_BMS_T_AVG: 2
   response: 7ED04621E1066
 - expected_values:
-    TAYCAN_BMS_T_AVG: 5
-  response: 7ED04621E1069
-- expected_values:
-    TAYCAN_BMS_T_AVG: 7
-  response: 7ED04621E106B
-- expected_values:
-    TAYCAN_BMS_T_AVG: 8
-  response: 7ED04621E106C
-- expected_values:
-    TAYCAN_BMS_T_AVG: 9
-  response: 7ED04621E106D
-- expected_values:
-    TAYCAN_BMS_T_AVG: 10
-  response: 7ED04621E106E
-- expected_values:
-    TAYCAN_BMS_T_AVG: 11
-  response: 7ED04621E106F
-- expected_values:
-    TAYCAN_BMS_T_AVG: 12
-  response: 7ED04621E1070
+    TAYCAN_BMS_T_AVG: 32
+  response: 7ED04621E1084

@@ -1,5 +1,14 @@
 command_id: 744.7AE.2215D6|fc=1,din=03
 test_cases:
 - expected_values:
+    TAYCAN_CHRGR_EFFICIENCY: 92.8
+  response: 7AE046215D6B2
+- expected_values:
+    TAYCAN_CHRGR_EFFICIENCY: 92.9
+  response: 7AE046215D6B3
+- expected_values:
+    TAYCAN_CHRGR_EFFICIENCY: 100
+  response: 7AE046215D6FA
+- expected_values:
     TAYCAN_CHRGR_EFFICIENCY: 100.4
   response: 7AE046215D6FE
