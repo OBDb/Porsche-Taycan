@@ -5,10 +5,14 @@ test_cases:
     TAYCAN_PTC_PUMP_RPM: 0
   response: 7AC066227D6000000
 - expected_values:
-    TAYCAN_PTC_PUMP_PWR: 0
-    TAYCAN_PTC_PUMP_RPM: 0
-  response: 7AC066227D6000100
-- expected_values:
     TAYCAN_PTC_PUMP_PWR: 160
     TAYCAN_PTC_PUMP_RPM: 300
   response: 7AC066227D601D504
+- expected_values:
+    TAYCAN_PTC_PUMP_PWR: 1160
+    TAYCAN_PTC_PUMP_RPM: 3300
+  response: 7AC066227D60BD41D
+- expected_values:
+    TAYCAN_PTC_PUMP_PWR: 1200
+    TAYCAN_PTC_PUMP_RPM: 3300
+  response: 7AC066227D60BD41E
