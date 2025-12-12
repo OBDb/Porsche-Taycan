@@ -1,6 +1,51 @@
 command_id: 744.7AE.224965|fc=1
 test_cases:
 - expected_values:
+    TAYCAN_HVBAT_KWH: 24.9
+  response: |-
+    7AE100D62496501F27E
+    7AE21880115DF028879
+- expected_values:
+    TAYCAN_HVBAT_KWH: 24.9
+  response: |-
+    7AE100D62496501F27F
+    7AE21BF0115DF028879
+- expected_values:
+    TAYCAN_HVBAT_KWH: 24.9
+  response: |-
+    7AE100D62496501F27F
+    7AE21FD0115DF028779
+- expected_values:
+    TAYCAN_HVBAT_KWH: 24.9
+  response: |-
+    7AE100D62496501F27F
+    7AE21FD0115DF028879
+- expected_values:
+    TAYCAN_HVBAT_KWH: 24.9
+  response: |-
+    7AE100D62496501F281
+    7AE21450115DF028879
+- expected_values:
+    TAYCAN_HVBAT_KWH: 24.95
+  response: |-
+    7AE100D62496501F382
+    7AE217E0115DF028879
+- expected_values:
+    TAYCAN_HVBAT_KWH: 25
+  response: |-
+    7AE100D62496501F47F
+    7AE21E80115DF028A79
+- expected_values:
+    TAYCAN_HVBAT_KWH: 25.15
+  response: |-
+    7AE100D62496501F77F
+    7AE21EC0115DF028C78
+- expected_values:
+    TAYCAN_HVBAT_KWH: 25.45
+  response: |-
+    7AE100D62496501FD7C
+    7AE21340115DF029278
+- expected_values:
     TAYCAN_HVBAT_KWH: 28.1
   response: |-
     7AE100D62496502327D

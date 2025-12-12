@@ -1,0 +1,17 @@
+command_id: 7E5.7ED.22192B|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_PWR_SP: 12
+  response: 7ED0462192B18
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_PWR_SP: 30
+  response: 7ED0462192B3C
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_PWR_SP: 35
+  response: 7ED0462192B46
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_PWR_SP: 36
+  response: 7ED0462192B48
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_PWR_SP: 37
+  response: 7ED0462192B4A

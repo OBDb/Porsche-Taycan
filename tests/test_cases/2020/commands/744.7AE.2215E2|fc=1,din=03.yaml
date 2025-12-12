@@ -1,0 +1,5 @@
+command_id: 744.7AE.2215E2|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_COOLANT_T: 23
+  response: 7AE046215E23F
