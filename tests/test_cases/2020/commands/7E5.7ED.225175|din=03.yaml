@@ -1,0 +1,23 @@
+command_id: 7E5.7ED.225175|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 645.1
+  response: 7ED056251751933
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 646.3
+  response: 7ED05625175193F
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 648.2
+  response: 7ED056251751952
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 648.5
+  response: 7ED056251751955
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 648.6
+  response: 7ED056251751956
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 648.9
+  response: 7ED056251751959
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 649.2
+  response: 7ED05625175195C
