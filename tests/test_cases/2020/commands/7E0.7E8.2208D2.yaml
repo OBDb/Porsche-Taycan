@@ -4,8 +4,8 @@ test_cases:
     TAYCAN_HVBAT_SOC_DISP: 32.19
   response: 7E8076208D20C930C93
 - expected_values:
-    TAYCAN_HVBAT_SOC_DISP: 81.95
-  response: 7E8076208D220032003
+    TAYCAN_HVBAT_SOC_DISP: 74.26
+  response: 7E8076208D21D021D02
 - expected_values:
     TAYCAN_HVBAT_SOC_DISP: 89.57
   response: 7E8076208D222FD22FD
