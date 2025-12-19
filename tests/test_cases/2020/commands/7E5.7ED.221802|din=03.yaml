@@ -13,5 +13,5 @@ test_cases:
     TAYCAN_BMS_I: -97.12
   response: 7ED066218020224FF
 - expected_values:
-    TAYCAN_BMS_I: -10.08
-  response: 7ED06621802024600
+    TAYCAN_BMS_I: -58.72
+  response: 7ED06621802023300
