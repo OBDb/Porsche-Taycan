@@ -1,5 +1,0 @@
-command_id: 746.7B0.222609|fc=1
-test_cases:
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 6
-  response: 7B005622609003C
