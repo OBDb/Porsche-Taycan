@@ -217,6 +217,8 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 015B:BAT_SOC
   - 019A:EHEV_MODE,EHEV_MODE_SUP,HEV_BATT_A,HEV_BATT_A_SUP,HEV_BATT_V,HEV_BATT_V_SUP,HEV_MODE,HEV_MODE_SUP
+  - 7E7.7EF.0104
+  - 7E7.7EF.0142
   - 7E7.7EF.015B
 unsupported_commands_by_ecu:
   "71E":
@@ -228,7 +230,5 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.22180D|din=03:TAYCAN_BMS_BMCE_T2
   - 7E5.7ED.22180E|din=03:TAYCAN_BMS_BMCE_T3
   "7E7":
-  - 7E7.7EF.0104
   - 7E7.7EF.0105
   - 7E7.7EF.010D
-  - 7E7.7EF.0142
