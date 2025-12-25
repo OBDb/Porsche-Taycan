@@ -168,7 +168,7 @@
   "signals": [
     {"id": "TAYCAN_HVAC_FAN_CMD", "path": "Climate", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "percent" }, "name": "Radiator fan commanded value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 1, "dbgfilter": { "from": 2023 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 1, "dbgfilter": { "years": [2021], "from": 2023 },
   "signals": [
     {"id": "TAYCAN_HVAC_OUTSIDE_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
