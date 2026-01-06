@@ -1,0 +1,6 @@
+command_id: 7E5.7ED.221E0F|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_T_MIN: 11
+    TAYCAN_BMS_T_MIN_CELL: 9
+  response: 7ED05621E0F6F09

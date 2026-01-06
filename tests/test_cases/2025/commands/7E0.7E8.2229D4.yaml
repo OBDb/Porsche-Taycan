@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2229D4
+test_cases:
+- expected_values:
+    TAYCAN_ENG_TRQ_REQ_1: 0
+  response: 7E8056229D40000
+- expected_values:
+    TAYCAN_ENG_TRQ_REQ_1: 34
+  response: 7E8056229D40154
