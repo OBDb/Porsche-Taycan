@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_COOL_OUT_T: 10
   response: 7ED0462181D3C
+- expected_values:
+    TAYCAN_BMS_COOL_OUT_T: 11
+  response: 7ED0462181D3D
+- expected_values:
+    TAYCAN_BMS_COOL_OUT_T: 12
+  response: 7ED0462181D3E

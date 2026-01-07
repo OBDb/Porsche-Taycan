@@ -6,3 +6,24 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_I_CHG_LIM_PRED: 316
   response: 7ED05621E1D013C
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 342
+  response: 7ED05621E1D0156
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 343
+  response: 7ED05621E1D0157
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 344
+  response: 7ED05621E1D0158
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 345
+  response: 7ED05621E1D0159
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 347
+  response: 7ED05621E1D015B
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 348
+  response: 7ED05621E1D015C
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_PRED: 349
+  response: 7ED05621E1D015D

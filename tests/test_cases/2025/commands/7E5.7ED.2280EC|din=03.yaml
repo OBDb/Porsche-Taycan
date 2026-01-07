@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_COOL_PUMP_CTL: 15
   response: 7ED066280EC0A000F
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 18
+  response: 7ED066280EC0A0012
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 45
+  response: 7ED066280EC0A002D
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 47
+  response: 7ED066280EC0A002F
