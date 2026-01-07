@@ -2,28 +2,10 @@ command_id: 744.7AE.221DD0|fc=1,din=03
 test_cases:
 - expected_values:
     TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD0023D
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD0023E
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD0023F
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD00240
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD00241
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD00242
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD00243
-- expected_values:
-    TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD00253
+  response: 7AE05621DD0021D
 - expected_values:
     TAYCAN_CHRGR_SOC_DISP: 1
   response: 7AE05621DD0025B
+- expected_values:
+    TAYCAN_CHRGR_SOC_DISP: 1.5
+  response: 7AE05621DD0032E

@@ -1,6 +1,12 @@
 command_id: 7E5.7ED.22F45B|din=03
 test_cases:
 - expected_values:
+    TAYCAN_BMS_SOC_HIRES: 53.72549
+  response: 7ED0462F45B89
+- expected_values:
+    TAYCAN_BMS_SOC_HIRES: 54.90196
+  response: 7ED0462F45B8C
+- expected_values:
     TAYCAN_BMS_SOC_HIRES: 56.86275
   response: 7ED0462F45B91
 - expected_values:

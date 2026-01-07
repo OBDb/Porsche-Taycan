@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.223DF8
 test_cases:
 - expected_values:
-    TAYCAN_ENG_MOTOR_RPM: 134
-  response: 7E805623DF8010C
+    TAYCAN_ENG_MOTOR_RPM: 0
+  response: 7E805623DF80000
 - expected_values:
     TAYCAN_ENG_MOTOR_RPM: 508
   response: 7E805623DF803F8
-- expected_values:
-    TAYCAN_ENG_MOTOR_RPM: 1155
-  response: 7E805623DF80906
 - expected_values:
     TAYCAN_ENG_MOTOR_RPM: 7093
   response: 7E805623DF8376A

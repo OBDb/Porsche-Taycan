@@ -12,3 +12,21 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_COOL_PUMP_CTL: 47
   response: 7ED066280EC0A002F
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 57
+  response: 7ED066280EC0A0039
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 58
+  response: 7ED066280EC0A003A
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 59
+  response: 7ED066280EC0A003B
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 60
+  response: 7ED066280EC0A003C
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 62
+  response: 7ED066280EC0A003E
+- expected_values:
+    TAYCAN_BMS_COOL_PUMP_CTL: 63
+  response: 7ED066280EC0A003F

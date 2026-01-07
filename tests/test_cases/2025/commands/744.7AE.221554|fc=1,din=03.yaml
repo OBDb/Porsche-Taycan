@@ -1,26 +1,11 @@
 command_id: 744.7AE.221554|fc=1,din=03
 test_cases:
 - expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 745
-  response: 7AE056215540BA4
-- expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 747
-  response: 7AE056215540BAC
-- expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 755
-  response: 7AE056215540BCC
-- expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 757
-  response: 7AE056215540BD4
-- expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 758
-  response: 7AE056215540BD8
-- expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 759
-  response: 7AE056215540BDC
-- expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 760
-  response: 7AE056215540BE0
+    TAYCAN_CHRGR_BOOST_HI_V: 740
+  response: 7AE056215540B90
 - expected_values:
     TAYCAN_CHRGR_BOOST_HI_V: 762
   response: 7AE056215540BE8
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 797
+  response: 7AE056215540C74
