@@ -1,26 +1,8 @@
 command_id: 7E5.7ED.221E1C|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 876
-  response: 7ED05621E1C036C
-- expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 877
-  response: 7ED05621E1C036D
-- expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 878
-  response: 7ED05621E1C036E
-- expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 879
-  response: 7ED05621E1C036F
-- expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 880
-  response: 7ED05621E1C0370
-- expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 881
-  response: 7ED05621E1C0371
-- expected_values:
-    TAYCAN_BMS_I_DCHG_LIM_DYN: 882
-  response: 7ED05621E1C0372
+    TAYCAN_BMS_I_DCHG_LIM_DYN: 864
+  response: 7ED05621E1C0360
 - expected_values:
     TAYCAN_BMS_I_DCHG_LIM_DYN: 887
   response: 7ED05621E1C0377

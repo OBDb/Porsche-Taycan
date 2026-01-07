@@ -15,3 +15,12 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_COOL_IN_T: 13
   response: 7ED0462181C3F
+- expected_values:
+    TAYCAN_BMS_COOL_IN_T: 16
+  response: 7ED0462181C42
+- expected_values:
+    TAYCAN_BMS_COOL_IN_T: 17
+  response: 7ED0462181C43
+- expected_values:
+    TAYCAN_BMS_COOL_IN_T: 18
+  response: 7ED0462181C44

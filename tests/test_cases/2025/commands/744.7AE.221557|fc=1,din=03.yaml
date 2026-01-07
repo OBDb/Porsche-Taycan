@@ -4,29 +4,8 @@ test_cases:
     TAYCAN_CHRGR_BOOST_LO_I: -153
   response: 7AE05621557059C
 - expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -148
-  response: 7AE0562155705B0
-- expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -141
-  response: 7AE0562155705CC
-- expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -137
-  response: 7AE0562155705DC
-- expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -135
-  response: 7AE0562155705E4
-- expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -132
-  response: 7AE0562155705F0
-- expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -131
-  response: 7AE0562155705F4
-- expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -130
-  response: 7AE0562155705F8
-- expected_values:
     TAYCAN_CHRGR_BOOST_LO_I: -129
   response: 7AE0562155705FC
 - expected_values:
-    TAYCAN_CHRGR_BOOST_LO_I: -126
-  response: 7AE056215570608
+    TAYCAN_CHRGR_BOOST_LO_I: -128
+  response: 7AE056215570600

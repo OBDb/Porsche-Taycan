@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_COOLANT_T: 13
   response: 7AE046215E235
+- expected_values:
+    TAYCAN_CHRGR_COOLANT_T: 19
+  response: 7AE046215E23B
+- expected_values:
+    TAYCAN_CHRGR_COOLANT_T: 20
+  response: 7AE046215E23C
