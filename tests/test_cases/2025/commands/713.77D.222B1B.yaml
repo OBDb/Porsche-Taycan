@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     TAYCAN_TIRE_FL_SPD: 0
   response: 77D05622B1B0000
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 26.2125
+  response: 77D05622B1B01D2
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 45
+  response: 77D05622B1B0320
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 47.19375
+  response: 77D05622B1B0347

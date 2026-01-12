@@ -5,7 +5,7 @@ test_cases:
   response: 7AE05621DD0021D
 - expected_values:
     TAYCAN_CHRGR_SOC_DISP: 1
-  response: 7AE05621DD0025B
+  response: 7AE05621DD00291
 - expected_values:
     TAYCAN_CHRGR_SOC_DISP: 1.5
   response: 7AE05621DD0032E
