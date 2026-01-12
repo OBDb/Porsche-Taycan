@@ -5,6 +5,10 @@ test_cases:
     TAYCAN_BMS_T_MAX_CELL: 9
   response: 7ED05621E0E6F09
 - expected_values:
+    TAYCAN_BMS_T_MAX: 12
+    TAYCAN_BMS_T_MAX_CELL: 11
+  response: 7ED05621E0E700B
+- expected_values:
     TAYCAN_BMS_T_MAX: 13
     TAYCAN_BMS_T_MAX_CELL: 9
   response: 7ED05621E0E7109

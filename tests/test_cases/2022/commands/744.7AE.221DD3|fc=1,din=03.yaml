@@ -4,6 +4,9 @@ test_cases:
     TAYCAN_CHRGR_CHG_PWR_MAX: 0
   response: 7AE05621DD30000
 - expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 1221
+  response: 7AE05621DD304C5
+- expected_values:
     TAYCAN_CHRGR_CHG_PWR_MAX: 8850
   response: 7AE05621DD32292
 - expected_values:
