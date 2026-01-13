@@ -7,5 +7,5 @@ test_cases:
     TAYCAN_BMS_SOC_HIRES: 50.98039
   response: 7ED0462F45B82
 - expected_values:
-    TAYCAN_BMS_SOC_HIRES: 82.7451
-  response: 7ED0462F45BD3
+    TAYCAN_BMS_SOC_HIRES: 83.92157
+  response: 7ED0462F45BD6
