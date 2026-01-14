@@ -300,15 +300,15 @@
   "signals": [
     {"id": "TAYCAN_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "from": 2023 },
   "signals": [
     {"id": "TAYCAN_BMS_BMCE_T1", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "BMC-E temperature, 1"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180D"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180D"}, "freq": 1, "dbgfilter": { "from": 2023 },
   "signals": [
     {"id": "TAYCAN_BMS_BMCE_T2", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "BMC-E temperature, 2"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180E"}, "freq": 1, "dbgfilter": { "from": 2023 },
   "signals": [
     {"id": "TAYCAN_BMS_BMCE_T3", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "BMC-E temperature, 3"}
   ]},
