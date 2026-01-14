@@ -10,5 +10,5 @@ test_cases:
     TAYCAN_HVBAT_VOLT: 716.7
   response: 7ED056218011BFF
 - expected_values:
-    TAYCAN_HVBAT_VOLT: 819.4
-  response: 7ED056218012002
+    TAYCAN_HVBAT_VOLT: 819.3
+  response: 7ED056218012001
