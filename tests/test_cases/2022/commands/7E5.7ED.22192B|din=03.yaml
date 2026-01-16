@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_BMS_COOL_PUMP_PWR_SP: 12
   response: 7ED0462192B18
 - expected_values:
-    TAYCAN_BMS_COOL_PUMP_PWR_SP: 49
-  response: 7ED0462192B62
+    TAYCAN_BMS_COOL_PUMP_PWR_SP: 87
+  response: 7ED0462192BAE

@@ -4,29 +4,8 @@ test_cases:
     TAYCAN_HVBAT_E_MAX: 5700
   response: 77A07622AB200720400
 - expected_values:
-    TAYCAN_HVBAT_E_MAX: 5750
-  response: 77A07622AB200730400
-- expected_values:
-    TAYCAN_HVBAT_E_MAX: 5850
-  response: 77A07622AB200750400
-- expected_values:
     TAYCAN_HVBAT_E_MAX: 5850
   response: 77A07622AB200750401
 - expected_values:
-    TAYCAN_HVBAT_E_MAX: 5900
-  response: 77A07622AB200760400
-- expected_values:
-    TAYCAN_HVBAT_E_MAX: 10150
-  response: 77A07622AB200CB0400
-- expected_values:
-    TAYCAN_HVBAT_E_MAX: 10250
-  response: 77A07622AB200CD0400
-- expected_values:
-    TAYCAN_HVBAT_E_MAX: 10300
-  response: 77A07622AB200CE0400
-- expected_values:
-    TAYCAN_HVBAT_E_MAX: 11550
-  response: 77A07622AB200E70400
-- expected_values:
-    TAYCAN_HVBAT_E_MAX: 11650
-  response: 77A07622AB200E90400
+    TAYCAN_HVBAT_E_MAX: 11700
+  response: 77A07622AB200EA0400
