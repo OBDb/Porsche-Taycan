@@ -6,6 +6,11 @@ test_cases:
     7B010086227C445DCF1
     7B0217033AAAAAAAAAA
 - expected_values:
+    TAYCAN_HVAC_INSIDE_HUM: 82
+  response: |-
+    7B010086227C44F5531
+    7B0210CA4AAAAAAAAAA
+- expected_values:
     TAYCAN_HVAC_INSIDE_HUM: 61.5
   response: |-
     7B010086227C4601C21
@@ -26,20 +31,10 @@ test_cases:
     7B010086227C467DF41
     7B021906FAAAAAAAAAA
 - expected_values:
-    TAYCAN_HVAC_INSIDE_HUM: 65
-  response: |-
-    7B010086227C46CDF31
-    7B0218C82AAAAAAAAAA
-- expected_values:
     TAYCAN_HVAC_INSIDE_HUM: 32.5
   response: |-
     7B010086227C4712731
     7B021F441AAAAAAAAAA
-- expected_values:
-    TAYCAN_HVAC_INSIDE_HUM: 29
-  response: |-
-    7B010086227C47268B2
-    7B021083AAAAAAAAAAA
 - expected_values:
     TAYCAN_HVAC_INSIDE_HUM: 29
   response: |-

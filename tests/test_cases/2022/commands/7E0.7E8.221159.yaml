@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221159
 test_cases:
 - expected_values:
-    TAYCAN_MAX_CHA_CUR_2: 19
-  response: 7E80562115900BE
+    TAYCAN_MAX_CHA_CUR_2: 11
+  response: 7E805621159006E
 - expected_values:
     TAYCAN_MAX_CHA_CUR_2: 512
   response: '7E8056211591400'
