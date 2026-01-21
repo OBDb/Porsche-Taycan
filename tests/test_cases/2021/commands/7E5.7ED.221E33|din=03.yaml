@@ -1,9 +1,9 @@
 command_id: 7E5.7ED.221E33|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_CELL_V_MAX: 3.484
-    TAYCAN_BMS_CELL_V_MAX_IDX: 31
-  response: 7ED06621E3388181F
+    TAYCAN_BMS_CELL_V_MAX: 3.438
+    TAYCAN_BMS_CELL_V_MAX_IDX: 18
+  response: 7ED06621E33864C12
 - expected_values:
     TAYCAN_BMS_CELL_V_MAX: 3.548
     TAYCAN_BMS_CELL_V_MAX_IDX: 33
