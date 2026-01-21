@@ -1,11 +1,11 @@
 command_id: 7E5.7ED.221E3B|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_CELL_V_SUM: 705.9
-  response: 7ED05621E3B1B93
+    TAYCAN_BMS_CELL_V_SUM: 688.1
+  response: 7ED05621E3B1AE1
 - expected_values:
-    TAYCAN_BMS_CELL_V_SUM: 742.2
-  response: 7ED05621E3B1CFE
+    TAYCAN_BMS_CELL_V_SUM: 716.7
+  response: 7ED05621E3B1BFF
 - expected_values:
     TAYCAN_BMS_CELL_V_SUM: 768
   response: 7ED05621E3B1E00

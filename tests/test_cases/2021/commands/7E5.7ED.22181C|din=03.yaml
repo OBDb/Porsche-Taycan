@@ -7,5 +7,5 @@ test_cases:
     TAYCAN_BMS_COOL_IN_T: 8
   response: 7ED0462181C3A
 - expected_values:
-    TAYCAN_BMS_COOL_IN_T: 28
-  response: 7ED0462181C4E
+    TAYCAN_BMS_COOL_IN_T: 29
+  response: 7ED0462181C4F

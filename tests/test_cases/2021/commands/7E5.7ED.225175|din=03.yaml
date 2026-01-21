@@ -1,8 +1,11 @@
 command_id: 7E5.7ED.225175|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_V_DCHG_DYN_MIN: 635
-  response: 7ED0562517518CE
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 633
+  response: 7ED0562517518BA
+- expected_values:
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 640
+  response: 7ED056251751900
 - expected_values:
     TAYCAN_BMS_V_DCHG_DYN_MIN: 691
   response: 7ED056251751AFE
