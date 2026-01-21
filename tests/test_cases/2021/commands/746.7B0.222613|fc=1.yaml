@@ -4,8 +4,8 @@ test_cases:
     TAYCAN_HVAC_INTERIOR_T: 8.5
   response: 7B0056226130055
 - expected_values:
-    TAYCAN_HVAC_INTERIOR_T: 23.2
-  response: 7B00562261300E8
+    TAYCAN_HVAC_INTERIOR_T: 24.5
+  response: 7B00562261300F5
 - expected_values:
     TAYCAN_HVAC_INTERIOR_T: 26.9
   response: 7B005622613010D
