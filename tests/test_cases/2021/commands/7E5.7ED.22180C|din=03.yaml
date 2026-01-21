@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_BMS_BMCE_T1: 9
   response: 7ED0462180C3B
 - expected_values:
-    TAYCAN_BMS_BMCE_T1: 21
-  response: 7ED0462180C47
+    TAYCAN_BMS_BMCE_T1: 23
+  response: 7ED0462180C49
