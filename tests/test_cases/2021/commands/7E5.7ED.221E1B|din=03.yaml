@@ -4,11 +4,11 @@ test_cases:
     TAYCAN_BMS_I_CHG_LIM_DYN: 84
   response: 7ED05621E1B0054
 - expected_values:
-    TAYCAN_BMS_I_CHG_LIM_DYN: 255
-  response: 7ED05621E1B00FF
-- expected_values:
-    TAYCAN_BMS_I_CHG_LIM_DYN: 257
-  response: 7ED05621E1B0101
-- expected_values:
     TAYCAN_BMS_I_CHG_LIM_DYN: 266
   response: 7ED05621E1B010A
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_DYN: 511
+  response: 7ED05621E1B01FF
+- expected_values:
+    TAYCAN_BMS_I_CHG_LIM_DYN: 512
+  response: 7ED05621E1B0200
