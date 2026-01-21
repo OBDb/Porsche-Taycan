@@ -1,11 +1,14 @@
 command_id: 744.7AE.221554|fc=1,din=03
 test_cases:
 - expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 696.75
-  response: 7AE056215540AE3
+    TAYCAN_CHRGR_BOOST_HI_V: 693.25
+  response: 7AE056215540AD5
 - expected_values:
-    TAYCAN_CHRGR_BOOST_HI_V: 767.75
-  response: 7AE056215540BFF
+    TAYCAN_CHRGR_BOOST_HI_V: 703.75
+  response: 7AE056215540AFF
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 704
+  response: 7AE056215540B00
 - expected_values:
     TAYCAN_CHRGR_BOOST_HI_V: 768.25
   response: 7AE056215540C01
