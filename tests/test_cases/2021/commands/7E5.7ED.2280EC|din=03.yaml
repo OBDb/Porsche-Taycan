@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_BMS_COOL_PUMP_CTL: 12
   response: 7ED066280EC0A000C
 - expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 71
-  response: 7ED066280EC0A0047
+    TAYCAN_BMS_COOL_PUMP_CTL: 81
+  response: 7ED066280EC0A0051
