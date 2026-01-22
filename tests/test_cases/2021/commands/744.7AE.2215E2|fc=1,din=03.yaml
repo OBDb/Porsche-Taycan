@@ -4,29 +4,5 @@ test_cases:
     TAYCAN_CHRGR_COOLANT_T: 9
   response: 7AE046215E231
 - expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 10
-  response: 7AE046215E232
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 11
-  response: 7AE046215E233
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 12
-  response: 7AE046215E234
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 13
-  response: 7AE046215E235
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 14
-  response: 7AE046215E236
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 16
-  response: 7AE046215E238
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 17
-  response: 7AE046215E239
-- expected_values:
-    TAYCAN_CHRGR_COOLANT_T: 21
-  response: 7AE046215E23D
-- expected_values:
     TAYCAN_CHRGR_COOLANT_T: 41
   response: 7AE046215E251

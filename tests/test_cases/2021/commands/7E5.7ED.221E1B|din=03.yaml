@@ -1,11 +1,8 @@
 command_id: 7E5.7ED.221E1B|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_I_CHG_LIM_DYN: 84
-  response: 7ED05621E1B0054
-- expected_values:
-    TAYCAN_BMS_I_CHG_LIM_DYN: 266
-  response: 7ED05621E1B010A
+    TAYCAN_BMS_I_CHG_LIM_DYN: 51
+  response: 7ED05621E1B0033
 - expected_values:
     TAYCAN_BMS_I_CHG_LIM_DYN: 511
   response: 7ED05621E1B01FF
