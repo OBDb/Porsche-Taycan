@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_BMS_T_AVG: 8
   response: 7ED04621E106C
 - expected_values:
-    TAYCAN_BMS_T_AVG: 20
-  response: 7ED04621E1078
+    TAYCAN_BMS_T_AVG: 36
+  response: 7ED04621E1088

@@ -1,8 +1,8 @@
 command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
-    TAYCAN_HVAC_EVAP_T: 1.1
-  response: 7B005622612000B
+    TAYCAN_HVAC_EVAP_T: 0.5
+  response: 7B0056226120005
 - expected_values:
     TAYCAN_HVAC_EVAP_T: 16
   response: 7B00562261200A0

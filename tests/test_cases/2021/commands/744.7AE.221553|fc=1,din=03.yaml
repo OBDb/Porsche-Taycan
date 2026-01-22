@@ -4,5 +4,8 @@ test_cases:
     TAYCAN_CHRGR_BOOST_HI_I: 0
   response: 7AE056215530800
 - expected_values:
-    TAYCAN_CHRGR_BOOST_HI_I: 0.25
-  response: 7AE056215530801
+    TAYCAN_CHRGR_BOOST_HI_I: 62.5
+  response: 7AE0562155308FA
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_I: 192.75
+  response: 7AE056215530B03

@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_BMS_SHUNT_T: 10
   response: 7ED0462180F3C
 - expected_values:
-    TAYCAN_BMS_SHUNT_T: 22
-  response: 7ED0462180F48
+    TAYCAN_BMS_SHUNT_T: 26
+  response: 7ED0462180F4C

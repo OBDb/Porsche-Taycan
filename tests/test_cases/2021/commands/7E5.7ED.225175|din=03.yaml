@@ -10,5 +10,5 @@ test_cases:
     TAYCAN_BMS_V_DCHG_DYN_MIN: 691
   response: 7ED056251751AFE
 - expected_values:
-    TAYCAN_BMS_V_DCHG_DYN_MIN: 717
-  response: 7ED056251751C02
+    TAYCAN_BMS_V_DCHG_DYN_MIN: 794
+  response: 7ED056251751F04
