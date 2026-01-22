@@ -1,8 +1,8 @@
 command_id: 746.7B0.222613|fc=1
 test_cases:
 - expected_values:
-    TAYCAN_HVAC_INTERIOR_T: 8.5
-  response: 7B0056226130055
+    TAYCAN_HVAC_INTERIOR_T: 8.4
+  response: 7B0056226130054
 - expected_values:
     TAYCAN_HVAC_INTERIOR_T: 24.5
   response: 7B00562261300F5
