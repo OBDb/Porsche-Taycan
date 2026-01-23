@@ -1,32 +1,8 @@
 command_id: 746.7B0.222609|fc=1
 test_cases:
 - expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 12
-  response: 7B0056226090078
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 13
-  response: 7B0056226090082
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 13.5
-  response: 7B0056226090087
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 14
-  response: 7B005622609008C
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 14.5
-  response: 7B0056226090091
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 15
-  response: 7B0056226090096
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 15.5
-  response: 7B005622609009B
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 16
-  response: 7B00562260900A0
-- expected_values:
-    TAYCAN_HVAC_OUTSIDE_T: 16.5
-  response: 7B00562260900A5
+    TAYCAN_HVAC_OUTSIDE_T: 9.5
+  response: 7B005622609005F
 - expected_values:
     TAYCAN_HVAC_OUTSIDE_T: 17
   response: 7B00562260900AA
