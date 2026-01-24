@@ -7,9 +7,9 @@ test_cases:
   response: 7ED0662183538383E
 - expected_values:
     TAYCAN_HVBAT_MOD21_T1: 8
-    TAYCAN_HVBAT_MOD21_T2: 8
+    TAYCAN_HVBAT_MOD21_T2: 7
     TAYCAN_HVBAT_MOD21_T3: 10
-  response: 7ED066218353A3A3C
+  response: 7ED066218353A393C
 - expected_values:
     TAYCAN_HVBAT_MOD21_T1: 35
     TAYCAN_HVBAT_MOD21_T2: 35
