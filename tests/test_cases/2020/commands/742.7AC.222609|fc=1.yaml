@@ -1,6 +1,9 @@
 command_id: 742.7AC.222609|fc=1
 test_cases:
 - expected_values:
+    TAYCAN_PTC_OUTSIDE_T: 15
+  response: 7AC0462260982
+- expected_values:
     TAYCAN_PTC_OUTSIDE_T: 16
   response: 7AC0462260984
 - expected_values:
