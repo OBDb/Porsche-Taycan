@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_HVAC_OUTSIDE_T: 2
   response: 7B0056226090014
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_T: 13
+  response: 7B0056226090082

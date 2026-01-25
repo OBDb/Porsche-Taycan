@@ -1,29 +1,8 @@
 command_id: 742.7AC.222609|fc=1
 test_cases:
 - expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 5
-  response: 7AC046226096E
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 6
-  response: 7AC0462260970
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 7
-  response: 7AC0462260972
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 8
-  response: 7AC0462260974
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 9
-  response: 7AC0462260976
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 10
-  response: 7AC0462260978
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 11
-  response: 7AC046226097A
-- expected_values:
-    TAYCAN_PTC_OUTSIDE_T: 12
-  response: 7AC046226097C
+    TAYCAN_PTC_OUTSIDE_T: 3
+  response: 7AC046226096A
 - expected_values:
     TAYCAN_PTC_OUTSIDE_T: 13
   response: 7AC046226097E
