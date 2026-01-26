@@ -2,7 +2,7 @@ command_id: 744.7AE.221DA7|fc=1,din=03
 test_cases:
 - expected_values:
     TAYCAN_CHRGR_V_OUT: 0
-  response: 7AE05621DA7001D
+  response: 7AE05621DA70019
 - expected_values:
     TAYCAN_CHRGR_V_OUT: 0
   response: 7AE05621DA70028
