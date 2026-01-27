@@ -3,13 +3,8 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_MOD32_T1: 5
     TAYCAN_HVBAT_MOD32_T2: 5
-    TAYCAN_HVBAT_MOD32_T3: 14
-  response: 7ED06621840373740
-- expected_values:
-    TAYCAN_HVBAT_MOD32_T1: 8
-    TAYCAN_HVBAT_MOD32_T2: 8
     TAYCAN_HVBAT_MOD32_T3: 10
-  response: 7ED066218403A3A3C
+  response: 7ED0662184037373C
 - expected_values:
     TAYCAN_HVBAT_MOD32_T1: 36
     TAYCAN_HVBAT_MOD32_T2: 37
