@@ -6,6 +6,11 @@ test_cases:
     TAYCAN_HVBAT_MOD1_T3: 10
   response: 7ED0662182137373C
 - expected_values:
+    TAYCAN_HVBAT_MOD1_T1: 7
+    TAYCAN_HVBAT_MOD1_T2: 7
+    TAYCAN_HVBAT_MOD1_T3: 9
+  response: 7ED0662182139393B
+- expected_values:
     TAYCAN_HVBAT_MOD1_T1: 35
     TAYCAN_HVBAT_MOD1_T2: 34
     TAYCAN_HVBAT_MOD1_T3: 52
