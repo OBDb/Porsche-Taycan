@@ -8,8 +8,8 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_MOD14_T1: 7
     TAYCAN_HVBAT_MOD14_T2: 7
-    TAYCAN_HVBAT_MOD14_T3: 10
-  response: 7ED0662182E39393C
+    TAYCAN_HVBAT_MOD14_T3: 8
+  response: 7ED0662182E39393A
 - expected_values:
     TAYCAN_HVBAT_MOD14_T1: 36
     TAYCAN_HVBAT_MOD14_T2: 36
