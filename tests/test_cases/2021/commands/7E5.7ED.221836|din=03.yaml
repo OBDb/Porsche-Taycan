@@ -2,9 +2,9 @@ command_id: 7E5.7ED.221836|din=03
 test_cases:
 - expected_values:
     TAYCAN_HVBAT_MOD22_T1: 5
-    TAYCAN_HVBAT_MOD22_T2: 5
-    TAYCAN_HVBAT_MOD22_T3: 10
-  response: 7ED0662183637373C
+    TAYCAN_HVBAT_MOD22_T2: 4
+    TAYCAN_HVBAT_MOD22_T3: 16
+  response: 7ED06621836373642
 - expected_values:
     TAYCAN_HVBAT_MOD22_T1: 6
     TAYCAN_HVBAT_MOD22_T2: 6
