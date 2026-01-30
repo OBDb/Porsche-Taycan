@@ -22,6 +22,9 @@ test_cases:
     TAYCAN_HVBAT_SOH: 63.881
   response: 7ED056251E03949
 - expected_values:
+    TAYCAN_HVBAT_SOH: 64.008
+  response: 7ED056251E0394A
+- expected_values:
     TAYCAN_HVBAT_SOH: 65.151
   response: 7ED056251E03953
 - expected_values:
