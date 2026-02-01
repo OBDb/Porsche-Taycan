@@ -4,11 +4,11 @@ test_cases:
     TAYCAN_BMS_CELL_V_SUM: 722.4
   response: 7ED05621E3B1C38
 - expected_values:
-    TAYCAN_BMS_CELL_V_SUM: 746.2
-  response: 7ED05621E3B1D26
+    TAYCAN_BMS_CELL_V_SUM: 742.3
+  response: 7ED05621E3B1CFF
 - expected_values:
-    TAYCAN_BMS_CELL_V_SUM: 793.3
-  response: 7ED05621E3B1EFD
+    TAYCAN_BMS_CELL_V_SUM: 742.5
+  response: 7ED05621E3B1D01
 - expected_values:
     TAYCAN_BMS_CELL_V_SUM: 801.5
   response: 7ED05621E3B1F4F
