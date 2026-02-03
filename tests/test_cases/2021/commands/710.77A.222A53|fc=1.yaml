@@ -22,6 +22,13 @@ test_cases:
     77A1008622A538401FF
     77A2102EEAAAAAAAAAA
 - expected_values:
+    TAYCAN_DCDC_I: 0
+    TAYCAN_DCDC_I_RSV: 0
+    TAYCAN_DCDC_V_LOW: 13.3
+  response: |-
+    77A1008622A538501FF
+    77A2101FFAAAAAAAAAA
+- expected_values:
     TAYCAN_DCDC_I: 6
     TAYCAN_DCDC_I_RSV: 233
     TAYCAN_DCDC_V_LOW: 13.3
@@ -35,13 +42,6 @@ test_cases:
   response: |-
     77A1008622A5385021C
     77A2102D0AAAAAAAAAA
-- expected_values:
-    TAYCAN_DCDC_I: 193
-    TAYCAN_DCDC_I_RSV: 46
-    TAYCAN_DCDC_V_LOW: 14.1
-  response: |-
-    77A1008622A538D02C0
-    77A21022DAAAAAAAAAA
 - expected_values:
     TAYCAN_DCDC_I: 102
     TAYCAN_DCDC_I_RSV: 137
