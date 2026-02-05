@@ -1,6 +1,11 @@
 command_id: 7E5.7ED.221821|din=03
 test_cases:
 - expected_values:
+    TAYCAN_HVBAT_MOD1_T1: 4
+    TAYCAN_HVBAT_MOD1_T2: 4
+    TAYCAN_HVBAT_MOD1_T3: 18
+  response: 7ED06621821363644
+- expected_values:
     TAYCAN_HVBAT_MOD1_T1: 5
     TAYCAN_HVBAT_MOD1_T2: 5
     TAYCAN_HVBAT_MOD1_T3: 7
