@@ -4,29 +4,11 @@ test_cases:
     TAYCAN_CHRGR_E_TOTAL: 117521
   response: 7AE076215EF0001CB11
 - expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 118066
-  response: 7AE076215EF0001CD32
-- expected_values:
     TAYCAN_CHRGR_E_TOTAL: 125368
   response: 7AE076215EF0001E9B8
 - expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 125815
-  response: 7AE076215EF0001EB77
-- expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 125822
-  response: 7AE076215EF0001EB7E
-- expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 126227
-  response: 7AE076215EF0001ED13
-- expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 126500
-  response: 7AE076215EF0001EE24
-- expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 126577
-  response: 7AE076215EF0001EE71
-- expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 126854
-  response: 7AE076215EF0001EF86
+    TAYCAN_CHRGR_E_TOTAL: 127280
+  response: 7AE076215EF0001F130
 - expected_values:
     TAYCAN_CHRGR_E_TOTAL: 153266
   response: 7AE076215EF000256B2
