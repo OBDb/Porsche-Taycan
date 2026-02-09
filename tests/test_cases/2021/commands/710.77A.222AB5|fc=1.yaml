@@ -24,7 +24,7 @@ test_cases:
     TAYCAN_RANGE_EST_CAN: 255
   response: |-
     77A100D622AB500FF00
-    77A210000FF07FF0000
+    77A210000FF00000000
 - expected_values:
     TAYCAN_RANGE_EST_CAN: 256
   response: |-
