@@ -1,8 +1,8 @@
 command_id: 7E5.7ED.22180E|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_BMCE_T3: 4
-  response: 7ED0462180E36
+    TAYCAN_BMS_BMCE_T3: 3
+  response: 7ED0462180E35
 - expected_values:
     TAYCAN_BMS_BMCE_T3: 34
   response: 7ED0462180E54
