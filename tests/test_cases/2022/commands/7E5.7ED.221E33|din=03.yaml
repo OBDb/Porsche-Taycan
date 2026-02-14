@@ -18,8 +18,8 @@ test_cases:
   response: 7ED06621E3392FE01
 - expected_values:
     TAYCAN_BMS_CELL_V_MAX: 3.84
-    TAYCAN_BMS_CELL_V_MAX_IDX: 7
-  response: 7ED06621E33960007
+    TAYCAN_BMS_CELL_V_MAX_IDX: 1
+  response: 7ED06621E33960001
 - expected_values:
     TAYCAN_BMS_CELL_V_MAX: 4.174
     TAYCAN_BMS_CELL_V_MAX_IDX: 15
