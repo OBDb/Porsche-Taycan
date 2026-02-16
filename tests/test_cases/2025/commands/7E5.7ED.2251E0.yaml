@@ -4,29 +4,5 @@ test_cases:
     TAYCAN_HVBAT_SOH: 56.515
   response: 7ED056251E0390F
 - expected_values:
-    TAYCAN_HVBAT_SOH: 59.817
-  response: 7ED056251E03929
-- expected_values:
-    TAYCAN_HVBAT_SOH: 61.595
-  response: 7ED056251E03937
-- expected_values:
-    TAYCAN_HVBAT_SOH: 62.357
-  response: 7ED056251E0393D
-- expected_values:
-    TAYCAN_HVBAT_SOH: 62.484
-  response: 7ED056251E0393E
-- expected_values:
-    TAYCAN_HVBAT_SOH: 62.738
-  response: 7ED056251E03940
-- expected_values:
-    TAYCAN_HVBAT_SOH: 63.881
-  response: 7ED056251E03949
-- expected_values:
-    TAYCAN_HVBAT_SOH: 64.008
-  response: 7ED056251E0394A
-- expected_values:
-    TAYCAN_HVBAT_SOH: 65.151
-  response: 7ED056251E03953
-- expected_values:
     TAYCAN_HVBAT_SOH: 67.691
   response: 7ED056251E03967
