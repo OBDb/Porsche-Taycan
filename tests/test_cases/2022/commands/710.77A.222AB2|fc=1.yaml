@@ -1,8 +1,8 @@
 command_id: 710.77A.222AB2|fc=1
 test_cases:
 - expected_values:
-    TAYCAN_HVBAT_E_MAX: 5100
-  response: 77A07622AB200660400
+    TAYCAN_HVBAT_E_MAX: 4900
+  response: 77A07622AB200620400
 - expected_values:
     TAYCAN_HVBAT_E_MAX: 5850
   response: 77A07622AB200750401
