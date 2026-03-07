@@ -233,4 +233,5 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.22180D|din=03:TAYCAN_BMS_BMCE_T2
   - 7E5.7ED.22180E|din=03:TAYCAN_BMS_BMCE_T3
   "7E7":
+  - 7E7.7EF.0105
   - 7E7.7EF.0142
