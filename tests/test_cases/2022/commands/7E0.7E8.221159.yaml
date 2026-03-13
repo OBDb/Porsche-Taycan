@@ -4,8 +4,8 @@ test_cases:
     TAYCAN_MAX_CHA_CUR_2: 11
   response: 7E805621159006E
 - expected_values:
-    TAYCAN_MAX_CHA_CUR_2: 512
-  response: '7E8056211591400'
+    TAYCAN_MAX_CHA_CUR_2: 128
+  response: '7E8056211590500'
 - expected_values:
     TAYCAN_MAX_CHA_CUR_2: 537
   response: 7E80562115914FA
