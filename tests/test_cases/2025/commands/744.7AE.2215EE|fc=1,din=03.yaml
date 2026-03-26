@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_DUR_TOTAL: 6471
   response: 7AE076215EE00001947
+- expected_values:
+    TAYCAN_CHRGR_DUR_TOTAL: 20513
+  response: 7AE076215EE00005021

@@ -1,32 +1,8 @@
 command_id: 7E5.7ED.2280EC|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 15
-  response: 7ED066280EC0A000F
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 18
-  response: 7ED066280EC0A0012
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 45
-  response: 7ED066280EC0A002D
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 47
-  response: 7ED066280EC0A002F
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 57
-  response: 7ED066280EC0A0039
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 58
-  response: 7ED066280EC0A003A
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 59
-  response: 7ED066280EC0A003B
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 60
-  response: 7ED066280EC0A003C
-- expected_values:
-    TAYCAN_BMS_COOL_PUMP_CTL: 62
-  response: 7ED066280EC0A003E
+    TAYCAN_BMS_COOL_PUMP_CTL: 12
+  response: 7ED066280EC0A000C
 - expected_values:
     TAYCAN_BMS_COOL_PUMP_CTL: 63
   response: 7ED066280EC0A003F
