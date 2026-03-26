@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_V_DCHG_PRED_MIN: 717
   response: 7ED056251731C02
+- expected_values:
+    TAYCAN_BMS_V_DCHG_PRED_MIN: 743
+  response: 7ED056251731D06

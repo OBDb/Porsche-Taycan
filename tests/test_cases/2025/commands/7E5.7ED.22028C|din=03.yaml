@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_SOC: 73
   response: 7ED0462028C49
+- expected_values:
+    TAYCAN_BMS_SOC: 78
+  response: 7ED0462028C4E
+- expected_values:
+    TAYCAN_BMS_SOC: 79
+  response: 7ED0462028C4F

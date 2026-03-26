@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     TAYCAN_CHRGR_PRX_V_CONN_B: 4485
   response: 7AE056215291185
+- expected_values:
+    TAYCAN_CHRGR_PRX_V_CONN_B: 4648
+  response: 7AE056215291228
+- expected_values:
+    TAYCAN_CHRGR_PRX_V_CONN_B: 4658
+  response: 7AE056215291232
