@@ -4,11 +4,17 @@ test_cases:
     TAYCAN_EM_TORQ_2: 0
   response: '7E8056211540000'
 - expected_values:
+    TAYCAN_EM_TORQ_2: 1.5
+  response: '7E8056211540030'
+- expected_values:
     TAYCAN_EM_TORQ_2: 9.5
   response: '7E8056211540130'
 - expected_values:
     TAYCAN_EM_TORQ_2: 16.5
   response: '7E8056211540210'
+- expected_values:
+    TAYCAN_EM_TORQ_2: 48
+  response: '7E8056211540600'
 - expected_values:
     TAYCAN_EM_TORQ_2: -17
   response: 7E805621154FDE0
