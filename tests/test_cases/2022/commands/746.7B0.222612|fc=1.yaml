@@ -4,5 +4,5 @@ test_cases:
     TAYCAN_HVAC_EVAP_T: 0.4
   response: 7B0056226120004
 - expected_values:
-    TAYCAN_HVAC_EVAP_T: 18.1
-  response: 7B00562261200B5
+    TAYCAN_HVAC_EVAP_T: 22
+  response: 7B00562261200DC
