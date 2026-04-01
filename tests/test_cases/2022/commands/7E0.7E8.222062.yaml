@@ -4,5 +4,8 @@ test_cases:
     TAYCAN_APP_POS2: 0.376
   response: '7E8056220620178'
 - expected_values:
+    TAYCAN_APP_POS2: 0.537
+  response: '7E8056220620219'
+- expected_values:
     TAYCAN_APP_POS2: 0.771
   response: '7E8056220620303'

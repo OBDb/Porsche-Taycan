@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_APP_POS1: 0.751
   response: 7E80562206102EF
+- expected_values:
+    TAYCAN_APP_POS1: 1.086
+  response: 7E805622061043E
