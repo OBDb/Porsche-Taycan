@@ -1,8 +1,8 @@
 command_id: 7E5.7ED.221801
 test_cases:
 - expected_values:
-    TAYCAN_HVBAT_VOLT: 678.2
-  response: 7ED056218011A7E
+    TAYCAN_HVBAT_VOLT: 677.6
+  response: 7ED056218011A78
 - expected_values:
     TAYCAN_HVBAT_VOLT: 691.2
   response: 7ED056218011B00
