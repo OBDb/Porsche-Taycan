@@ -7,5 +7,5 @@ test_cases:
     TAYCAN_EM_TORQ_1: 15.5
   response: 7E80562115301F0
 - expected_values:
-    TAYCAN_EM_TORQ_1: -6.5
-  response: 7E805621153FF30
+    TAYCAN_EM_TORQ_1: -7.5
+  response: 7E805621153FF10
