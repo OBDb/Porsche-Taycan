@@ -4,6 +4,9 @@ test_cases:
     TAYCAN_LAUNCH: 0
   response: 7ED0762520000000000
 - expected_values:
+    TAYCAN_LAUNCH: 1
+  response: 7ED0762520000000001
+- expected_values:
     TAYCAN_LAUNCH: 4
   response: 7ED0762520000000004
 - expected_values:
