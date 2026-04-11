@@ -56,7 +56,7 @@
   "signals": [
     {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption (short)", "suggestedMetric": "tractionBatteryEfficiency"}
   ]},
-{ "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "cmd": {"22": "F105"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "cmd": {"22": "F105"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_DIFF_MOTOR_T",  "path": "Engine", "fmt": {           "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Motor temperature"},
     {"id": "TAYCAN_DIFF_OIL_T",    "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Oil temperature"},

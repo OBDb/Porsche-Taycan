@@ -31,15 +31,15 @@ test_cases:
     7B0100C6227C300FB00
     7B021ED00FF03CA00AA
 - expected_values:
-    TAYCAN_HVAC_OUTSIDE_HUM: 62
-  response: |-
-    7B0100C6227C300FB01
-    7B0215D01A4017C00AA
-- expected_values:
     TAYCAN_HVAC_OUTSIDE_HUM: 41
   response: |-
     7B0100C6227C300FF00
     7B021D3011A035200AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 54.5
+  response: |-
+    7B0100C6227C3010501
+    7B0216801B6016D00AA
 - expected_values:
     TAYCAN_HVAC_OUTSIDE_HUM: 100
   response: |-

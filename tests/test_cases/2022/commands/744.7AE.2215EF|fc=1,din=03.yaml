@@ -1,8 +1,8 @@
 command_id: 744.7AE.2215EF|fc=1,din=03
 test_cases:
 - expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 34265
-  response: 7AE076215EF000085D9
+    TAYCAN_CHRGR_E_TOTAL: 1554
+  response: 7AE076215EF00000612
 - expected_values:
     TAYCAN_CHRGR_E_TOTAL: 37107
   response: 7AE076215EF000090F3
