@@ -10,3 +10,23 @@ test_cases:
   response: |-
     7AE100D624965045F7F
     7AE21EF010D5205D07C
+- expected_values:
+    TAYCAN_HVBAT_KWH: 64.65
+  response: |-
+    7AE100D624965050D7F
+    7AE21F9010B6706467E
+- expected_values:
+    TAYCAN_HVBAT_KWH: 64.7
+  response: |-
+    7AE100D624965050E7F
+    7AE21F6010B6106467E
+- expected_values:
+    TAYCAN_HVBAT_KWH: 64.7
+  response: |-
+    7AE100D624965050E7F
+    7AE21F9010B5F06467E
+- expected_values:
+    TAYCAN_HVBAT_KWH: 64.85
+  response: |-
+    7AE100D62496505117F
+    7AE21FA010B4806467E

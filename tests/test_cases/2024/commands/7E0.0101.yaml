@@ -1,0 +1,29 @@
+command_id: 7E0.0101
+test_cases:
+- expected_values:
+    ACRF_RDY: 0
+    ACRF_SUP: 0
+    AIR_RDY: 0
+    AIR_SUP: 0
+    CAT_RDY: 0
+    CAT_SUP: 0
+    CCM_RDY: 0
+    CCM_SUP: 1
+    CIM_SUP: SPARK
+    DTC_CNT: 0
+    EGR_RDY: 0
+    EGR_SUP: 0
+    EVAP_RDY: 0
+    EVAP_SUP: 0
+    FUEL_RDY: 0
+    FUEL_SUP: 0
+    HCAT_RDY: 0
+    HCAT_SUP: 0
+    HTR_RDY: 0
+    HTR_SUP: 0
+    MIL: 0
+    MIS_RDY: 0
+    MIS_SUP: 0
+    O2S_RDY: 0
+    O2S_SUP: 0
+  response: '7E806410100040000'
