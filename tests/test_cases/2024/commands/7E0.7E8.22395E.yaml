@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22395E
+test_cases:
+- expected_values:
+    TAYCAN_ENG_BRAKE_PUMP: 0
+  response: 7E80462395E00

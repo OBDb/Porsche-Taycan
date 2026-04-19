@@ -1,0 +1,5 @@
+command_id: 744.7AE.221DD0|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_SOC_DISP: 81
+  response: 7AE04621DD0A2

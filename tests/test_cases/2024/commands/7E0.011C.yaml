@@ -1,0 +1,5 @@
+command_id: 7E0.011C
+test_cases:
+- expected_values:
+    OBDSUP: NO OBD
+  response: 7E803411C05

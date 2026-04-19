@@ -1,0 +1,5 @@
+command_id: 744.7AE.2215E1|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 0
+  response: 7AE046215E100
