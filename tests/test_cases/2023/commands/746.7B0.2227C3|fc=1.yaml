@@ -1,0 +1,7 @@
+command_id: 746.7B0.2227C3|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3000500
+    7B021CF00DB00F000AA
