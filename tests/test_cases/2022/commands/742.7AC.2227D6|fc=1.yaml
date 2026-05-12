@@ -11,4 +11,4 @@ test_cases:
 - expected_values:
     TAYCAN_PTC_PUMP_PWR: 1800
     TAYCAN_PTC_PUMP_RPM: 5100
-  response: 7AC066227D611D52D
+  response: 7AC066227D611D42D
