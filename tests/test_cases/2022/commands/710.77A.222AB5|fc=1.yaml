@@ -11,15 +11,15 @@ test_cases:
     77A100D622AB500AF00
     77A210000AF07FF0000
 - expected_values:
+    TAYCAN_RANGE_EST_CAN: 184
+  response: |-
+    77A100D622AB500B800
+    77A210000B800000000
+- expected_values:
     TAYCAN_RANGE_EST_CAN: 192
   response: |-
     77A100D622AB500C000
     77A210000C007FF0000
-- expected_values:
-    TAYCAN_RANGE_EST_CAN: 210
-  response: |-
-    77A100D622AB500D200
-    77A210000D200000000
 - expected_values:
     TAYCAN_RANGE_EST_CAN: 255
   response: |-
