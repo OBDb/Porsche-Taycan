@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_E_MAX: 13550
   response: 77A07622AB2010F0400
+- expected_values:
+    TAYCAN_HVBAT_E_MAX: 65250
+  response: 77A07622AB205190401
