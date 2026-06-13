@@ -7,8 +7,8 @@ test_cases:
     TAYCAN_CHRGR_E_TOTAL: 44290
   response: 7AE076215EF0000AD02
 - expected_values:
-    TAYCAN_CHRGR_E_TOTAL: 51025
-  response: 7AE076215EF0000C751
-- expected_values:
     TAYCAN_CHRGR_E_TOTAL: 51195
   response: 7AE076215EF0000C7FB
+- expected_values:
+    TAYCAN_CHRGR_E_TOTAL: 51350
+  response: 7AE076215EF0000C896
