@@ -1,9 +1,9 @@
 command_id: 7E5.7ED.221E34|din=03
 test_cases:
 - expected_values:
-    TAYCAN_BMS_CELL_V_MIN: 3.449
-    TAYCAN_BMS_CELL_V_MIN_IDX: 8
-  response: 7ED06621E3486BA08
+    TAYCAN_BMS_CELL_V_MIN: 3.411
+    TAYCAN_BMS_CELL_V_MIN_IDX: 19
+  response: 7ED06621E34853E13
 - expected_values:
     TAYCAN_BMS_CELL_V_MIN: 3.543
     TAYCAN_BMS_CELL_V_MIN_IDX: 33

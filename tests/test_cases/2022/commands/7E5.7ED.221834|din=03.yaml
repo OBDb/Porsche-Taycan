@@ -8,11 +8,6 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_MOD20_T1: 33
     TAYCAN_HVBAT_MOD20_T2: 33
-    TAYCAN_HVBAT_MOD20_T3: 38
-  response: 7ED06621834535358
-- expected_values:
-    TAYCAN_HVBAT_MOD20_T1: 33
-    TAYCAN_HVBAT_MOD20_T2: 33
     TAYCAN_HVBAT_MOD20_T3: 39
   response: 7ED06621834535359
 - expected_values:
@@ -20,3 +15,8 @@ test_cases:
     TAYCAN_HVBAT_MOD20_T2: 33
     TAYCAN_HVBAT_MOD20_T3: 39
   response: 7ED06621834545359
+- expected_values:
+    TAYCAN_HVBAT_MOD20_T1: 34
+    TAYCAN_HVBAT_MOD20_T2: 34
+    TAYCAN_HVBAT_MOD20_T3: 39
+  response: 7ED06621834545459
