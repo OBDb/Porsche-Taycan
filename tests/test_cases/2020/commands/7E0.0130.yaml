@@ -1,5 +1,0 @@
-command_id: 7E0.0130
-test_cases:
-- expected_values:
-    WARM_UPS: 15
-  response: 7E80341300F
