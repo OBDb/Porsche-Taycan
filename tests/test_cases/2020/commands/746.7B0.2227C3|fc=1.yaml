@@ -1,0 +1,42 @@
+command_id: 746.7B0.2227C3|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001400
+    7B0219100EB00F000AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001400
+    7B0219500E900F500AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001500
+    7B0219300ED00F000AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001600
+    7B0219100F100EB00AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001700
+    7B0219900E900FA00AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001900
+    7B0219600F500EB00AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001A00
+    7B0219B00F500EB00AA
+- expected_values:
+    TAYCAN_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3001B00
+    7B0219D00EC00FA00AA

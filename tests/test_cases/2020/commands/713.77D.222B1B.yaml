@@ -1,0 +1,26 @@
+command_id: 713.77D.222B1B
+test_cases:
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 0
+  response: 77D05622B1B0000
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 0.95625
+  response: 77D05622B1B0011
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 5.2875
+  response: 77D05622B1B005E
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 27.1125
+  response: 77D05622B1B01E2
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 43.14375
+  response: 77D05622B1B02FF
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 55.2375
+  response: 77D05622B1B03D6
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 73.8
+  response: 77D05622B1B0520
+- expected_values:
+    TAYCAN_TIRE_FL_SPD: 80.71875
+  response: 77D05622B1B059B

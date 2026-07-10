@@ -1,0 +1,20 @@
+command_id: 744.7AE.221554|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 705.25
+  response: 7AE056215540B05
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 709.5
+  response: 7AE056215540B16
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 710.5
+  response: 7AE056215540B1A
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 713.75
+  response: 7AE056215540B27
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 714
+  response: 7AE056215540B28
+- expected_values:
+    TAYCAN_CHRGR_BOOST_HI_V: 718.5
+  response: 7AE056215540B3A

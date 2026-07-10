@@ -1,0 +1,10 @@
+command_id: 7E5.7ED.221E2D|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 32
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 111
+  response: 7ED05621E2D206F
+- expected_values:
+    TAYCAN_BMS_CELL_SOC_MIN: 33
+    TAYCAN_BMS_CELL_SOC_MIN_IDX: 111
+  response: 7ED05621E2D216F

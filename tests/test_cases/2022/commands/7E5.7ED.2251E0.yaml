@@ -1,0 +1,11 @@
+command_id: 7E5.7ED.2251E0
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_SOH: -1798.574
+  response: 7ED056251E00000
+- expected_values:
+    TAYCAN_HVBAT_SOH: 86.614
+  response: 7ED056251E039FC
+- expected_values:
+    TAYCAN_HVBAT_SOH: 87.376
+  response: 7ED056251E03A02

@@ -1,0 +1,11 @@
+command_id: 713.77D.222B1E
+test_cases:
+- expected_values:
+    TAYCAN_TIRE_RR_SPD: 0
+  response: 77D05622B1E0000
+- expected_values:
+    TAYCAN_TIRE_RR_SPD: 86.2875
+  response: 77D05622B1E05FE
+- expected_values:
+    TAYCAN_TIRE_RR_SPD: 101.1375
+  response: 77D05622B1E0706

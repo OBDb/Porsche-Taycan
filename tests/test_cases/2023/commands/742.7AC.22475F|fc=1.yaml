@@ -1,0 +1,10 @@
+command_id: 742.7AC.22475F|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_PTC_HTR_FLUID_T1: 28
+    TAYCAN_PTC_HTR_FLUID_T2: 30
+    TAYCAN_PTC_HTR_I: 4
+  response: |-
+    7AC100E62475F10FF00
+    7AC213FFFFF8E4E4E50
+    7AC2200AAAAAAAAAAAA
