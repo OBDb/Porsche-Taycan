@@ -1,0 +1,22 @@
+command_id: 71E.788.22F105|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_DIFF_CLUTCH_T: 44
+    TAYCAN_DIFF_MOTOR_T: 40
+    TAYCAN_DIFF_OIL_T: 42
+  response: 7880662F1052D2E2F
+- expected_values:
+    TAYCAN_DIFF_CLUTCH_T: 44
+    TAYCAN_DIFF_MOTOR_T: 40
+    TAYCAN_DIFF_OIL_T: 44
+  response: 7880662F1052D2F2F
+- expected_values:
+    TAYCAN_DIFF_CLUTCH_T: 46
+    TAYCAN_DIFF_MOTOR_T: 44
+    TAYCAN_DIFF_OIL_T: 46
+  response: 7880662F1052F3030
+- expected_values:
+    TAYCAN_DIFF_CLUTCH_T: 48
+    TAYCAN_DIFF_MOTOR_T: 44
+    TAYCAN_DIFF_OIL_T: 48
+  response: 7880662F1052F3131

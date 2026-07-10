@@ -1,0 +1,5 @@
+command_id: 744.7AE.22155A|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_BOOST_CMD_I: 511
+  response: 7AE0562155A0FFC

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    TAYCAN_RUNTM: 27
+  response: 7E80562F41F001B
+- expected_values:
+    TAYCAN_RUNTM: 509
+  response: 7E80562F41F01FD
+- expected_values:
+    TAYCAN_RUNTM: 3588
+  response: 7E80562F41F0E04

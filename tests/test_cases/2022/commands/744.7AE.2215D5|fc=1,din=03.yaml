@@ -1,0 +1,14 @@
+command_id: 744.7AE.2215D5|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_PWR_MAX: 0
+  response: 7AE056215D50000
+- expected_values:
+    TAYCAN_CHRGR_PWR_MAX: 4
+  response: 7AE056215D50004
+- expected_values:
+    TAYCAN_CHRGR_PWR_MAX: 35
+  response: 7AE056215D50023
+- expected_values:
+    TAYCAN_CHRGR_PWR_MAX: 36
+  response: 7AE056215D50024

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221159
+test_cases:
+- expected_values:
+    TAYCAN_MAX_CHA_CUR_2: 341
+  response: 7E8056211590D52

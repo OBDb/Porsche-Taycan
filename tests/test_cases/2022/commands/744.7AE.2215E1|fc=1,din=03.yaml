@@ -1,0 +1,17 @@
+command_id: 744.7AE.2215E1|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 0
+  response: 7AE046215E100
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 140
+  response: 7AE046215E107
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 660
+  response: 7AE046215E121
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 700
+  response: 7AE046215E123
+- expected_values:
+    TAYCAN_CHRGR_PWR_LOSS: 740
+  response: 7AE046215E125

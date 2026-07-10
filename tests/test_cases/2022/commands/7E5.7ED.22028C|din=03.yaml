@@ -1,0 +1,11 @@
+command_id: 7E5.7ED.22028C|din=03
+test_cases:
+- expected_values:
+    TAYCAN_BMS_SOC: 29
+  response: 7ED0462028C1D
+- expected_values:
+    TAYCAN_BMS_SOC: 46
+  response: 7ED0462028C2E
+- expected_values:
+    TAYCAN_BMS_SOC: 98
+  response: 7ED0462028C62

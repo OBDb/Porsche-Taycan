@@ -1,0 +1,51 @@
+command_id: 710.77A.222A53|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_DCDC_I: -1
+    TAYCAN_DCDC_I_RSV: 240
+    TAYCAN_DCDC_V_LOW: 13.1
+  response: |-
+    77A1008622A538301FE
+    77A2102EFAAAAAAAAAA
+- expected_values:
+    TAYCAN_DCDC_I: 37
+    TAYCAN_DCDC_I_RSV: 202
+    TAYCAN_DCDC_V_LOW: 13.1
+  response: |-
+    77A1008622A53830224
+    77A2102C9AAAAAAAAAA
+- expected_values:
+    TAYCAN_DCDC_I: 0
+    TAYCAN_DCDC_I_RSV: 239
+    TAYCAN_DCDC_V_LOW: 13.2
+  response: |-
+    77A1008622A538401FF
+    77A2102EEAAAAAAAAAA
+- expected_values:
+    TAYCAN_DCDC_I: 0
+    TAYCAN_DCDC_I_RSV: 0
+    TAYCAN_DCDC_V_LOW: 13.3
+  response: |-
+    77A1008622A538501FF
+    77A2101FFAAAAAAAAAA
+- expected_values:
+    TAYCAN_DCDC_I: 6
+    TAYCAN_DCDC_I_RSV: 233
+    TAYCAN_DCDC_V_LOW: 13.3
+  response: |-
+    77A1008622A53850205
+    77A2102E8AAAAAAAAAA
+- expected_values:
+    TAYCAN_DCDC_I: 29
+    TAYCAN_DCDC_I_RSV: 209
+    TAYCAN_DCDC_V_LOW: 13.3
+  response: |-
+    77A1008622A5385021C
+    77A2102D0AAAAAAAAAA
+- expected_values:
+    TAYCAN_DCDC_I: 102
+    TAYCAN_DCDC_I_RSV: 137
+    TAYCAN_DCDC_V_LOW: 14.2
+  response: |-
+    77A1008622A538E0265
+    77A210288AAAAAAAAAA

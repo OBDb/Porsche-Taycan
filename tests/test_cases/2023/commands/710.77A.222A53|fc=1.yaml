@@ -1,0 +1,9 @@
+command_id: 710.77A.222A53|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_DCDC_I: 84
+    TAYCAN_DCDC_I_RSV: 155
+    TAYCAN_DCDC_V_LOW: 14.4
+  response: |-
+    77A1008622A53900253
+    77A21029AAAAAAAAAAA

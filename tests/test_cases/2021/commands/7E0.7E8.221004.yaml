@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221004
+test_cases:
+- expected_values:
+    TAYCAN_AAT: 0
+  response: '7E8056210040000'

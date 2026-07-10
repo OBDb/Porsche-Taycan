@@ -1,0 +1,7 @@
+command_id: 744.7AE.221DD3|fc=1,din=03
+test_cases:
+- expected_values:
+    TAYCAN_CHRGR_CHG_PWR_MAX: 0
+  response: |-
+    7AE100D621DD3000000
+    7AE2100000000000000
