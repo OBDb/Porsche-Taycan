@@ -14,8 +14,8 @@ test_cases:
   response: 7ED05621E0F7501
 - expected_values:
     TAYCAN_BMS_T_MIN: 29
-    TAYCAN_BMS_T_MIN_CELL: 27
-  response: 7ED05621E0F811B
+    TAYCAN_BMS_T_MIN_CELL: 28
+  response: 7ED05621E0F811C
 - expected_values:
     TAYCAN_BMS_T_MIN: 34
     TAYCAN_BMS_T_MIN_CELL: 5
