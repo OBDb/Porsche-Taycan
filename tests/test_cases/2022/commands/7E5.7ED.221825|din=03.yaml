@@ -18,8 +18,8 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_MOD5_T1: 34
     TAYCAN_HVBAT_MOD5_T2: 34
-    TAYCAN_HVBAT_MOD5_T3: 40
-  response: 7ED0662182554545A
+    TAYCAN_HVBAT_MOD5_T3: 50
+  response: 7ED06621825545464
 - expected_values:
     TAYCAN_HVBAT_MOD5_T1: 34
     TAYCAN_HVBAT_MOD5_T2: 35
