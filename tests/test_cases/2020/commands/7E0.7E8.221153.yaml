@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     TAYCAN_EM_TORQ_1: 0.5
   response: '7E8056211530010'
+- expected_values:
+    TAYCAN_EM_TORQ_1: 10
+  response: '7E8056211530140'
+- expected_values:
+    TAYCAN_EM_TORQ_1: 45
+  response: 7E80562115305A0
+- expected_values:
+    TAYCAN_EM_TORQ_1: -46.5
+  response: 7E805621153FA30
+- expected_values:
+    TAYCAN_EM_TORQ_1: -21.5
+  response: 7E805621153FD50
