@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAYCAN_CLR_DIST: 1183
   response: 7E80562F431049F
+- expected_values:
+    TAYCAN_CLR_DIST: 5360
+  response: 7E80562F43114F0

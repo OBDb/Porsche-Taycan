@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_BMCE_T2: 12
   response: 7ED0462180D3E
+- expected_values:
+    TAYCAN_BMS_BMCE_T2: 27
+  response: 7ED0462180D4D
