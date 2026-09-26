@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "vehicleControl" }
+  ],
+  "commands": [
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A53"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_DCDC_V_LOW", "path": "Battery", "fmt": {           "len": 8,  "max": 25.5,               "div": 10,              "unit": "volts" }, "name": "DC-DC converter, low voltage"},
