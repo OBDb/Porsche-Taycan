@@ -294,10 +294,10 @@ supported_commands_by_ecu:
   - 7E7.7EF.019A
 unsupported_commands_by_ecu:
   "70B":
-  - 70B.2218A0
-  - 70B.2218A1
-  - 70B.2218A2
-  - 70B.2218A3
+  - 70B.775.2218A0|fc=1:TAYCAN_TP_FR
+  - 70B.775.2218A1|fc=1:TAYCAN_TP_FL
+  - 70B.775.2218A2|fc=1:TAYCAN_TP_RL
+  - 70B.775.2218A3|fc=1:TAYCAN_TP_RR
   "714":
   - '714.221870'
   - 714.2219D2
