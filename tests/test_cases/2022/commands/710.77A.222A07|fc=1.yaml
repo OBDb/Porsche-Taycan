@@ -1,0 +1,17 @@
+command_id: 710.77A.222A07|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_BAT_V_2A07: 13.32
+  response: 77A05622A072468
+- expected_values:
+    TAYCAN_BAT_V_2A07: 13.474
+  response: 77A05622A072502
+- expected_values:
+    TAYCAN_BAT_V_2A07: 13.486
+  response: 77A05622A07250E
+- expected_values:
+    TAYCAN_BAT_V_2A07: 13.549
+  response: 77A05622A07254D
+- expected_values:
+    TAYCAN_BAT_V_2A07: 13.564
+  response: 77A05622A07255C

@@ -1,0 +1,20 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_FR_DEFL_T: 0
+  response: 7B00562260D0098
+- expected_values:
+    TAYCAN_FR_DEFL_T: 0
+  response: 7B00562260D0099
+- expected_values:
+    TAYCAN_FR_DEFL_T: 0
+  response: 7B00562260D009D
+- expected_values:
+    TAYCAN_FR_DEFL_T: 0
+  response: 7B00562260D00BF
+- expected_values:
+    TAYCAN_FR_DEFL_T: 0
+  response: 7B00562260D00DF
+- expected_values:
+    TAYCAN_FR_DEFL_T: 0
+  response: 7B00562260D00FA
