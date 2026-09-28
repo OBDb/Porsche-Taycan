@@ -2,6 +2,22 @@
     { "hdr": "7E0", "type": "vehicleControl" }
   ],
   "commands": [
+{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 15,
+  "signals": [
+    {"id": "TAYCAN_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 15,
+  "signals": [
+    {"id": "TAYCAN_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 15,
+  "signals": [
+    {"id": "TAYCAN_TP_RL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 15,
+  "signals": [
+    {"id": "TAYCAN_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A53"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_DCDC_V_LOW", "path": "Battery", "fmt": {           "len": 8,  "max": 25.5,               "div": 10,              "unit": "volts" }, "name": "DC-DC converter, low voltage"},
