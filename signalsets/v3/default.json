@@ -269,7 +269,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "TAYCAN_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
+    {"id": "TAYCAN_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -301,7 +301,7 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1802"}, "freq": 0.25, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "TAYCAN_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
+    {"id": "TAYCAN_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "nullmin": -1500, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
