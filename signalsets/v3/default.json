@@ -694,6 +694,14 @@
   "signals": [
     {"id": "TAYCAN_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "nullmin": -1500, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "180A"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_HVBAT_V_180A", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 2", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "180B"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_HVBAT_V_180B", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 3", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
+  ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "TAYCAN_BMS_BMCE_T1", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "BMC-E temperature, 1"}
@@ -713,6 +721,14 @@
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1810"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_BMS_BMCE_T_CAN", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "BMC-E temperature, 4"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1818"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_HVBAT_V_1818", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 4", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "181B"}, "freq": 1,
+  "signals": [
+    {"id": "TAYCAN_HVBAT_V_181B", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 5", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "181C"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
