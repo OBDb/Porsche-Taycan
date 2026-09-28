@@ -1,0 +1,5 @@
+command_id: 710.77A.225505|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_STEER_WHL_T: 254
+  response: 77A05625505FE00

@@ -1,0 +1,17 @@
+command_id: 7E5.7ED.221E17
+test_cases:
+- expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 4520
+  response: 7ED06621E1701C404
+- expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 4540
+  response: 7ED06621E1701C604
+- expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 4560
+  response: 7ED06621E1701C804
+- expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 4590
+  response: 7ED06621E1701CB04
+- expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 655350
+  response: 7ED06621E17FFFF00

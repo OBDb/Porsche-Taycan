@@ -1,0 +1,5 @@
+command_id: 7E5.7ED.221E1A
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_ISO_NEG: 2700
+  response: 7ED06621E1A010E04
