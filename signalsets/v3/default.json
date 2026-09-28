@@ -2,21 +2,29 @@
     { "hdr": "7E0", "type": "vehicleControl" }
   ],
   "commands": [
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 15,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "TAYCAN_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+    {"id": "TAYCAN_TP_FR",     "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375,             "div": 40,             "nullmax": 6.37, "unit": "bars"    }, "name": "Front right tire pressure",            "suggestedMetric": "frontRightTirePressure"},
+    {"id": "TAYCAN_TT_FR",     "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 127,   "min": -40,            "add": -40, "nullmax": 127,  "unit": "celsius" }, "name": "Front right tire temperature",         "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "TAYCAN_TP_SET_FR", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 6.375,             "div": 40,                              "unit": "bars"    }, "name": "Front right tire pressure, set point"}
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 15,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "TAYCAN_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+    {"id": "TAYCAN_TP_FL",     "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375,             "div": 40,             "nullmax": 6.37, "unit": "bars"    }, "name": "Front left tire pressure",            "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "TAYCAN_TT_FL",     "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 127,   "min": -40,            "add": -40, "nullmax": 127,  "unit": "celsius" }, "name": "Front left tire temperature",         "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "TAYCAN_TP_SET_FL", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 6.375,             "div": 40,                              "unit": "bars"    }, "name": "Front left tire pressure, set point"}
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 15,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "TAYCAN_TP_RL", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "TAYCAN_TP_RL",     "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375,             "div": 40,             "nullmax": 6.37, "unit": "bars"    }, "name": "Rear left tire pressure",            "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "TAYCAN_TT_RL",     "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 127,   "min": -40,            "add": -40, "nullmax": 127,  "unit": "celsius" }, "name": "Rear left tire temperature",         "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "TAYCAN_TP_SET_RL", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 6.375,             "div": 40,                              "unit": "bars"    }, "name": "Rear left tire pressure, set point"}
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 15,
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 15, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "TAYCAN_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "nullmax": 6.37, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "TAYCAN_TP_RR",     "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375,             "div": 40,             "nullmax": 6.37, "unit": "bars"    }, "name": "Rear right tire pressure",            "suggestedMetric": "rearRightTirePressure"},
+    {"id": "TAYCAN_TT_RR",     "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 127,   "min": -40,            "add": -40, "nullmax": 127,  "unit": "celsius" }, "name": "Rear right tire temperature",         "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "TAYCAN_TP_SET_RR", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 6.375,             "div": 40,                              "unit": "bars"    }, "name": "Rear right tire pressure, set point"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A53"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
