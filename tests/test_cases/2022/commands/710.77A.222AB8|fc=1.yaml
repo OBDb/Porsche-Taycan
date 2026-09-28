@@ -1,0 +1,27 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 36.875
+  response: |-
+    77A100B622AB8000005
+    77A21C300000000AAAA
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 38.275
+  response: |-
+    77A100B622AB8000005
+    77A21FB00000000AAAA
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 38.675
+  response: |-
+    77A100B622AB8000006
+    77A210B00000000AAAA
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 38.775
+  response: |-
+    77A100B622AB8000006
+    77A210F00000000AAAA
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 39.25
+  response: |-
+    77A100B622AB8000006
+    77A212200000000AAAA
