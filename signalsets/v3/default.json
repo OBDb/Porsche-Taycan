@@ -59,6 +59,19 @@
     {"id": "TAYCAN_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, cat 5"},
     {"id": "TAYCAN_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, cat 6"}
   ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2AF7"}, "freq": 30,
+  "signals": [
+    {"id": "TAYCAN_AUX_BAT_V",        "path": "Battery", "fmt": {            "len": 16, "max": 69,                        "div": 1000, "add": 4,                 "unit": "volts"       }, "name": "12V battery voltage",            "suggestedMetric": "starterBatteryVoltage"},
+    {"id": "TAYCAN_AUX_BAT_C",        "path": "Battery", "fmt": {"bix": 16,  "len": 32, "max": 1000000,  "min": -1000000, "div": 1000,             "sign": true, "unit": "amps"        }, "name": "12V battery current"},
+    {"id": "TAYCAN_AUX_BAT_SOC",      "path": "Battery", "fmt": {"bix": 56,  "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery state of charge"},
+    {"id": "TAYCAN_AUX_BAT_T",        "path": "Battery", "fmt": {"bix": 64,  "len": 8,  "max": 215,      "min": -40,                   "add": -40,               "unit": "celsius"     }, "name": "12V battery temperature"},
+    {"id": "TAYCAN_AUX_BAT_T_S",      "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 215,      "min": -40,                   "add": -40,               "unit": "celsius"     }, "name": "12V battery sensor temperature"},
+    {"id": "TAYCAN_AUX_BAT_CHRG_TOT", "path": "Battery", "fmt": {"bix": 96,  "len": 32, "max": 10000000,                  "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total charge"},
+    {"id": "TAYCAN_AUX_BAT_DSCH_TOT", "path": "Battery", "fmt": {"bix": 128, "len": 32, "max": 10000000,                  "div": 10,                             "unit": "ampereHours" }, "name": "12V battery total discharge"},
+    {"id": "TAYCAN_AUX_BAT_AGE_CAP",  "path": "Battery", "fmt": {"bix": 160, "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery aging by capacity"},
+    {"id": "TAYCAN_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery aging by power"},
+    {"id": "TAYCAN_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                              "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
+  ]},
 { "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
@@ -82,6 +95,30 @@
 { "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "0530"}, "freq": 0.5, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption (short)", "suggestedMetric": "tractionBatteryEfficiency"}
+  ]},
+{ "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "2203"}, "freq": 5,
+  "signals": [
+    {"id": "TAYCAN_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+  "signals": [
+    {"id": "TAYCAN_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
+  ]},
+{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+  "signals": [
+    {"id": "TAYCAN_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
+  ]},
+{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+  "signals": [
+    {"id": "TAYCAN_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
+  ]},
+{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+  "signals": [
+    {"id": "TAYCAN_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
+  ]},
+{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+  "signals": [
+    {"id": "TAYCAN_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
 { "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "cmd": {"22": "F105"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
   "signals": [
