@@ -25,3 +25,8 @@ test_cases:
   response: |-
     77A100B622AB8000006
     77A212200000000AAAA
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 61.9
+  response: |-
+    77A100B622AB8000009
+    77A21AC00000000AAAA

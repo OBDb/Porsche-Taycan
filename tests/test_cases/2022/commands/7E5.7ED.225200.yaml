@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAYCAN_LAUNCH: 22
   response: 7ED0762520000000016
+- expected_values:
+    TAYCAN_LAUNCH: 23
+  response: 7ED0762520000000017

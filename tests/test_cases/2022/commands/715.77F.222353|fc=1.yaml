@@ -1,0 +1,5 @@
+command_id: 715.77F.222353|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_CRASH_CNT_FRONT: 0
+  response: 77F0462235300

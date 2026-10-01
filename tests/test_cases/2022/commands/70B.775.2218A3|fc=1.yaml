@@ -8,6 +8,20 @@ test_cases:
     775100C6218A322E6C8
     775214D23643764FFAA
 - expected_values:
+    TAYCAN_TP_RR: 2.625
+    TAYCAN_TP_SET_RR: 2.5
+    TAYCAN_TT_RR: 23
+  response: |-
+    775100C6218A322E6C8
+    775214D23693F64FFAA
+- expected_values:
+    TAYCAN_TP_RR: 2.625
+    TAYCAN_TP_SET_RR: 2.5
+    TAYCAN_TT_RR: 24
+  response: |-
+    775100C6218A322E6C8
+    775214D23694064FFAA
+- expected_values:
     TAYCAN_TP_SET_RR: 2.5
   response: |-
     775100C6218A322E6C8
