@@ -1,4 +1,6 @@
 { "ecu": [
+    { "hdr": "710", "type": "gateway" },
+    { "hdr": "744", "type": "charger" },
     { "hdr": "7E0", "type": "vehicleControl" }
   ],
   "commands": [
