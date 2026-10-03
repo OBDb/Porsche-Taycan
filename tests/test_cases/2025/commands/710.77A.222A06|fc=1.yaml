@@ -1,0 +1,5 @@
+command_id: 710.77A.222A06|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_12V_BAT_CAP: 40
+  response: 77A07622A0607002806

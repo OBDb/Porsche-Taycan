@@ -1,0 +1,23 @@
+command_id: 7E5.7ED.221E19
+test_cases:
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3080
+  response: 7ED06621E19013404
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3120
+  response: 7ED06621E19013804
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3130
+  response: 7ED06621E19013904
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3140
+  response: 7ED06621E19013A04
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3150
+  response: 7ED06621E19013B04
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3160
+  response: 7ED06621E19013C04
+- expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3170
+  response: 7ED06621E19013D04

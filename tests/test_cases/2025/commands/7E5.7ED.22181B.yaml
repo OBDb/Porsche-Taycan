@@ -1,0 +1,5 @@
+command_id: 7E5.7ED.22181B
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_V_181B: 0
+  response: 7ED0562181B0000

@@ -1,0 +1,26 @@
+command_id: 710.77A.222A09
+test_cases:
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFF555
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFF8C8
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFFA25
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFFB28
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFFC35
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFFC99
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFFCBC
+- expected_values:
+    TAYCAN_SSB_C: 0
+  response: 77A07622A09FFFFFD2F

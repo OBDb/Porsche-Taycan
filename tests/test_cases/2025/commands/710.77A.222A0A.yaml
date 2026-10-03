@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0A
+test_cases:
+- expected_values:
+    TAYCAN_SSB_SENSOR_T: 19
+  response: 77A04622A0A3B
+- expected_values:
+    TAYCAN_SSB_SENSOR_T: 20
+  response: 77A04622A0A3C

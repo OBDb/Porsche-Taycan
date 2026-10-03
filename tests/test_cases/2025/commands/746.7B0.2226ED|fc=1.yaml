@@ -1,0 +1,17 @@
+command_id: 746.7B0.2226ED|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_AIR_POLLUTION: 1.1
+  response: 7B0076226ED0BE17200
+- expected_values:
+    TAYCAN_AIR_POLLUTION: 1.1
+  response: 7B0076226ED0BE37280
+- expected_values:
+    TAYCAN_AIR_POLLUTION: 1.1
+  response: 7B0076226ED0BE97100
+- expected_values:
+    TAYCAN_AIR_POLLUTION: 1.1
+  response: 7B0076226ED0BED7200
+- expected_values:
+    TAYCAN_AIR_POLLUTION: 1.1
+  response: 7B0076226ED0BF17080

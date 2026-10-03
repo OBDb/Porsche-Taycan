@@ -1,0 +1,5 @@
+command_id: 7E5.7ED.22180A
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_V_180A: 6553
+  response: 7ED0562180AFFFF

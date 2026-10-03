@@ -1,0 +1,17 @@
+command_id: 744.7AE.221525|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_OBC_V_PROX_A: 4637
+  response: 7AE05621525121D
+- expected_values:
+    TAYCAN_OBC_V_PROX_A: 4648
+  response: 7AE056215251228
+- expected_values:
+    TAYCAN_OBC_V_PROX_A: 4658
+  response: 7AE056215251232
+- expected_values:
+    TAYCAN_OBC_V_PROX_A: 4668
+  response: 7AE05621525123C
+- expected_values:
+    TAYCAN_OBC_V_PROX_A: 4678
+  response: 7AE056215251246
