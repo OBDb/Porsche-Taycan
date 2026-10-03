@@ -1,0 +1,7 @@
+command_id: 744.7AE.221DDA|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_OBC_T_A: -55
+  response: |-
+    7AE1009621DDA200000
+    7AE210002EE55555555

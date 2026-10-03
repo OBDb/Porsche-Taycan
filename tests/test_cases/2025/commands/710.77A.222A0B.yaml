@@ -1,0 +1,5 @@
+command_id: 710.77A.222A0B
+test_cases:
+- expected_values:
+    TAYCAN_SSB_T: 20
+  response: 77A04622A0B3C

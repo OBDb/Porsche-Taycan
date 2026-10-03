@@ -1,0 +1,26 @@
+command_id: 746.7B0.22260A|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00D8
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00DD
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00E0
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00E3
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00E4
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00EA
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00F0
+- expected_values:
+    TAYCAN_AAT_CABIN: -50
+  response: 7B00562260A00FD

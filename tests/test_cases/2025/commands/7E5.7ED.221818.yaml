@@ -1,0 +1,17 @@
+command_id: 7E5.7ED.221818
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_V_1818: 767.3
+  response: 7ED056218181DF9
+- expected_values:
+    TAYCAN_HVBAT_V_1818: 767.5
+  response: 7ED056218181DFB
+- expected_values:
+    TAYCAN_HVBAT_V_1818: 767.6
+  response: 7ED056218181DFC
+- expected_values:
+    TAYCAN_HVBAT_V_1818: 767.7
+  response: 7ED056218181DFD
+- expected_values:
+    TAYCAN_HVBAT_V_1818: 767.8
+  response: 7ED056218181DFE

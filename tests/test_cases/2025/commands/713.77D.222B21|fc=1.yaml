@@ -1,0 +1,12 @@
+command_id: 713.77D.222B21|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_BRAKE_P: 0.00012
+  response: |-
+    77D1009622B210ADA0A
+    77D21DAFFFE00000000
+- expected_values:
+    TAYCAN_BRAKE_P: 0.00012
+  response: |-
+    77D1009622B210ADA0A
+    77D21E0FFFE00000000
