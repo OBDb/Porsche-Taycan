@@ -3,10 +3,10 @@ test_cases:
 - expected_values:
     TAYCAN_TP_RL: 2.425
     TAYCAN_TP_SET_RL: 2.5
-    TAYCAN_TT_RL: 15
+    TAYCAN_TT_RL: 14
   response: |-
     775100C6218A222E6C8
-    775211522613764FFAA
+    775211522613664FFAA
 - expected_values:
     TAYCAN_TP_RL: 2.55
     TAYCAN_TP_SET_RL: 2.5
