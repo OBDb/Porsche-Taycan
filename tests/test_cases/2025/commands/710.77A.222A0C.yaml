@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAYCAN_SSB_SOC: 95
   response: 77A04622A0C5F
+- expected_values:
+    TAYCAN_SSB_SOC: 97
+  response: 77A04622A0C61

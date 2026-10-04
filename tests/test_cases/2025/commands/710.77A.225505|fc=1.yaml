@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TAYCAN_STEER_WHL_T: 69
   response: 77A056255054500
+- expected_values:
+    TAYCAN_STEER_WHL_T: 74
+  response: 77A056255054A00

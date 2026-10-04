@@ -1,12 +1,35 @@
 command_id: 70B.775.2218A0|fc=1
 test_cases:
 - expected_values:
+    TAYCAN_TP_FR: 3.525
     TAYCAN_TP_SET_FR: 3.6
+    TAYCAN_TT_FR: 14
   response: |-
     775100C6218A0268EE7
-    77521DC02FFA79000CC
+    77521DC028D369036CC
+- expected_values:
+    TAYCAN_TP_FR: 3.6
+    TAYCAN_TP_SET_FR: 3.6
+    TAYCAN_TT_FR: 18
+  response: |-
+    775100C6218A0268EE7
+    77521DC02903A9036CC
+- expected_values:
+    TAYCAN_TP_FR: 3.65
+    TAYCAN_TP_SET_FR: 3.6
+    TAYCAN_TT_FR: 23
+  response: |-
+    775100C6218A0268EE7
+    77521DC02923F9036CC
+- expected_values:
+    TAYCAN_TP_FR: 3.675
+    TAYCAN_TP_SET_FR: 3.6
+    TAYCAN_TT_FR: 24
+  response: |-
+    775100C6218A0268EE7
+    77521DC0293409036CC
 - expected_values:
     TAYCAN_TP_SET_FR: 3.6
   response: |-
     775100C6218A0268EE7
-    77521DC02FFA79036CC
+    77521DC02FFA79000CC

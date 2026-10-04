@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAYCAN_BAT_V_AT_REST: 13.4
   response: 77A04622A102C
+- expected_values:
+    TAYCAN_BAT_V_AT_REST: 13.8
+  response: 77A04622A1030

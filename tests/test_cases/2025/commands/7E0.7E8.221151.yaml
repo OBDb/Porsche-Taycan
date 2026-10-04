@@ -4,5 +4,11 @@ test_cases:
     TAYCAN_EM_RPM_1: 0
   response: '7E8056211510000'
 - expected_values:
+    TAYCAN_EM_RPM_1: 929
+  response: '7E8056211510742'
+- expected_values:
     TAYCAN_EM_RPM_1: 1210
   response: '7E8056211510974'
+- expected_values:
+    TAYCAN_EM_RPM_1: 2242
+  response: '7E8056211511184'

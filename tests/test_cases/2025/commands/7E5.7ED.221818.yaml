@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_V_1818: 767.8
   response: 7ED056218181DFE
+- expected_values:
+    TAYCAN_HVBAT_V_1818: 793.6
+  response: 7ED056218181F00

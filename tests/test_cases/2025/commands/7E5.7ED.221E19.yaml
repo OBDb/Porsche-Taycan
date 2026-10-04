@@ -4,6 +4,9 @@ test_cases:
     TAYCAN_HV_ISO_NEG_SYS: 3080
   response: 7ED06621E19013404
 - expected_values:
+    TAYCAN_HV_ISO_NEG_SYS: 3090
+  response: 7ED06621E19013504
+- expected_values:
     TAYCAN_HV_ISO_NEG_SYS: 3120
   response: 7ED06621E19013804
 - expected_values:
