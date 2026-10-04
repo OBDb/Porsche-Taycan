@@ -1,5 +1,8 @@
 command_id: 7E5.7ED.221E18
 test_cases:
 - expected_values:
+    TAYCAN_HVBAT_ISO_POS: 10000
+  response: 7ED06621E1803E804
+- expected_values:
     TAYCAN_HVBAT_ISO_POS: 655350
   response: 7ED06621E18FFFF00

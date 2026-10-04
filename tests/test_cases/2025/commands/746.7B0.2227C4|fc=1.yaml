@@ -11,6 +11,11 @@ test_cases:
     7B010086227C4745F71
     7B021949FAAAAAAAAAA
 - expected_values:
+    TAYCAN_HVAC_INSIDE_HUM: 41
+  response: |-
+    7B010086227C47465B1
+    7B021E452AAAAAAAAAA
+- expected_values:
     TAYCAN_HVAC_INSIDE_HUM: 75
   response: |-
     7B010086227C478A101

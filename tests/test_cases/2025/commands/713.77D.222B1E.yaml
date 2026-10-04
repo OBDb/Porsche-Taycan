@@ -7,6 +7,9 @@ test_cases:
     TAYCAN_TIRE_RR_SPD: 26.04375
   response: 77D05622B1E01CF
 - expected_values:
+    TAYCAN_TIRE_RR_SPD: 40.275
+  response: 77D05622B1E02CC
+- expected_values:
     TAYCAN_TIRE_RR_SPD: 45.45
   response: 77D05622B1E0328
 - expected_values:

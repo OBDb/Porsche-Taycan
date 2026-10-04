@@ -2,6 +2,9 @@ command_id: 746.7B0.22260C|fc=1
 test_cases:
 - expected_values:
     TAYCAN_FL_DEFL_T: 0
+  response: 7B00562260C0090
+- expected_values:
+    TAYCAN_FL_DEFL_T: 0
   response: 7B00562260C00D8
 - expected_values:
     TAYCAN_FL_DEFL_T: 0
