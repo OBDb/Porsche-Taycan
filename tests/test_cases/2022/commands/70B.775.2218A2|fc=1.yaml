@@ -1,12 +1,12 @@
 command_id: 70B.775.2218A2|fc=1
 test_cases:
 - expected_values:
-    TAYCAN_TP_RL: 2.425
+    TAYCAN_TP_RL: 2.4
     TAYCAN_TP_SET_RL: 2.5
     TAYCAN_TT_RL: 14
   response: |-
     775100C6218A222E6C8
-    775211522613664FFAA
+    775211522603664FFAA
 - expected_values:
     TAYCAN_TP_RL: 2.525
     TAYCAN_TP_SET_RL: 2.5
