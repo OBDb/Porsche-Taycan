@@ -33,3 +33,8 @@ test_cases:
   response: |-
     775100C6218A1268EE7
     775218902FFA79000CC
+- expected_values:
+    TAYCAN_TP_SET_FL: 3.6
+  response: |-
+    775100C6218A12CDD26
+    775213D20FFA79000CC
