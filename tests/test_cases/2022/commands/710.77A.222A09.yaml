@@ -1,6 +1,12 @@
 command_id: 710.77A.222A09
 test_cases:
 - expected_values:
+    TAYCAN_SSB_C: 0.765
+  response: 77A07622A09000002FD
+- expected_values:
+    TAYCAN_SSB_C: 1.522
+  response: 77A07622A09000005F2
+- expected_values:
     TAYCAN_SSB_C: 4.508
   response: 77A07622A090000119C
 - expected_values:

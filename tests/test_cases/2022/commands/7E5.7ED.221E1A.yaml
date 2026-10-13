@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_HVBAT_ISO_NEG: 2700
   response: 7ED06621E1A010E04
+- expected_values:
+    TAYCAN_HVBAT_ISO_NEG: 2720
+  response: 7ED06621E1A011004
