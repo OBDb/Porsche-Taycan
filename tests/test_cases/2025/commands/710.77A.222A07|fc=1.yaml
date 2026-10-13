@@ -4,6 +4,12 @@ test_cases:
     TAYCAN_BAT_V_2A07: 13.34
   response: 77A05622A07247C
 - expected_values:
+    TAYCAN_BAT_V_2A07: 13.364
+  response: 77A05622A072494
+- expected_values:
+    TAYCAN_BAT_V_2A07: 13.365
+  response: 77A05622A072495
+- expected_values:
     TAYCAN_BAT_V_2A07: 13.369
   response: 77A05622A072499
 - expected_values:
