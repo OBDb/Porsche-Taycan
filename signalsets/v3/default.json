@@ -1663,11 +1663,11 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30, "filter": { "to": 2024 },
   "signals": [
-    {"id": "TAYCAN_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.127, "add": -1798.574, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "TAYCAN_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.127, "add": -1798.574, "nullmin": 0, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30, "filter": { "from": 2025 }, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "TAYCAN_HVBAT_SOH_J12", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "add": -1369.5, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "TAYCAN_HVBAT_SOH_J12", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "add": -1369.5, "nullmin": 0, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "5200"}, "freq": 3600, "dbgfilter": { "from": 2026 },
   "signals": [
