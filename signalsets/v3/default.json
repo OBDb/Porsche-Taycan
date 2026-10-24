@@ -142,7 +142,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "5505"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "TAYCAN_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
+    {"id": "TAYCAN_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Steering wheel temperature, raw", "description": "Reads 254 on a 2022 and 67-74 on a 2025, which no temperature unit has been shown to fit."}
   ]},
 { "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1805"}, "freq": 5,
   "signals": [
@@ -700,7 +700,7 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "TAYCAN_HVBAT_V_180A", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 2", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
+    {"id": "TAYCAN_HVBAT_V_180A", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "nullmax": 6553.4, "unit": "volts" }, "name": "HV battery voltage, measurement 2", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "180B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
