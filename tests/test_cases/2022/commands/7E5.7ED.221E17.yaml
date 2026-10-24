@@ -13,5 +13,8 @@ test_cases:
     TAYCAN_HV_ISO_POS_SYS: 4590
   response: 7ED06621E1701CB04
 - expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 4740
+  response: 7ED06621E1701DA04
+- expected_values:
     TAYCAN_HV_ISO_POS_SYS: 655350
   response: 7ED06621E17FFFF00
