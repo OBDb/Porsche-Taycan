@@ -30,14 +30,6 @@
     {"id": "TAYCAN_TT_RR",     "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 127,   "min": -40,            "add": -40, "nullmax": 127,  "unit": "celsius" }, "name": "Rear right tire temperature",         "suggestedMetric": "rearRightTireTemperature"},
     {"id": "TAYCAN_TP_SET_RR", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 6.375,             "div": 40,                              "unit": "bars"    }, "name": "Rear right tire pressure, set point"}
   ]},
-{ "hdr": "70B", "rax": "775", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_TPMS", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, tire pressure monitor", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_GW", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, gateway", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A00"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "12V battery target voltage"}
@@ -127,10 +119,6 @@
   "signals": [
     {"id": "TAYCAN_P_BRAKE_SERVO_UNIT", "path": "Control", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in brake servo unit"}
   ]},
-{ "hdr": "713", "rax": "77D", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_ABS", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, brake control module", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "713", "rax": "77D", "cmd": {"22": "2B1B"}, "freq": 0.1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
@@ -159,18 +147,6 @@
   "signals": [
     {"id": "TAYCAN_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHoursPer100Miles" }, "name": "Trip consumption (short)", "suggestedMetric": "tractionBatteryEfficiency"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, instrument cluster display", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "22B8"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "714", "rax": "77E", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_IC", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, instrument cluster", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 3600, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
@@ -191,14 +167,6 @@
   "signals": [
     {"id": "TAYCAN_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
-{ "hdr": "715", "rax": "77F", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_SRS", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, airbag module", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "71E", "rax": "788", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_DIFF", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, rear differential", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "71E", "rax": "788", "fcm1": true, "din": "03", "cmd": {"22": "F105"}, "freq": 1, "dbgfilter": { "years": [2023], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_DIFF_MOTOR_T",  "path": "Engine", "fmt": {           "len": 8, "max": 460, "min": -50, "mul": 2, "add": -50, "unit": "celsius" }, "name": "Motor temperature"},
@@ -213,10 +181,6 @@
   "signals": [
     {"id": "TAYCAN_PTC_PUMP_RPM", "path": "Engine.Water pump", "fmt": {           "len": 8, "max": 76500, "mul": 300, "unit": "rpm"     }, "name": "Water pump RPM"},
     {"id": "TAYCAN_PTC_PUMP_PWR", "path": "Engine.Water pump", "fmt": {"bix": 16, "len": 8, "max": 10200, "mul": 40,  "unit": "unknown" }, "name": "Water pump power"}
-  ]},
-{ "hdr": "742", "rax": "7AC", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_PTC", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, high-voltage heater", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "742", "rax": "7AC", "fcm1": true, "cmd": {"22": "475F"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -306,10 +270,6 @@
   "signals": [
     {"id": "TAYCAN_OBC_T_A", "path": "Battery", "fmt": {"bix": 8, "len": 16, "max": 6498.5, "min": -55, "div": 10, "add": -55, "unit": "celsius" }, "name": "Temperature sensor, socket a"}
   ]},
-{ "hdr": "744", "rax": "7AE", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_CHG", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, charger", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "744", "rax": "7AE", "cmd": {"22": "4237"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_CHG_HV_I", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 63.749, "div": 4, "unit": "amps" }, "name": "Charger output current"}
@@ -395,18 +355,10 @@
   "signals": [
     {"id": "TAYCAN_HVAC_INSIDE_HUM", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Inside humidity"}
   ]},
-{ "hdr": "746", "rax": "7B0", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_HVAC", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, climate control", "suggestedMetric": "odometer"}
-  ]},
 { "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
     {"id": "TAYCAN_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "TAYCAN_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
-  ]},
-{ "hdr": "767", "rax": "7D1", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_TEL", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, connectivity module", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -467,10 +419,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_VCU", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, vehicle control unit", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "29D4"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -1371,10 +1319,6 @@
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E3B"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "TAYCAN_BMS_CELL_V_SUM", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "volts" }, "name": "Cell voltage sum"}
-  ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
-  "signals": [
-    {"id": "TAYCAN_ODO_BMS", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer, battery management", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "5170"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
