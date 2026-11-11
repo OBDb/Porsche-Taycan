@@ -8,6 +8,9 @@ test_cases:
   response: 7B00562260C009B
 - expected_values:
     TAYCAN_FL_DEFL_T: 0
+  response: 7B00562260C009F
+- expected_values:
+    TAYCAN_FL_DEFL_T: 0
   response: 7B00562260C00AB
 - expected_values:
     TAYCAN_FL_DEFL_T: 0
