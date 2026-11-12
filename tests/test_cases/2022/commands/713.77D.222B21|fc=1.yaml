@@ -6,6 +6,11 @@ test_cases:
     77D1009622B210ADA0A
     77D21DCFFFE00000000
 - expected_values:
+    TAYCAN_BRAKE_P: 0.00012
+  response: |-
+    77D1009622B210ADA0F
+    77D2186FFFE00000000
+- expected_values:
     TAYCAN_BRAKE_P: 4.69719
   response: |-
     77D1009622B210C0D0C
