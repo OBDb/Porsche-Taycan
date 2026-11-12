@@ -425,6 +425,7 @@ unsupported_commands_by_ecu:
   "7E0":
   - 7E0.0104:LOAD_PCT
   - 7E0.0105:ECT
+  - 7E0.010C:RPM
   - 7E0.7E8.22295A
   "7E5":
   - 7E5.7ED.221E32
