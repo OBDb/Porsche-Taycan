@@ -1,6 +1,11 @@
 command_id: 70B.775.2218A3|fc=1
 test_cases:
 - expected_values:
+    TAYCAN_TP_SET_RR: 2.7
+  response: |-
+    775100C6218A322C029
+    775218B22FFA76CFFAA
+- expected_values:
     TAYCAN_TP_RR: 2.325
     TAYCAN_TP_SET_RR: 2.5
     TAYCAN_TT_RR: 4
