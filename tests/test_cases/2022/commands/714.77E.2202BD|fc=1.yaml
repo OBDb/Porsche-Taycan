@@ -1,0 +1,47 @@
+command_id: 714.77E.2202BD|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_ODO: 29597
+  response: |-
+    77E100D6202BD006AD7
+    77E21265A5800739D00
+- expected_values:
+    TAYCAN_ODO: 29598
+  response: |-
+    77E100D6202BD006AD7
+    77E2126C05800739E00
+- expected_values:
+    TAYCAN_ODO: 29599
+  response: |-
+    77E100D6202BD006AD7
+    77E2128365800739F00
+- expected_values:
+    TAYCAN_ODO: 29599
+  response: |-
+    77E100D6202BD006AD7
+    77E21289F5800739F00
+- expected_values:
+    TAYCAN_ODO: 29600
+  response: |-
+    77E100D6202BD006AD7
+    77E21298E580073A000
+- expected_values:
+    TAYCAN_ODO: 29604
+  response: |-
+    77E100D6202BD006AD7
+    77E212B69590073A400
+- expected_values:
+    TAYCAN_ODO: 29620
+  response: |-
+    77E100D6202BD006AD7
+    77E212EE6590073B400
+- expected_values:
+    TAYCAN_ODO: 29621
+  response: |-
+    77E100D6202BD006AD7
+    77E21300A590073B500
+- expected_values:
+    TAYCAN_ODO: 29632
+  response: |-
+    77E100D6202BD006AD7
+    77E21324F590073C000
