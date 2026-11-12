@@ -3,10 +3,10 @@ test_cases:
 - expected_values:
     TAYCAN_TP_FL: 2.7
     TAYCAN_TP_SET_FL: 2.7
-    TAYCAN_TT_FL: 27
+    TAYCAN_TT_FL: 26
   response: |-
     775100C6218A122C03D
-    77521BD216C436CFFAA
+    77521BD216C426CFFAA
 - expected_values:
     TAYCAN_TP_FL: 2.9
     TAYCAN_TP_SET_FL: 2.7
