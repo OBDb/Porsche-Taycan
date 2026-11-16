@@ -4,6 +4,9 @@ test_cases:
     TAYCAN_SSB_C: 0.765
   response: 77A07622A09000002FD
 - expected_values:
+    TAYCAN_SSB_C: 1.504
+  response: 77A07622A09000005E0
+- expected_values:
     TAYCAN_SSB_C: 1.522
   response: 77A07622A09000005F2
 - expected_values:

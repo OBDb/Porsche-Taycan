@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAYCAN_SSB_T: 15
   response: 77A04622A0B37
+- expected_values:
+    TAYCAN_SSB_T: 16
+  response: 77A04622A0B38
