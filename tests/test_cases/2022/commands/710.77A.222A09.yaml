@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAYCAN_SSB_C: 72.04
   response: 77A07622A0900011968
+- expected_values:
+    TAYCAN_SSB_C: 100
+  response: 77A07622A090002D118

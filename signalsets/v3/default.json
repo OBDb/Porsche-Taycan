@@ -476,7 +476,7 @@
   "signals": [
     {"id": "TAYCAN_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "nullmin": -1500, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "TAYCAN_HVBAT_V_180A", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "nullmax": 6553.4, "unit": "volts" }, "name": "HV battery voltage, measurement 2", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},

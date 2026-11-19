@@ -1,6 +1,9 @@
 command_id: 710.77A.222A0F
 test_cases:
 - expected_values:
+    TAYCAN_SSB_AH: 27
+  response: 77A04622A0F1B
+- expected_values:
     TAYCAN_SSB_AH: 28
   response: 77A04622A0F1C
 - expected_values:
