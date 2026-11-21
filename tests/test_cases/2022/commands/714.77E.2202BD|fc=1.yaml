@@ -31,11 +31,6 @@ test_cases:
     77E100D6202BD006AE5
     77E21325FFD00E6D500
 - expected_values:
-    TAYCAN_ODO: 59115
-  response: |-
-    77E100D6202BD006AE6
-    77E219011FD00E6EB00
-- expected_values:
     TAYCAN_ODO: 59123
   response: |-
     77E100D6202BD006AE6
@@ -61,12 +56,17 @@ test_cases:
     77E100D6202BD006AE7
     77E211EFB0000E70900
 - expected_values:
-    TAYCAN_ODO: 59152
-  response: |-
-    77E100D6202BD006AE7
-    77E21216B0000E71000
-- expected_values:
     TAYCAN_ODO: 59156
   response: |-
     77E100D6202BD006AEA
     77E2193960100E71400
+- expected_values:
+    TAYCAN_ODO: 59206
+  response: |-
+    77E100D6202BD006AEA
+    77E21A0070200E74600
+- expected_values:
+    TAYCAN_ODO: 59232
+  response: |-
+    77E100D6202BD006AEA
+    77E21A3C10200E76000
