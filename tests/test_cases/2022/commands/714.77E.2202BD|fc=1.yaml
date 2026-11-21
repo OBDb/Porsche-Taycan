@@ -56,11 +56,6 @@ test_cases:
     77E100D6202BD006AE7
     77E211EFB0000E70900
 - expected_values:
-    TAYCAN_ODO: 59156
-  response: |-
-    77E100D6202BD006AEA
-    77E2193960100E71400
-- expected_values:
     TAYCAN_ODO: 59283
   response: |-
     77E100D6202BD006AEA
@@ -70,3 +65,8 @@ test_cases:
   response: |-
     77E100D6202BD006AEA
     77E21F5F90300E7B000
+- expected_values:
+    TAYCAN_ODO: 59314
+  response: |-
+    77E100D6202BD006AEB
+    77E2110040300E7B200
