@@ -1,0 +1,5 @@
+command_id: 710.77A.222A25|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_BAT_R_RAW: 3
+  response: 77A04622A250F

@@ -1,0 +1,5 @@
+command_id: 713.77D.222005|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_P_BRAKE_SERVO_UNIT: 2047.875
+  response: 77D056220057FFE

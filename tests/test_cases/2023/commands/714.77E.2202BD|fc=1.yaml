@@ -1,0 +1,22 @@
+command_id: 714.77E.2202BD|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_ODO: 19892
+  response: |-
+    77E100D6202BD006AE8
+    77E21F78301004DB400
+- expected_values:
+    TAYCAN_ODO: 19892
+  response: |-
+    77E100D6202BD006AE8
+    77E21F7A601004DB400
+- expected_values:
+    TAYCAN_ODO: 19892
+  response: |-
+    77E100D6202BD006AE8
+    77E21F7C901004DB400
+- expected_values:
+    TAYCAN_ODO: 19892
+  response: |-
+    77E100D6202BD006AE8
+    77E21F7E801004DB400

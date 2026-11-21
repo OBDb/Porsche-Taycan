@@ -1,0 +1,5 @@
+command_id: 744.7AE.221525|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_OBC_V_PROX_A: 1486
+  response: 7AE0562152505CE

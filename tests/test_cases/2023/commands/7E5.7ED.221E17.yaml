@@ -1,0 +1,5 @@
+command_id: 7E5.7ED.221E17
+test_cases:
+- expected_values:
+    TAYCAN_HV_ISO_POS_SYS: 3190
+  response: 7ED06621E17013F04

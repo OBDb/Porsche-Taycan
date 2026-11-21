@@ -1,0 +1,7 @@
+command_id: 70B.775.2218A0|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_TP_SET_FR: 2.6
+  response: |-
+    775100C6218A0233D02
+    77521DB20FFA768FFAA
