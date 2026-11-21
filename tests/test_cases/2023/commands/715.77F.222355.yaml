@@ -1,0 +1,5 @@
+command_id: 715.77F.222355
+test_cases:
+- expected_values:
+    TAYCAN_CRASH_CNT_PSNGR: 0
+  response: 77F0462235500

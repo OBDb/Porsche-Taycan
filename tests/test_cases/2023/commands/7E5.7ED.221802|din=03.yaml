@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     TAYCAN_BMS_I: -7.52
   response: 7ED066218020247E6
+- expected_values:
+    TAYCAN_BMS_I: -2.4
+  response: 7ED0662180202495D
+- expected_values:
+    TAYCAN_BMS_I: -2.4
+  response: 7ED06621802024967
+- expected_values:
+    TAYCAN_BMS_I: -2.4
+  response: 7ED06621802024968
+- expected_values:
+    TAYCAN_BMS_I: -2.4
+  response: 7ED0662180202496A

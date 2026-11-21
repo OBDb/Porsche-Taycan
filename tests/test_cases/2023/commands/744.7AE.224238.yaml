@@ -1,0 +1,5 @@
+command_id: 744.7AE.224238
+test_cases:
+- expected_values:
+    TAYCAN_CHG_HV_I_SET: 0
+  response: 7AE056242380000

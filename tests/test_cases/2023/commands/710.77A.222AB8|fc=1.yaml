@@ -1,0 +1,7 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    TAYCAN_HVBAT_E_CONTENT: 43.25
+  response: |-
+    77A100B622AB8000006
+    77A21C200000000AAAA

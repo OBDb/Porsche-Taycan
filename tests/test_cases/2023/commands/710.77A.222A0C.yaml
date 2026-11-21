@@ -1,0 +1,5 @@
+command_id: 710.77A.222A0C
+test_cases:
+- expected_values:
+    TAYCAN_SSB_SOC: 96
+  response: 77A04622A0C60
