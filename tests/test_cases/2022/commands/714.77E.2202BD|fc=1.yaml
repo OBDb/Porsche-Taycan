@@ -65,3 +65,8 @@ test_cases:
   response: |-
     77E100D6202BD006AED
     77E215E930400E7D000
+- expected_values:
+    TAYCAN_ODO: 59344
+  response: |-
+    77E100D6202BD006AEE
+    77E2181A50400E7D000
