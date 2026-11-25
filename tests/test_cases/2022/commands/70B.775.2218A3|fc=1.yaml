@@ -22,17 +22,17 @@ test_cases:
 - expected_values:
     TAYCAN_TP_RR: 2.325
     TAYCAN_TP_SET_RR: 2.5
+    TAYCAN_TT_RR: 7
+  response: |-
+    775100C6218A322E6C8
+    775214D235D2F64FFAA
+- expected_values:
+    TAYCAN_TP_RR: 2.325
+    TAYCAN_TP_SET_RR: 2.5
     TAYCAN_TT_RR: 8
   response: |-
     775100C6218A322E6C8
     775214D235D3064FFAA
-- expected_values:
-    TAYCAN_TP_RR: 2.35
-    TAYCAN_TP_SET_RR: 2.5
-    TAYCAN_TT_RR: 7
-  response: |-
-    775100C6218A322E6C8
-    775214D235E2F64FFAA
 - expected_values:
     TAYCAN_TP_RR: 2.4
     TAYCAN_TP_SET_RR: 2.5
@@ -42,6 +42,7 @@ test_cases:
     775214D23602F64FFAA
 - expected_values:
     TAYCAN_TP_SET_RR: 2.5
+    TAYCAN_TT_RR: 20
   response: |-
     775100C6218A322E6C8
-    775214D23FFA764FFAA
+    775214D23FF3C64FFAA

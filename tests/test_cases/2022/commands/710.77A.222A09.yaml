@@ -11,7 +11,7 @@ test_cases:
   response: 77A07622A0900000B03
 - expected_values:
     TAYCAN_SSB_C: 0
-  response: 77A07622A09FFFF655A
+  response: 77A07622A09FFFF1E9C
 - expected_values:
     TAYCAN_SSB_C: 0
   response: 77A07622A09FFFFFF1E
