@@ -3,9 +3,9 @@ test_cases:
 - expected_values:
     TAYCAN_DCDC_I: -2
     TAYCAN_DCDC_I_RSV: 240
-    TAYCAN_DCDC_V_LOW: 13.2
+    TAYCAN_DCDC_V_LOW: 13.1
   response: |-
-    77A1008622A538401FD
+    77A1008622A538301FD
     77A2102EFAAAAAAAAAA
 - expected_values:
     TAYCAN_DCDC_I: 0
